@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="SP_PRIVACY_UPDATE_NO_NEED_SHOW" value="true" />
+    <string name="lastTime">1751996182</string>
+    <boolean name="gdbrUpdate" value="false" />
+    <string name="request_host">https://api.eufylife.com/v1/</string>
+    <string name="eufy_country_abbr">DE</string>
+    <string name="androidVersion">EufyLife-Android-3.3.5</string>
+    <boolean name="gdbrClickYes" value="true" />
+    <boolean name="SP_KEY_OPEN_BLE" value="true" />
+    <string name="request_log_host">https://log.eufylife.com</string>
+    <string name="push_token">f0f2850fab4b42659ef20001536f434b7174b01266f4b771a15a8233fcf0f7e5bd23ec5f62b782855c37d8ab5a358cf8b49caab144eb4d8678893d4548571874183678d3bf389274a9128c26b73fc821f9660ce5ae87db21baca26b3ac7522ba46f5407697d228d3a96ebe06a850238f43aba95cf6f0e1d7701a6f0d7c2ea892a211eeb917d9871049f4c8b921c31660</string>
+    <boolean name="guide" value="true" />
+</map>

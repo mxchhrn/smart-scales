@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="key_should_redownload_categories" value="false" />
+    <boolean name="isPublicBeta" value="false" />
+    <int name="appVersion" value="8000017" />
+</map>

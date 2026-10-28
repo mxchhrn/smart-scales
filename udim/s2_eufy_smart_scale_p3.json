@@ -1,0 +1,142 @@
+{
+  "device": {
+    "vendor": "Eufy",
+    "model": "Smart Scale P3",
+    "soc": "ESP8266EX",
+    "form_factor": "Wi-Fi and BLE body-composition smart scale (bioimpedance, multi-user and pet profiles, companion app EufyLife)",
+    "local_api": []
+  },
+  "nodes": [
+    {
+      "id": "d",
+      "type": "dev",
+      "subgraphs": ["alpha", "beta"],
+      "label": "Eufy Smart Scale P3 (central device)"
+    },
+    {
+      "id": "env",
+      "type": "env",
+      "subgraphs": ["alpha"],
+      "label": "Platform load: persons, pets, or objects placed on the scale",
+      "properties": {
+        "sensor_types": ["pressure", "other"],
+        "actuator_types": ["display"],
+        "region_label": "bathroom"
+      }
+    },
+    {
+      "id": "u_alpha",
+      "type": "usr",
+      "subgraphs": ["alpha"],
+      "label": "User (proximity, steps onto the platform)",
+      "properties": {
+        "ui_input_modes": ["other"],
+        "ui_output_modes": ["display"],
+        "account_service": "EufyLife"
+      }
+    },
+    {
+      "id": "u_beta",
+      "type": "usr",
+      "subgraphs": ["beta"],
+      "label": "User (internal network, via EufyLife app on phone)",
+      "properties": {
+        "account_service": "EufyLife"
+      }
+    },
+    {
+      "id": "u_gamma",
+      "type": "usr",
+      "subgraphs": ["gamma"],
+      "label": "User (external network, via EufyLife app and cloud)",
+      "properties": {
+        "account_service": "EufyLife"
+      }
+    },
+    {
+      "id": "p_beta",
+      "type": "dev",
+      "subgraphs": ["beta"],
+      "label": "Smartphone with EufyLife app (BLE to the scale, Wi-Fi to the router)",
+      "properties": {
+        "companion_apps": [
+          {
+            "name": "EufyLife",
+            "package_name": "com.oceanwing.smarthome",
+            "platform": "android-and-ios",
+            "cloud_platform": "EufyLife"
+          }
+        ]
+      }
+    },
+    {
+      "id": "p_gamma",
+      "type": "dev",
+      "subgraphs": ["gamma"],
+      "label": "Smartphone with EufyLife app (remote)",
+      "properties": {
+        "companion_apps": [
+          {
+            "name": "EufyLife",
+            "package_name": "com.oceanwing.smarthome",
+            "platform": "android-and-ios",
+            "cloud_platform": "EufyLife"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r",
+      "type": "dev",
+      "subgraphs": ["beta", "gamma"],
+      "label": "Wi-Fi router (2.4 GHz)",
+      "properties": {
+        "protocols": ["Wi-Fi"]
+      }
+    },
+    {
+      "id": "c_eufy",
+      "type": "dev",
+      "subgraphs": ["gamma"],
+      "label": "EufyLife cloud (account, profiles, measurement history, device registration)",
+      "properties": {
+        "domain": "eufylife.com",
+        "api_base_url": "https://api.eufylife.com/v1/",
+        "service_name": "EufyLife cloud (Anker)"
+      }
+    },
+    {
+      "id": "c_lefu",
+      "type": "dev",
+      "subgraphs": ["gamma"],
+      "label": "Lefu OEM device endpoints (stored in device flash)",
+      "properties": {
+        "domain": "lefuenergy.com",
+        "api_base_url": "anker.lefuenergy.com, eightcolor.lefuenergy.com",
+        "service_name": "Lefu device service"
+      }
+    }
+  ],
+  "edges": [
+    {"from": "d", "to": "d", "subgraph": "alpha", "bidirectional": false},
+    {"from": "u_alpha", "to": "d", "subgraph": "alpha", "bidirectional": true},
+    {"from": "env", "to": "d", "subgraph": "alpha", "bidirectional": true},
+    {"from": "u_beta", "to": "p_beta", "subgraph": "beta", "bidirectional": true},
+    {"from": "p_beta", "to": "d", "subgraph": "beta", "bidirectional": true},
+    {"from": "p_beta", "to": "r", "subgraph": "beta", "bidirectional": true},
+    {"from": "d", "to": "r", "subgraph": "beta", "bidirectional": true},
+    {"from": "u_gamma", "to": "p_gamma", "subgraph": "gamma", "bidirectional": true},
+    {"from": "p_gamma", "to": "c_eufy", "subgraph": "gamma", "bidirectional": true},
+    {"from": "r", "to": "c_eufy", "subgraph": "gamma", "bidirectional": true},
+    {"from": "r", "to": "c_lefu", "subgraph": "gamma", "bidirectional": true}
+  ],
+  "metadata": {
+    "ground_truth": true,
+    "flags": [
+      "Cloud endpoints taken from the device flash dumps (api.eufylife.com under CONFIGURL, anker.lefuenergy.com, eightcolor.lefuenergy.com) and from the decrypted app traffic and APK.",
+      "Offline usage without app or network leaves no artifact on any layer (paper, sigma_1), so the direct u_alpha interaction alone is not recorded by the device.",
+      "The EufyLife data model includes pet sub-accounts; pet measurements appear with zero body-composition values.",
+      "Third-party fitness integrations are outside the playbook and not modeled."
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+[15:00:48:290] : refreshUserWithValidity:,expires_in:0 
+[15:00:48:308] : FitBit refreshUserWithValidity--accessToken:, refreshToken:, fitbitUserId:, bearer: 

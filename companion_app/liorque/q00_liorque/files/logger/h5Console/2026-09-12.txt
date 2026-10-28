@@ -1,0 +1,200 @@
+[22:55:20:927] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 获取到原始系统信息 {"statusBarHeight":57.52381134033203,"titleBarHeight":38,"tabbarHeight":0,"tabbarSafeHeight":0,"platform":"android","appId":"Feelfit","appVer":"4.14.0","systemType":36,"cellphoneType":"google Pixel 8a","lang":"en","weightUnit":"2","heightUnit":"1","local_server_port":7200,"area_code":"US","capacityUnit":"2","register_area_code":"US","currentThemeColor":"","date_format":"MM/dd/yyyy","appName":"Feelfit","support_google":1,"server_domain":"https://feelfit.qnclouds.com","heatUnit":"1","temperatureUnit":"0","support_flash":1}
+===========================
+ 
+[22:55:20:937] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 修改之后的系统信息 {"statusBarHeight":57.52381134033203,"titleBarHeight":38,"tabbarHeight":0,"tabbarSafeHeight":0,"platform":"android","appId":"Feelfit","appVer":"4.14.0","systemType":36,"cellphoneType":"google Pixel 8a","lang":"en","weightUnit":"2","heightUnit":"1","local_server_port":7200,"area_code":"US","capacityUnit":"2","register_area_code":"US","currentThemeColor":"","date_format":"MM/DD/YYYY","appName":"Feelfit","support_google":1,"server_domain":"https://feelfit.qnclouds.com","heatUnit":"1","temperatureUnit":"0","support_flash":1}
+===========================
+ 
+[22:55:20:947] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:20.946(信息日志)---发送网络请求1789246520946---{"method":"GET","path":"/api/v1/set/getLatestSettings","isLocal":true}---{}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:20:972] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:20.971(信息日志)---本地网络请求结果1789246520946---{"code":20000,"data":{"date_format":"MM/dd/yyyy","lang":"en","weightUnit":"2","heightUnit":"1","capacityUnit":"2","heatUnit":"1","temperatureUnit":"0","time_display_rule":1,"follow_system_dateformat_key":1}}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:20:979] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:20.978(信息日志)---安卓jsapi准备好了http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Login&pageName=Home&user_id=#/---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:20:979] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:20.978(信息日志)---调用registerPageLifeCycleEvent,参数:{}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:20:988] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:20.982(信息日志)---调用addListener,参数:{"eventName":"settingEventName"}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:20:989] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:20.984(信息日志)---调用getStorage,参数:{"key":"current_theme_color"}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:20:990] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:20.987(信息日志)---调用registerPageLifeCycleEvent成功,返回结果: {}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:20:990] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 解析res registerPageLifeCycleEvent {}
+===========================
+ 
+[22:55:20:991] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:20.987(信息日志)---调用addListener成功,返回结果: {"error_code":0}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:20:991] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 解析res addListener {"error_code":0}
+===========================
+ 
+[22:55:20:991] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:20.990(信息日志)---调用getStorage成功,返回结果: {"value":"","error_code":0}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:20:992] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 解析res getStorage {"value":"","error_code":0}
+===========================
+ 
+[22:55:20:992] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:20.990(调试日志)---最新的systemInfo设置---{"date_format":"MM/dd/yyyy","lang":"en","weightUnit":"2","heightUnit":"1","capacityUnit":"2","heatUnit":"1","temperatureUnit":"0","time_display_rule":1,"follow_system_dateformat_key":1}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:20:992] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:20.990(调试日志)---获取主题色------页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:21:017] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:21.017(信息日志)---调用setStatusBarTheme,参数:{"theme":"dark"}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:21:025] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:21.023(信息日志)---调用emitEvent,参数:{"eventName":"START_LOADING","data":{"moduleName":"Login","pageName":"Home"}}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:21:047] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:21.046(信息日志)---调用setStatusBarTheme成功,返回结果: {"error_code":0}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:21:048] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 解析res setStatusBarTheme {"error_code":0}
+===========================
+ 
+[22:55:21:048] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:21.047(信息日志)---调用emitEvent成功,返回结果: {"error_code":0}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:21:048] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 解析res emitEvent {"error_code":0}
+===========================
+ 
+[22:55:21:083] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:21.082(信息日志)---调用onDeviceStatusListener,参数:{}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:21:084] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:21.084(信息日志)---调用onDevicePowerListener,参数:{}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:21:085] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:21.084(信息日志)---调用onDeviceDataListener,参数:{}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:21:086] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:21.085(信息日志)---调用onWifiDataListener,参数:{}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:21:087] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:21.086(信息日志)---调用registerPageLifeCycleEvent,参数:{}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:21:088] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:21.087(信息日志)---调用registerPageLifeCycleEvent,参数:{}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:21:089] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:21.088(信息日志)---调用getStorage,参数:{"key":"current_userId"}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:21:094] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:21.094(信息日志)---调用emitEvent,参数:{"eventName":"END_LOADING","data":{"moduleName":"Login","pageName":"Home"}}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:21:096] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:21.095(信息日志)---调用registerPageLifeCycleEvent,参数:{}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:21:097] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:21.096(信息日志)---调用setStorage,参数:{"key":"TouristMode","value":"false"}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:21:104] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:21.099(信息日志)---调用onDeviceDataListener成功,返回结果: {}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:21:104] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 解析res onDeviceDataListener {}
+===========================
+ 
+[22:55:21:104] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:21.099(信息日志)---调用onWifiDataListener成功,返回结果: {}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:21:104] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 解析res onWifiDataListener {}
+===========================
+ 
+[22:55:21:105] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:21.101(信息日志)---调用registerPageLifeCycleEvent成功,返回结果: {}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:21:106] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 解析res registerPageLifeCycleEvent {}
+===========================
+ 
+[22:55:21:107] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:21.101(信息日志)---调用registerPageLifeCycleEvent成功,返回结果: {}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:21:108] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 解析res registerPageLifeCycleEvent {}
+===========================
+ 
+[22:55:21:108] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:21.101(信息日志)---调用getStorage成功,返回结果: {"value":"","error_code":0}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:21:108] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 解析res getStorage {"value":"","error_code":0}
+===========================
+ 
+[22:55:21:109] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:21.102(信息日志)---发送网络请求1789246521102---{"path":"/api/v1/measure/detail","method":"GET","isLocal":true}---{"is_last":1,"user_id":""}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:21:109] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:21.104(信息日志)---调用emitEvent成功,返回结果: {"error_code":0}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:21:109] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 解析res emitEvent {"error_code":0}
+===========================
+ 
+[22:55:21:109] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:21.105(信息日志)---调用registerPageLifeCycleEvent成功,返回结果: {}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:21:110] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 解析res registerPageLifeCycleEvent {}
+===========================
+ 
+[22:55:21:110] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 2026-09-12_22:55:21.105(信息日志)---调用setStorage成功,返回结果: {"error_code":0}---页面参数: moduleName=Login&pageName=Home&user_id=
+===========================
+ 
+[22:55:21:110] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/index-e141350f.js  1
+LOG => 解析res setStorage {"error_code":0}
+===========================
+ 
+[22:55:21:112] : http://127.0.0.1:7200/h5/oversea-common/h5-assets/npm-axios.js  1
+ERROR => Uncaught (in promise) AxiosError: Request failed with status code 400
+===========================
+ 

@@ -1,0 +1,425 @@
+[14:01:50:058] : LocalServerManager mServer.isRunning: false 
+[14:01:50:059] : LocalServerManager 执行线程:local-server 
+[14:01:50:060] : LocalServerManager 本地服务器准备启动中 
+[14:01:50:061] : LocalServerManager 执行完任务:com.yanzhenjie.andserver.server.WebServer@603cc1b 
+[14:01:50:199] : 找到热更新包数量: 0 
+[14:01:50:204] : LocalServerManager 本地服务器启动成功 
+[14:01:50:204] : LocalServerManager 127.0.0.1 
+[14:01:50:204] : LocalServerManager 端口： 7200 
+[14:01:50:217] : LocalServerManager 发出重新加载h5页面广播! 
+[14:01:50:285] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[14:01:50:475] : 执行initData url:index.html?moduleName=Health&pageName=Home 
+[14:01:50:475] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Health&pageName=Home&user_id=4000853680122284364 
+[14:01:50:476] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Health&pageName=Home&user_id=4000853680122284364 
+[14:01:50:477] : 硬件加速 
+[14:01:50:485] : initdata执行完毕 
+[14:01:50:550] : LocalServerManager mServer.isRunning: true 
+[14:01:50:887] : checkVersion失败，原因：com.qingniu.oversea.base.net.errors.ServerException 
+[14:02:09:567] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","scale_name":"QN-Scale","stature":0.0} 
+[14:02:09:568] : mOnScanDeviceChangeCallBack是否为空: false 
+[14:02:10:180] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[14:02:10:972] : 蓝牙连接状态回调给h5: {"device_status":"connected","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[14:02:13:382] : 蓝牙连接状态回调给h5 onDeviceReady: {"device_status":"actionable","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[14:02:14:025] : 蓝牙连接状态回调给h5 onDeviceReady: {"device_status":"actionable","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[14:02:15:725] : 蓝牙连接状态回调给h5: {"device_status":"measure_weight","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[14:02:15:727] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[14:02:15:727] : mOnRealTimeScaleDataChangeCallBack是否为空: false 
+[14:02:15:919] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[14:02:15:919] : mOnRealTimeScaleDataChangeCallBack是否为空: false 
+[14:02:16:163] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[14:02:16:163] : mOnRealTimeScaleDataChangeCallBack是否为空: false 
+[14:02:16:455] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[14:02:16:455] : mOnRealTimeScaleDataChangeCallBack是否为空: false 
+[14:02:16:651] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[14:02:16:652] : mOnRealTimeScaleDataChangeCallBack是否为空: false 
+[14:02:16:941] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[14:02:16:942] : mOnRealTimeScaleDataChangeCallBack是否为空: false 
+[14:02:17:186] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[14:02:17:187] : mOnRealTimeScaleDataChangeCallBack是否为空: false 
+[14:02:17:382] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[14:02:17:382] : mOnRealTimeScaleDataChangeCallBack是否为空: false 
+[14:02:17:673] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[14:02:17:673] : mOnRealTimeScaleDataChangeCallBack是否为空: false 
+[14:02:17:869] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[14:02:17:870] : mOnRealTimeScaleDataChangeCallBack是否为空: false 
+[14:02:18:207] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[14:02:18:207] : mOnRealTimeScaleDataChangeCallBack是否为空: false 
+[14:02:18:403] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[14:02:18:403] : mOnRealTimeScaleDataChangeCallBack是否为空: false 
+[14:02:18:696] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[14:02:18:697] : mOnRealTimeScaleDataChangeCallBack是否为空: false 
+[14:02:18:892] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[14:02:18:892] : mOnRealTimeScaleDataChangeCallBack是否为空: false 
+[14:02:19:136] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[14:02:19:136] : mOnRealTimeScaleDataChangeCallBack是否为空: false 
+[14:02:19:430] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[14:02:19:431] : mOnRealTimeScaleDataChangeCallBack是否为空: false 
+[14:02:19:673] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[14:02:19:673] : mOnRealTimeScaleDataChangeCallBack是否为空: false 
+[14:02:20:013] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[14:02:20:013] : mOnRealTimeScaleDataChangeCallBack是否为空: false 
+[14:02:20:170] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[14:02:20:171] : mOnRealTimeScaleDataChangeCallBack是否为空: false 
+[14:02:20:354] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[14:02:20:355] : mOnRealTimeScaleDataChangeCallBack是否为空: false 
+[14:02:20:598] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[14:02:20:599] : mOnRealTimeScaleDataChangeCallBack是否为空: false 
+[14:02:20:849] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[14:02:20:849] : mOnRealTimeScaleDataChangeCallBack是否为空: false 
+[14:02:21:084] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[14:02:21:084] : mOnRealTimeScaleDataChangeCallBack是否为空: false 
+[14:02:21:328] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[14:02:21:328] : mOnRealTimeScaleDataChangeCallBack是否为空: false 
+[14:02:21:576] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[14:02:21:576] : mOnRealTimeScaleDataChangeCallBack是否为空: false 
+[14:02:21:711] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[14:02:22:092] : 进入后台计时：264227 
+[14:02:41:865] : 返回前台耗时：19770 
+[14:02:41:871] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[14:02:45:712] : 执行initData url:?moduleName=Health&pageName=MutiManualRecord 
+[14:02:45:714] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/?moduleName=Health&pageName=MutiManualRecord&user_id=4000853680122284364 
+[14:02:45:714] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/?moduleName=Health&pageName=MutiManualRecord&user_id=4000853680122284364 
+[14:02:45:715] : 硬件加速 
+[14:02:45:723] : initdata执行完毕 
+[14:02:45:736] : LocalServerManager mServer.isRunning: true 
+[14:02:49:005] : 执行initData url:index.html?moduleName=Device&pageName=MyDevice&isTabPage=true 
+[14:02:49:008] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=MyDevice&isTabPage=true&user_id=4000853680122284364 
+[14:02:49:008] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=MyDevice&isTabPage=true&user_id=4000853680122284364 
+[14:02:49:009] : 硬件加速 
+[14:02:49:018] : initdata执行完毕 
+[14:02:49:028] : LocalServerManager mServer.isRunning: true 
+[14:02:50:151] : 执行initData url:index.html?moduleName=Mine&pageName=Home 
+[14:02:50:153] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Mine&pageName=Home&user_id=4000853680122284364 
+[14:02:50:153] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Mine&pageName=Home&user_id=4000853680122284364 
+[14:02:50:153] : 硬件加速 
+[14:02:50:159] : initdata执行完毕 
+[14:02:50:167] : LocalServerManager mServer.isRunning: true 
+[14:02:52:516] : {"path":"index.html","params":{"themeColor":"","deviceName":"CS20A","deviceMac":"98%3AF4%3AAB%3A98%3AE8%3AC6","category":"scale","mode":"","oversea":"1","moduleName":"Device","pageName":"DeviceDetails","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0"},"config":{"immersion":1,"isHidden":1}} 
+[14:02:52:548] : 执行initData url:index.html?moduleName=Device&pageName=DeviceDetails&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0&deviceMac=98%3AF4%3AAB%3A98%3AE8%3AC6&category=scale&deviceName=CS20A&__ocPersistentKey=e30&isCloseGestureBack=0&oversea=1 
+[14:02:52:550] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=DeviceDetails&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0&deviceMac=98%3AF4%3AAB%3A98%3AE8%3AC6&category=scale&deviceName=CS20A&__ocPersistentKey=e30&isCloseGestureBack=0&oversea=1&user_id=4000853680122284364 
+[14:02:52:550] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=DeviceDetails&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0&deviceMac=98%3AF4%3AAB%3A98%3AE8%3AC6&category=scale&deviceName=CS20A&__ocPersistentKey=e30&isCloseGestureBack=0&oversea=1&user_id=4000853680122284364 
+[14:02:52:551] : 硬件加速 
+[14:02:52:554] : initdata执行完毕 
+[14:02:52:574] : LocalServerManager mServer.isRunning: true 
+[14:02:54:000] : {"path":"index.html","params":{"themeColor":"","moduleName":"Device","pageName":"EditDeviceName","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifSx7Im1vZHVsZU5hbWUiOiJEZXZpY2UiLCJwYWdlTmFtZSI6IkRldmljZURldGFpbHMifV0"},"config":{"immersion":1,"isHidden":1}} 
+[14:02:54:027] : 执行initData url:index.html?moduleName=Device&pageName=EditDeviceName&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifSx7Im1vZHVsZU5hbWUiOiJEZXZpY2UiLCJwYWdlTmFtZSI6IkRldmljZURldGFpbHMifV0&__ocPersistentKey=e30&isCloseGestureBack=0 
+[14:02:54:028] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=EditDeviceName&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifSx7Im1vZHVsZU5hbWUiOiJEZXZpY2UiLCJwYWdlTmFtZSI6IkRldmljZURldGFpbHMifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[14:02:54:029] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=EditDeviceName&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifSx7Im1vZHVsZU5hbWUiOiJEZXZpY2UiLCJwYWdlTmFtZSI6IkRldmljZURldGFpbHMifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[14:02:54:029] : 硬件加速 
+[14:02:54:033] : initdata执行完毕 
+[14:02:54:044] : LocalServerManager mServer.isRunning: true 
+[14:02:56:838] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[14:03:01:023] : {"path":"index.html","params":{"themeColor":"","moduleName":"Device","pageName":"MyDevice","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9XQ"},"config":{"immersion":1,"isHidden":1}} 
+[14:03:01:044] : 执行initData url:index.html?moduleName=Device&pageName=MyDevice&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9XQ&__ocPersistentKey=e30&isCloseGestureBack=0 
+[14:03:01:045] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=MyDevice&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9XQ&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[14:03:01:047] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=MyDevice&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9XQ&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[14:03:01:047] : 硬件加速 
+[14:03:01:048] : initdata执行完毕 
+[14:03:01:066] : LocalServerManager mServer.isRunning: true 
+[14:03:02:900] : {"path":"index.html","params":{"themeColor":"","deviceName":"CS20A","deviceMac":"98%3AF4%3AAB%3A98%3AE8%3AC6","category":"scale","mode":"","oversea":"undefined","moduleName":"Device","pageName":"DeviceDetails","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9LHsibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0"},"config":{"immersion":1,"isHidden":1}} 
+[14:03:02:925] : 执行initData url:index.html?moduleName=Device&pageName=DeviceDetails&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9LHsibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0&deviceMac=98%3AF4%3AAB%3A98%3AE8%3AC6&category=scale&deviceName=CS20A&__ocPersistentKey=e30&isCloseGestureBack=0&oversea=undefined 
+[14:03:02:926] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=DeviceDetails&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9LHsibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0&deviceMac=98%3AF4%3AAB%3A98%3AE8%3AC6&category=scale&deviceName=CS20A&__ocPersistentKey=e30&isCloseGestureBack=0&oversea=undefined&user_id=4000853680122284364 
+[14:03:02:928] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=DeviceDetails&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9LHsibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0&deviceMac=98%3AF4%3AAB%3A98%3AE8%3AC6&category=scale&deviceName=CS20A&__ocPersistentKey=e30&isCloseGestureBack=0&oversea=undefined&user_id=4000853680122284364 
+[14:03:02:929] : 硬件加速 
+[14:03:02:930] : initdata执行完毕 
+[14:03:02:942] : LocalServerManager mServer.isRunning: true 
+[14:03:05:729] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[14:03:11:992] : {"path":"index.html","params":{"themeColor":"","moduleName":"Device","pageName":"MyDevice","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9XQ"},"config":{"immersion":1,"isHidden":1}} 
+[14:03:12:008] : 执行initData url:index.html?moduleName=Device&pageName=MyDevice&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9XQ&__ocPersistentKey=e30&isCloseGestureBack=0 
+[14:03:12:009] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=MyDevice&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9XQ&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[14:03:12:010] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=MyDevice&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9XQ&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[14:03:12:010] : 硬件加速 
+[14:03:12:013] : initdata执行完毕 
+[14:03:12:030] : LocalServerManager mServer.isRunning: true 
+[14:03:13:225] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[14:03:20:837] : {"path":"index.html","params":{"themeColor":"","moduleName":"Mine","pageName":"Set","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifV0"},"config":{"immersion":1,"isHidden":1}} 
+[14:03:20:858] : 执行initData url:index.html?moduleName=Mine&pageName=Set&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifV0&__ocPersistentKey=e30&isCloseGestureBack=0 
+[14:03:20:859] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Mine&pageName=Set&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[14:03:20:860] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Mine&pageName=Set&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[14:03:20:860] : 硬件加速 
+[14:03:20:863] : initdata执行完毕 
+[14:03:20:884] : LocalServerManager mServer.isRunning: true 
+[14:04:38:049] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[14:04:45:642] : {"path":"index.html","params":{"themeColor":"","moduleName":"Mine","pageName":"UserManagement","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifV0"},"config":{"immersion":1,"isHidden":1}} 
+[14:04:45:666] : 执行initData url:index.html?moduleName=Mine&pageName=UserManagement&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifV0&__ocPersistentKey=e30&isCloseGestureBack=0 
+[14:04:45:668] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Mine&pageName=UserManagement&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[14:04:45:668] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Mine&pageName=UserManagement&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[14:04:45:669] : 硬件加速 
+[14:04:45:672] : initdata执行完毕 
+[14:04:45:689] : LocalServerManager mServer.isRunning: true 
+[14:04:47:869] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[14:04:52:122] : {"path":"index.html","params":{"themeColor":"","deviceName":"CS20A","deviceMac":"98%3AF4%3AAB%3A98%3AE8%3AC6","category":"scale","mode":"","oversea":"1","moduleName":"Device","pageName":"DeviceDetails","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0"},"config":{"immersion":1,"isHidden":1}} 
+[14:04:52:145] : 执行initData url:index.html?moduleName=Device&pageName=DeviceDetails&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0&deviceMac=98%3AF4%3AAB%3A98%3AE8%3AC6&category=scale&deviceName=CS20A&__ocPersistentKey=e30&isCloseGestureBack=0&oversea=1 
+[14:04:52:146] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=DeviceDetails&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0&deviceMac=98%3AF4%3AAB%3A98%3AE8%3AC6&category=scale&deviceName=CS20A&__ocPersistentKey=e30&isCloseGestureBack=0&oversea=1&user_id=4000853680122284364 
+[14:04:52:146] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=DeviceDetails&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0&deviceMac=98%3AF4%3AAB%3A98%3AE8%3AC6&category=scale&deviceName=CS20A&__ocPersistentKey=e30&isCloseGestureBack=0&oversea=1&user_id=4000853680122284364 
+[14:04:52:147] : 硬件加速 
+[14:04:52:150] : initdata执行完毕 
+[14:04:52:171] : LocalServerManager mServer.isRunning: true 
+[14:04:53:648] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[14:05:20:298] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[14:05:53:197] : 进入后台计时：475332 
+[17:54:28:275] : 找到热更新包数量: 0 
+[18:02:27:939] : LocalServerManager 发出重新加载h5页面广播! 
+[18:02:28:048] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[18:02:28:112] : 寻找翻译失败,原因:dist/h5/oversea-common/translation/appSpecialTranslation.json 
+[18:02:28:214] : 执行initData url:index.html?moduleName=Health&pageName=Home 
+[18:02:28:214] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Health&pageName=Home&user_id=4000853680122284364 
+[18:02:28:214] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Health&pageName=Home&user_id=4000853680122284364 
+[18:02:28:215] : 硬件加速 
+[18:02:28:222] : initdata执行完毕 
+[18:02:28:231] : 刚升级H5包，触发Clear WebView Cache 
+[18:02:28:995] : checkVersion失败，原因：com.qingniu.oversea.base.net.errors.ServerException 
+[18:02:40:923] : 进入后台计时：297281 
+[18:02:51:106] : 返回前台耗时：10182 
+[18:02:51:107] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[18:03:23:374] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[18:03:23:375] : mOnScanDeviceChangeCallBack是否为空: 1 
+[18:03:23:476] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[18:03:23:476] : mOnScanDeviceChangeCallBack是否为空: 1 
+[18:03:23:486] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[18:03:23:486] : mOnScanDeviceChangeCallBack是否为空: 1 
+[18:03:23:853] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:03:24:174] : 蓝牙连接状态回调给h5: {"device_status":"connected","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:03:26:459] : 蓝牙连接状态回调给h5 onDeviceReady: {"device_status":"actionable","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:03:27:049] : 蓝牙连接状态回调给h5 onDeviceReady: {"device_status":"actionable","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:03:28:515] : 蓝牙连接状态回调给h5: {"device_status":"measure_weight","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:03:28:521] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[18:03:28:524] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[18:03:28:701] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[18:03:28:701] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[18:03:28:996] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[18:03:28:997] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[18:03:29:238] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[18:03:29:238] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[18:03:29:436] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[18:03:29:437] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[18:03:29:734] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[18:03:29:735] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[18:03:29:925] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[18:03:29:926] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[18:03:30:164] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[18:03:30:165] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[18:03:30:459] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[18:03:30:460] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[18:03:30:587] : 执行initData url:index.html?moduleName=Device&pageName=MyDevice&isTabPage=true 
+[18:03:30:590] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=MyDevice&isTabPage=true&user_id=4000853680122284364 
+[18:03:30:590] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=MyDevice&isTabPage=true&user_id=4000853680122284364 
+[18:03:30:591] : 硬件加速 
+[18:03:30:600] : initdata执行完毕 
+[18:03:30:664] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:03:30:664] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:03:31:811] : {"path":"index.html","params":{"themeColor":"","deviceName":"CS20A","deviceMac":"98%3AF4%3AAB%3A98%3AE8%3AC6","category":"scale","mode":"","oversea":"1","moduleName":"Device","pageName":"DeviceDetails","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0"},"config":{"immersion":1,"isHidden":1}} 
+[18:03:31:834] : 执行initData url:index.html?moduleName=Device&pageName=DeviceDetails&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0&deviceMac=98%3AF4%3AAB%3A98%3AE8%3AC6&category=scale&deviceName=CS20A&__ocPersistentKey=e30&isCloseGestureBack=0&oversea=1 
+[18:03:31:836] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=DeviceDetails&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0&deviceMac=98%3AF4%3AAB%3A98%3AE8%3AC6&category=scale&deviceName=CS20A&__ocPersistentKey=e30&isCloseGestureBack=0&oversea=1&user_id=4000853680122284364 
+[18:03:31:837] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=DeviceDetails&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0&deviceMac=98%3AF4%3AAB%3A98%3AE8%3AC6&category=scale&deviceName=CS20A&__ocPersistentKey=e30&isCloseGestureBack=0&oversea=1&user_id=4000853680122284364 
+[18:03:31:837] : 硬件加速 
+[18:03:31:841] : initdata执行完毕 
+[18:03:33:755] : {"path":"index.html","params":{"themeColor":"","moduleName":"Device","pageName":"EditDeviceName","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifSx7Im1vZHVsZU5hbWUiOiJEZXZpY2UiLCJwYWdlTmFtZSI6IkRldmljZURldGFpbHMifV0"},"config":{"immersion":1,"isHidden":1}} 
+[18:03:33:780] : 执行initData url:index.html?moduleName=Device&pageName=EditDeviceName&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifSx7Im1vZHVsZU5hbWUiOiJEZXZpY2UiLCJwYWdlTmFtZSI6IkRldmljZURldGFpbHMifV0&__ocPersistentKey=e30&isCloseGestureBack=0 
+[18:03:33:782] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=EditDeviceName&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifSx7Im1vZHVsZU5hbWUiOiJEZXZpY2UiLCJwYWdlTmFtZSI6IkRldmljZURldGFpbHMifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[18:03:33:783] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=EditDeviceName&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifSx7Im1vZHVsZU5hbWUiOiJEZXZpY2UiLCJwYWdlTmFtZSI6IkRldmljZURldGFpbHMifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[18:03:33:783] : 硬件加速 
+[18:03:33:787] : initdata执行完毕 
+[18:03:35:707] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[18:03:37:733] : 执行initData url:index.html?moduleName=Mine&pageName=Home 
+[18:03:37:737] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Mine&pageName=Home&user_id=4000853680122284364 
+[18:03:37:737] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Mine&pageName=Home&user_id=4000853680122284364 
+[18:03:37:738] : 硬件加速 
+[18:03:37:745] : initdata执行完毕 
+[18:03:41:785] : {"path":"index.html","params":{"themeColor":"","moduleName":"Mine","pageName":"Set","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifV0"},"config":{"immersion":1,"isHidden":1}} 
+[18:03:41:805] : 执行initData url:index.html?moduleName=Mine&pageName=Set&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifV0&__ocPersistentKey=e30&isCloseGestureBack=0 
+[18:03:41:808] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Mine&pageName=Set&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[18:03:41:809] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Mine&pageName=Set&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[18:03:41:809] : 硬件加速 
+[18:03:41:812] : initdata执行完毕 
+[18:03:45:610] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[18:03:47:807] : 执行initData url:index.html?moduleName=Health&pageName=MutiManualRecord 
+[18:03:47:811] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Health&pageName=MutiManualRecord&user_id=4000853680122284364 
+[18:03:47:811] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Health&pageName=MutiManualRecord&user_id=4000853680122284364 
+[18:03:47:812] : 硬件加速 
+[18:03:47:819] : initdata执行完毕 
+[18:03:54:069] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[18:03:55:362] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:03:55:363] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:03:55:364] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:03:55:366] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:03:56:504] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:03:56:506] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:03:56:506] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:03:56:507] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:03:57:025] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:03:57:027] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:03:57:028] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:03:57:028] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:03:57:478] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:03:57:480] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:03:57:485] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:03:57:485] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:04:00:029] : {"path":"index.html","params":{"themeColor":"","moduleName":"Device","pageName":"MyDevice","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9XQ"},"config":{"immersion":1,"isHidden":1}} 
+[18:04:00:055] : 执行initData url:index.html?moduleName=Device&pageName=MyDevice&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9XQ&__ocPersistentKey=e30&isCloseGestureBack=0 
+[18:04:00:057] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=MyDevice&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9XQ&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[18:04:00:058] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=MyDevice&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9XQ&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[18:04:00:058] : 硬件加速 
+[18:04:00:061] : initdata执行完毕 
+[18:04:01:219] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[18:04:02:397] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:04:02:398] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:04:02:399] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:04:02:399] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:04:17:396] : 蓝牙连接超时回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:04:17:399] : mOnDeviceStatusChangeCallback是否为空: 1 
+[18:04:17:403] : 蓝牙连接超时回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:04:17:403] : mOnDeviceStatusChangeCallback是否为空: 0 
+[18:04:17:404] : 蓝牙连接超时回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:04:17:405] : mOnDeviceStatusChangeCallback是否为空: 1 
+[18:04:17:405] : 蓝牙连接超时回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:04:17:405] : mOnDeviceStatusChangeCallback是否为空: 1 
+[18:04:25:276] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:04:25:276] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:04:25:277] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:04:25:278] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:04:28:728] : {"path":"index.html","params":{"themeColor":"","moduleName":"Mine","pageName":"UserManagement","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifV0"},"config":{"immersion":1,"isHidden":1}} 
+[18:04:28:749] : 执行initData url:index.html?moduleName=Mine&pageName=UserManagement&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifV0&__ocPersistentKey=e30&isCloseGestureBack=0 
+[18:04:28:752] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Mine&pageName=UserManagement&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[18:04:28:752] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Mine&pageName=UserManagement&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[18:04:28:753] : 硬件加速 
+[18:04:28:756] : initdata执行完毕 
+[18:04:37:769] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[18:04:37:849] : 寻找翻译失败,原因:dist/h5/oversea-common/translation/appSpecialTranslation.json 
+[18:04:37:852] : 执行initData url:index.html?moduleName=Health&pageName=Home 
+[18:04:37:856] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Health&pageName=Home&user_id=4135382597746344909 
+[18:04:37:856] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Health&pageName=Home&user_id=4135382597746344909 
+[18:04:37:857] : 硬件加速 
+[18:04:37:860] : initdata执行完毕 
+[18:04:38:498] : checkVersion失败，原因：com.qingniu.oversea.base.net.errors.ServerException 
+[18:04:40:155] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:04:55:144] : 蓝牙连接超时回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:04:55:144] : mOnDeviceStatusChangeCallback是否为空: 1 
+[18:05:01:578] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[18:05:01:579] : mOnScanDeviceChangeCallBack是否为空: 1 
+[18:05:02:318] : 蓝牙连接状态回调给h5: {"device_status":"connected","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:05:04:367] : 蓝牙连接状态回调给h5 onDeviceReady: {"device_status":"actionable","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:05:05:098] : 蓝牙连接状态回调给h5 onDeviceReady: {"device_status":"actionable","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:05:07:205] : 测量数据回调给h5: {"accuracy_flag":0,"actual_resistance":0,"actual_sec_resistance":0,"baby_weight":0.0,"birthday":"2000-01-01","bmi":10.100000000000001,"bmr":0.0,"bodyage":0,"bodyfat":0.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":0,"bone":0.0,"cardiac_index":0.0,"category":11,"device_type":"scale","device_user_info":"","fat_free_weight":0.0,"gender":1,"heart_rate":0,"height":100,"internal_model":"030F","left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measure_mode":0,"measure_mode_flags":0,"method":5,"muscle":0.0,"origin_resistances":"","parameter":"68719509502","pregnant_flag":0,"protein":0.0,"resistance":0,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":0.0,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":0,"sinew":0.0,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":0.0,"time_stamp":1762275906,"visfat":0.0,"water":0.0,"weight":10.15,"sinew_ratio":0.0,"subfat_mass":0.0,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0} 
+[18:05:07:205] : mOnResultScaleDataCallBack是否为空: false 
+[18:05:08:311] : {"path":"index.html","params":{"themeColor":"","measureTempData":"1","moduleName":"Data","pageName":"IndicatorDetail","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9XQ"},"config":{"immersion":1,"isHidden":1}} 
+[18:05:08:345] : 执行initData url:index.html?moduleName=Data&pageName=IndicatorDetail&measureTempData=1&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9XQ&__ocPersistentKey=e30&isCloseGestureBack=0 
+[18:05:08:346] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Data&pageName=IndicatorDetail&measureTempData=1&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9XQ&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4135382597746344909 
+[18:05:08:347] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Data&pageName=IndicatorDetail&measureTempData=1&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9XQ&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4135382597746344909 
+[18:05:08:347] : 硬件加速 
+[18:05:08:350] : initdata执行完毕 
+[18:05:08:390] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:05:08:395] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:05:38:728] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[18:05:40:006] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:05:42:753] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:05:44:884] : 进入后台计时：481247 
+[18:06:19:304] : 返回前台耗时：34415 
+[18:06:19:309] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[18:06:21:429] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:06:36:404] : 蓝牙连接超时回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:06:36:405] : mOnDeviceStatusChangeCallback是否为空: 1 
+[18:06:51:441] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:06:51:444] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:06:59:452] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[18:07:00:457] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:07:15:427] : 蓝牙连接超时回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:07:15:428] : mOnDeviceStatusChangeCallback是否为空: 1 
+[18:07:19:331] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[18:07:19:332] : mOnScanDeviceChangeCallBack是否为空: 1 
+[18:07:20:374] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[18:07:20:375] : mOnScanDeviceChangeCallBack是否为空: 1 
+[18:07:21:287] : 蓝牙连接状态回调给h5: {"device_status":"connected","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:07:23:839] : 蓝牙连接状态回调给h5 onDeviceReady: {"device_status":"actionable","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:07:24:573] : 蓝牙连接状态回调给h5 onDeviceReady: {"device_status":"actionable","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:07:26:850] : 测量数据回调给h5: {"accuracy_flag":0,"actual_resistance":0,"actual_sec_resistance":0,"baby_weight":0.0,"birthday":"1995-01-21","bmi":23.200000000000003,"bmr":0.0,"bodyage":0,"bodyfat":0.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":0,"bone":0.0,"cardiac_index":0.0,"category":11,"device_type":"scale","device_user_info":"","fat_free_weight":0.0,"gender":1,"heart_rate":0,"height":188,"internal_model":"030F","left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measure_mode":0,"measure_mode_flags":0,"method":5,"muscle":0.0,"origin_resistances":"","parameter":"68719509502","pregnant_flag":0,"protein":0.0,"resistance":0,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":0.0,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":0,"sinew":0.0,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":0.0,"time_stamp":1762276046,"visfat":0.0,"water":0.0,"weight":82.35,"sinew_ratio":0.0,"subfat_mass":0.0,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0} 
+[18:07:26:862] : mOnResultScaleDataCallBack是否为空: false 
+[18:07:27:971] : {"path":"index.html","params":{"themeColor":"","measureTempData":"1","moduleName":"Data","pageName":"IndicatorDetail","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9XQ"},"config":{"immersion":1,"isHidden":1}} 
+[18:07:27:992] : 执行initData url:index.html?moduleName=Data&pageName=IndicatorDetail&measureTempData=1&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9XQ&__ocPersistentKey=e30&isCloseGestureBack=0 
+[18:07:27:994] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Data&pageName=IndicatorDetail&measureTempData=1&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9XQ&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[18:07:27:995] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Data&pageName=IndicatorDetail&measureTempData=1&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9XQ&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[18:07:27:995] : 硬件加速 
+[18:07:27:998] : initdata执行完毕 
+[18:07:28:041] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:07:28:044] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:08:17:015] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[18:08:17:767] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:08:32:756] : 蓝牙连接超时回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:08:32:756] : mOnDeviceStatusChangeCallback是否为空: 1 
+[18:08:47:775] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:08:47:775] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:08:49:787] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[18:08:49:787] : mOnScanDeviceChangeCallBack是否为空: 1 
+[18:08:49:871] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[18:08:49:872] : mOnScanDeviceChangeCallBack是否为空: 1 
+[18:08:49:976] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[18:08:49:977] : mOnScanDeviceChangeCallBack是否为空: 1 
+[18:08:50:345] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:08:50:612] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[18:08:50:613] : mOnScanDeviceChangeCallBack是否为空: 1 
+[18:08:50:919] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[18:08:50:922] : mOnScanDeviceChangeCallBack是否为空: 1 
+[18:08:51:026] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[18:08:51:027] : mOnScanDeviceChangeCallBack是否为空: 1 
+[18:08:51:304] : 蓝牙连接状态回调给h5: {"device_status":"connected","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:08:53:720] : 蓝牙连接状态回调给h5 onDeviceReady: {"device_status":"actionable","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:08:54:276] : 蓝牙连接状态回调给h5 onDeviceReady: {"device_status":"actionable","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:08:55:975] : 蓝牙连接状态回调给h5: {"device_status":"measure_bodyfat","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:08:55:977] : 不稳定体重回调给h5: {"weight":82.4,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[18:08:55:978] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[18:08:59:180] : 测量数据回调给h5: {"accuracy_flag":0,"actual_resistance":567,"actual_sec_resistance":502,"baby_weight":0.0,"birthday":"1995-01-21","bmi":23.3,"bmr":1869.0,"bodyage":26,"bodyfat":15.700000000000001,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bone":3.5,"cardiac_index":0.0,"category":11,"device_type":"scale","device_user_info":"","fat_free_weight":69.4,"gender":1,"heart_rate":0,"height":188,"internal_model":"030F","left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measure_mode":0,"measure_mode_flags":0,"method":5,"muscle":54.400000000000006,"origin_resistances":"","parameter":"68719509502","pregnant_flag":0,"protein":19.200000000000003,"resistance":567,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.9,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":502,"sinew":66.0,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":13.9,"time_stamp":1762276137,"visfat":6.0,"water":60.800000000000004,"weight":82.4,"sinew_ratio":80.09708737864078,"subfat_mass":1145.3600000000001,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0} 
+[18:08:59:181] : mOnResultScaleDataCallBack是否为空: false 
+[18:09:26:888] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:09:26:890] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:09:29:804] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[18:09:29:804] : mOnScanDeviceChangeCallBack是否为空: 1 
+[18:09:30:379] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:09:31:936] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[18:09:31:936] : mOnScanDeviceChangeCallBack是否为空: 1 
+[18:09:45:376] : 蓝牙连接超时回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:09:45:377] : mOnDeviceStatusChangeCallback是否为空: 1 
+[18:09:57:889] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:10:00:861] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[18:10:01:772] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:10:16:757] : 蓝牙连接超时回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:10:16:757] : mOnDeviceStatusChangeCallback是否为空: 1 
+[18:10:31:785] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:10:31:787] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:10:47:930] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[18:10:47:931] : mOnScanDeviceChangeCallBack是否为空: 1 
+[18:10:48:415] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:10:48:672] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[18:10:48:672] : mOnScanDeviceChangeCallBack是否为空: 1 
+[18:10:49:683] : 蓝牙连接状态回调给h5: {"device_status":"connected","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:10:51:893] : 蓝牙连接状态回调给h5 onDeviceReady: {"device_status":"actionable","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:10:52:537] : 蓝牙连接状态回调给h5 onDeviceReady: {"device_status":"actionable","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:10:56:922] : 蓝牙连接状态回调给h5: {"device_status":"measure_bodyfat","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:10:56:929] : 不稳定体重回调给h5: {"weight":92.60000000000001,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[18:10:56:930] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[18:11:00:095] : 测量数据回调给h5: {"accuracy_flag":0,"actual_resistance":566,"actual_sec_resistance":502,"baby_weight":0.0,"birthday":"2000-01-01","bmi":36.2,"bmr":1475.0,"bodyage":32,"bodyfat":44.7,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":6,"bone":3.1,"cardiac_index":0.0,"category":11,"device_type":"scale","device_user_info":"","fat_free_weight":51.2,"gender":0,"heart_rate":0,"height":160,"internal_model":"030F","left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measure_mode":0,"measure_mode_flags":0,"method":5,"muscle":32.2,"origin_resistances":"","parameter":"68719509502","pregnant_flag":0,"protein":11.8,"resistance":566,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":50.2,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":502,"sinew":48.1,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":38.800000000000004,"time_stamp":1762276258,"visfat":17.0,"water":37.9,"weight":92.6,"sinew_ratio":51.943844492440604,"subfat_mass":3592.88,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0} 
+[18:11:00:096] : mOnResultScaleDataCallBack是否为空: false 
+[18:11:27:700] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:11:27:702] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:11:30:818] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[18:11:30:819] : mOnScanDeviceChangeCallBack是否为空: 1 
+[18:11:31:339] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:11:31:850] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:11:31:854] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:11:32:587] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[18:11:32:587] : mOnScanDeviceChangeCallBack是否为空: 1 
+[18:11:33:101] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:11:33:303] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[18:11:33:304] : mOnScanDeviceChangeCallBack是否为空: 1 
+[18:11:48:092] : 蓝牙连接超时回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:11:48:092] : mOnDeviceStatusChangeCallback是否为空: 1 
+[18:12:01:049] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:12:02:692] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[18:12:04:123] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:12:05:037] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:12:05:996] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:12:20:991] : 蓝牙连接超时回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[18:12:20:992] : mOnDeviceStatusChangeCallback是否为空: 1 
+[18:12:30:416] : 进入后台计时：886766 
+[18:20:20:013] : 找到热更新包数量: 0 
+[18:24:07:057] : 找到热更新包数量: 0 
+[18:49:33:656] : 找到热更新包数量: 0 

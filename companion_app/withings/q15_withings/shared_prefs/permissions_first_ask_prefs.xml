@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="android.permission.POST_NOTIFICATIONS" value="false" />
+    <boolean name="android.permission.BLUETOOTH_CONNECT" value="false" />
+    <boolean name="android.permission.BLUETOOTH_SCAN" value="false" />
+</map>

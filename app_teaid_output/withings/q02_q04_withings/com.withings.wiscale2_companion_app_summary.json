@@ -1,0 +1,199 @@
+{
+  "devices": {},
+  "user": {
+    "database": {
+      "probe": [
+        {
+          "mac": "a4:7e:fa:19:7c:d2",
+          "secret": "6c0a2549da8c25f1",
+          "mfgid": "0017E050",
+          "softversion": 1181
+        }
+      ],
+      "measure": [
+        {
+          "id": 5,
+          "measuregroup": 5,
+          "x": 1759682643000.0,
+          "unit": -3,
+          "value": 10085.0,
+          "y": 10.084999999999999,
+          "user": 44318842
+        },
+        {
+          "id": 8,
+          "x": 1754839254000.0,
+          "unit": -3,
+          "value": 82000.0,
+          "y": 82.0,
+          "user": 44318843
+        },
+        {
+          "id": 9,
+          "measuregroup": 2,
+          "x": 1754839254000.0,
+          "unit": -2,
+          "value": 188.0,
+          "type": 4,
+          "y": 1.8800000000000001,
+          "user": 44318843
+        },
+        {
+          "id": 11,
+          "measuregroup": 4,
+          "x": 1759682717000.0,
+          "unit": -3,
+          "value": 82333.0,
+          "y": 82.333,
+          "user": 44318843
+        },
+        {
+          "id": 16,
+          "measuregroup": 3,
+          "x": 1759682643000.0,
+          "unit": -3,
+          "value": 10085.0,
+          "y": 10.084999999999999,
+          "user": 44318842
+        },
+        {
+          "id": 18,
+          "measuregroup": 6,
+          "x": 1759682865000.0,
+          "unit": -3,
+          "value": 82217.0,
+          "y": 82.21700000000001,
+          "user": 44318843
+        },
+        {
+          "id": 20,
+          "measuregroup": 9,
+          "x": 67000.0,
+          "unit": -3,
+          "value": 82477.0,
+          "y": 82.477,
+          "user": 44318843
+        },
+        {
+          "id": 21,
+          "measuregroup": 11,
+          "x": 1759857102000.0,
+          "unit": -3,
+          "value": 82421.0,
+          "y": 82.421,
+          "user": 44318843
+        },
+        {
+          "id": 22,
+          "measuregroup": 7,
+          "x": 1759683177000.0,
+          "unit": -3,
+          "value": 92485.0,
+          "y": 92.485,
+          "user": 44318842
+        },
+        {
+          "id": 23,
+          "measuregroup": 8,
+          "x": 18000.0,
+          "unit": -3,
+          "value": 10068.0,
+          "y": 10.068,
+          "user": 44318842
+        },
+        {
+          "id": 24,
+          "measuregroup": 10,
+          "x": 144000.0,
+          "unit": -3,
+          "value": 92578.0,
+          "y": 92.578,
+          "user": 44318842
+        }
+      ],
+      "users": [
+        {
+          "id": 44318842,
+          "firstname": "Repository-User",
+          "lastname": "Repository-User",
+          "shortname": "REP",
+          "birthdate": -2147558400000,
+          "p4": "{\"32x32\":null,\"64x64\":null,\"128x128\":null,\"256x256\":null}",
+          "creationdate": 1754839251000,
+          "modifieddate": 1754839251000,
+          "type": 3
+        },
+        {
+          "id": 44318843,
+          "firstname": "[redacted]",
+          "lastname": "M",
+          "shortname": "[redacted]",
+          "birthdate": 790646400000,
+          "fatmethod": 3,
+          "email": "[redacted]",
+          "p4": "{\"32x32\":null,\"64x64\":null,\"128x128\":null,\"256x256\":null}",
+          "creationdate": 1754839254000,
+          "modifieddate": 1755451479000
+        }
+      ],
+      "devices": [
+        {
+          "id": 14321498,
+          "associationDate": 1759682303000,
+          "lastUseDate": 1759683205000,
+          "modifiedDate": 1759683207000,
+          "macAddress": "a4:7e:fa:19:7c:d2",
+          "firmware": 1181,
+          "preferredLanguage": "de_DE",
+          "latitude": "[redacted]",
+          "longitude": "[redacted]",
+          "timezone": "Europe/Berlin",
+          "manualGeoloc": "f",
+          "battery": 96,
+          "model": 7,
+          "color": "white",
+          "klSecret": "3fDsgpdSgGzamb1R2emYGsJ5R3jymZBo",
+          "advertiseKey": "flFJRKKceYrs5Wz1swGK2dCSG0CMu9eK",
+          "pictures": "{\"pictures\":{\"1\":\"p4/product/d449b25b8df4400b649cf69e0ed4900ad8e8f8f9-0000000000000000000000000000000000000000-1_1400x1400\",\"2\":\"p4/product/5fbdc8ab88676c89b2762cdda82d60d30a615164-0000000000000000000000000000000000000000-2_1400x1400\",\"4\":\"p4/product/88197b09866a12813af0460c3abd113989862c6d-0000000000000000000000000000000000000000-4_1400x1400\"}}",
+          "maxScreenCount": 16
+        }
+      ]
+    },
+    "account_encrypted_email": "lSGvfuNORzxgD8PNpOixpm3hLAglTyj1gdETlJmGERhGOjx61C5j0mdXGbi+0sF+kNDa\n    ",
+    "account_encrypted_authProviderToken": "a0bmKr35Q7yF+RS1gjFN5zjyt6yYGih1WbQVfmY9W6Z9KUB34O+KlVCRFzk\n    ",
+    "account_accountType": "main",
+    "account_uuid": "[redacted]",
+    "account_virtualDeviceToken": "[redacted]",
+    "account_authProviderName": "google",
+    "account_encrypted_authToken": "EbjzUIdn6QF9N2b+MR11vIjLkBMpCfcUap8sY13U/Dy3vlvl3hMqEjGxWZ6gp/gW\n    ",
+    "email": "[redacted]",
+    "name": "[redacted]",
+    "traits_anonymousId": "[redacted]",
+    "traits_account_id": "19167753",
+    "traits_enable_native_notification": false,
+    "traits_userId": "44318843",
+    "traits_id": "44318843",
+    "mainUserId": "44318843"
+  },
+  "wi-fi": {},
+  "cloud": {
+    "accountId": 19167753,
+    "sessionId": "[redacted]",
+    "providerToken": "[redacted]",
+    "authToken": "[redacted]",
+    "isSecured": 0,
+    "requireSecure": 0,
+    "expirationTimestamp": 1759683248778,
+    "providerType": "google",
+    "serverUrl": "https://scalews.withings.net/cgi-bin",
+    "inappviewUrl": "https://inappviews.withings.com",
+    "maintUrl": "https://maintws.withings.net/cgi-bin",
+    "accountUrl": "https://account.withings.com",
+    "cookieDomain": ".withings.com",
+    "cookieName": "session_key",
+    "sessionType": "main"
+  },
+  "locale": {
+    "lang": "de_DE"
+  }
+}

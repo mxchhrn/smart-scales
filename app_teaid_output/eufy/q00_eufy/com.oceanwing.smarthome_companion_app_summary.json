@@ -1,0 +1,17 @@
+{
+  "devices": {
+    "app_version": "EufyLife-Android-3.3.5"
+  },
+  "user": {
+    "push_token": "[redacted]",
+    "measurements": []
+  },
+  "wi-fi": {},
+  "cloud": {
+    "iot_url": "https://aiot-light-api-eu.eufylife.com",
+    "request_host": "https://api.eufylife.com/v1/"
+  },
+  "locale": {
+    "lang": "de"
+  }
+}

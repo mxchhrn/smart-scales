@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="isSqa" value="false" />
+    <string name="encrypted_email">N5COG8myrAg61eXQhbbib7nQW2Qv+IHchYh57G0y3TNOaOhIeicfzq2PnriM1oX8MFg&#10;    </string>
+    <string name="encrypted_authProviderToken">lccL23T4QtrfN/wlcpkX7RVb550VqxVt57ITTlrtodyW6Rq44Gi7k1/WBbY&#10;    </string>
+    <int name="consumerId" value="0" />
+    <boolean name="privacyPolicy" value="true" />
+    <string name="accountType">main</string>
+    <boolean name="syncNeeded" value="false" />
+    <string name="timeZone">Europe/Berlin</string>
+    <boolean name="hasPassword" value="false" />
+    <string name="locale">de_DE</string>
+    <string name="uuid">[redacted]</string>
+    <string name="virtualDeviceToken">[redacted]</string>
+    <boolean name="isFqa" value="false" />
+    <string name="authProviderName">withings</string>
+    <boolean name="termsOfUsage" value="true" />
+    <boolean name="isWpm03AcknowledgmentRequired" value="false" />
+    <string name="consents">[]</string>
+    <string name="id">19680913</string>
+    <int name="state" value="1" />
+    <string name="residencyCountry">DE</string>
+    <boolean name="requireSecureSession" value="false" />
+    <int name="status" value="0" />
+</map>

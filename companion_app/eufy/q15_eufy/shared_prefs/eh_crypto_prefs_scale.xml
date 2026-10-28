@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="ecdh_key_444b380e56f3ffad8aeb4c76494c15f9_public_key">04E4BCF170B3D721957574084F1ABFEB3392CD2DBBED8F75B9C6CDC0E51B89FB017E8AC07E922492D7F6C7038FC78A5022C9A2264D651B01BA48B92262FA1C67FC</string>
+    <string name="ecdh_key_444b380e56f3ffad8aeb4c76494c15f9_server_public_key">04ebc77a23c7191f8c97fb2a7676710f64ddadfe5305fa80c8855476b024c6ad3d8c18d4be9d720c5a578167f899e0818d3a19de2e804407034b4a88cfdb7ae995</string>
+    <string name="ecdh_key_444b380e56f3ffad8aeb4c76494c15f9_shared_key">aa83c0c5da8d1110264bd00fe2be367e0d27eddc946a5bf107215c53ac857099</string>
+    <string name="ecdh_key_444b380e56f3ffad8aeb4c76494c15f9_key_ident">f771714b35cd2254ed6f104379fe238f</string>
+    <string name="ecdh_key_444b380e56f3ffad8aeb4c76494c15f9_private_key">5C4900A03977A593F5FAA885309A31BDD77100C2D333C22C3FD7EF38FED0BF50</string>
+</map>

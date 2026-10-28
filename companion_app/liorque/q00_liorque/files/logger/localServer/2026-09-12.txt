@@ -1,0 +1,9 @@
+[22:55:20:683] : AndServer GET, url: /h5/oversea-common/index.html
+	parameter: moduleName: Login, pageName: Home
+	response: "com.yanzhenjie.andserver.framework.body.StreamBody@16b720" 
+[22:55:20:960] : AndServer GET, url: /api/v1/set/getLatestSettings
+	response: {"code":20000,"data":{"date_format":"MM/dd/yyyy","lang":"en","weightUnit":"2","heightUnit":"1","capacityUnit":"2","heatUnit":"1","temperatureUnit":"0","time_display_rule":1,"follow_system_dateformat_key":1}} 
+[22:55:20:976] : AndServer GET, url: /h5/oversea-common/translation/en.json
+	response: "com.yanzhenjie.andserver.framework.body.StreamBody@91053b8" 
+[22:55:21:102] : AndServer GET, url: /h5/oversea-common/h5-assets/logo-0ba604f5.png
+	response: "com.yanzhenjie.andserver.framework.body.StreamBody@a82e095" 

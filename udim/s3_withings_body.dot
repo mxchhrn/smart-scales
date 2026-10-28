@@ -1,0 +1,30 @@
+digraph udim {
+  graph [rankdir=LR fontname="Helvetica" fontsize=11 label="UDIM: Withings Body" labelloc=t]
+  node [fontname="Helvetica" fontsize=9]
+  edge [fontname="Helvetica" fontsize=8 penwidth=1.3]
+  subgraph cluster_beta { label="Internal network (β)" style=dashed color="#4DAF4A"
+    subgraph cluster_alpha { label="Proximity (α)" style=dashed color="#377EB8"
+      d [shape=box style="rounded,bold" peripheries=2 label="d\nWithings Body (central device)"]
+      env [shape=box style="rounded,dashed" label="env\nPlatform load: persons, pets, or objects placed on the scale"]
+      u_alpha [shape=ellipse label="u_alpha\nUser (proximity, steps onto the platform)"]
+    }
+    u_beta [shape=ellipse label="u_beta\nUser (internal network, via Health Mate app on phone)"]
+    p_beta [shape=box style=rounded label="p_beta\nSmartphone with Health Mate app (BLE to the scale, Wi-Fi to the router)"]
+    r [shape=box style=rounded label="r\nWi-Fi router (2.4 GHz)"]
+  }
+  subgraph cluster_gamma { label="External network (γ)" style=dashed color="#FF7F00"
+    u_gamma [shape=ellipse label="u_gamma\nUser (external network, via Health Mate app and cloud)"]
+    p_gamma [shape=box style=rounded label="p_gamma\nSmartphone with Health Mate app (remote)"]
+    c_withings [shape=box style=rounded label="c_withings\nWithings cloud (account, profiles, measurement history, weather for the device display)"]
+  }
+  d -> d [dir=forward color="#377EB8"]
+  u_alpha -> d [dir=both color="#377EB8"]
+  env -> d [dir=both color="#377EB8"]
+  u_beta -> p_beta [dir=both color="#4DAF4A"]
+  p_beta -> d [dir=both color="#4DAF4A"]
+  p_beta -> r [dir=both color="#4DAF4A"]
+  d -> r [dir=both color="#4DAF4A"]
+  u_gamma -> p_gamma [dir=both color="#FF7F00"]
+  p_gamma -> c_withings [dir=both color="#FF7F00"]
+  r -> c_withings [dir=both color="#FF7F00"]
+}

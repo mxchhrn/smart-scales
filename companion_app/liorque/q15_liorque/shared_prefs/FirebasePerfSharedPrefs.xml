@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <float name="com.google.firebase.perf.FragmentSamplingRate" value="0.1" />
+    <long name="com.google.firebase.perf.SessionsCpuCaptureFrequencyForegroundMs" value="100" />
+    <boolean name="com.google.firebase.perf.SdkEnabled" value="true" />
+    <float name="com.google.firebase.perf.TraceSamplingRate" value="1.0" />
+    <long name="com.google.firebase.perf.SessionsMemoryCaptureFrequencyForegroundMs" value="100" />
+    <string name="com.google.firebase.perf.LogSourceName">FIREPERF</string>
+    <long name="com.google.firebase.perf.SessionsCpuCaptureFrequencyBackgroundMs" value="0" />
+    <long name="com.google.firebase.perf.TraceEventCountForeground" value="300" />
+    <long name="com.google.firebase.perf.SessionsMemoryCaptureFrequencyBackgroundMs" value="0" />
+    <float name="com.google.firebase.perf.SessionSamplingRate" value="0.01" />
+    <long name="com.google.firebase.perf.TraceEventCountBackground" value="30" />
+    <float name="com.google.firebase.perf.NetworkRequestSamplingRate" value="1.0" />
+    <long name="com.google.firebase.perf.TimeLimitSec" value="600" />
+    <string name="com.google.firebase.perf.SdkDisabledVersions"></string>
+</map>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <set name="ROUTER_MAP">
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$gun</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$kitchen</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$foodiet</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Root$$arouterapi</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Providers$$arouterapi</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Providers$$jsbridge</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$jsbridge</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Root$$foodiet</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Root$$jsbridge</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Providers$$foodiet</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$ruler</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$bloodPressure</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$jsbridge$1</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$oversea</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Providers$$app</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$arouter</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Root$$app</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Interceptors$$foodiet</string>
+    </set>
+    <string name="LAST_VERSION_NAME">4.16.2</string>
+    <int name="LAST_VERSION_CODE" value="154" />
+</map>

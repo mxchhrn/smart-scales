@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <set name="ROUTER_MAP">
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$add</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$app</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$help</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$light</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$eufylifecommon</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$configure$2</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$device</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$configure$1</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$configure$4</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$main</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$configure$3</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$help$1</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Root$$DeviceShare</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Providers$$deviceConfigNet</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Root$$lib_base</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$deviceshare</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$goto</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Root$$arouterapi</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$eufylife</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$scale</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$home</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$common$1</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Root$$lib_utils</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$heart</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$base</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$account$6</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Providers$$lib_userCenter</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$account$7</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$baby</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$public</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$common</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Root$$lib_notification</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$account$1</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Providers$$app</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$account$4</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$account$5</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$account$2</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$account$3</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$configure</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$eufycommon</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$messages$1</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Providers$$lib_notification</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Providers$$lib_utils</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$deviceshare$3</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$deviceshare$2</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$deviceshare$4</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$messages</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$web$1</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Root$$deviceConfigNet</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$accout</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Providers$$lib_base</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$account</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$arouter</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$remind</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Providers$$arouterapi</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Root$$lib_userCenter</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$deviceshare$1</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$push</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$configure$6</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$configure$5</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Providers$$DeviceShare</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$web</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$firmware</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Group$$third</string>
+        <string>com.alibaba.android.arouter.routes.ARouter$$Root$$app</string>
+    </set>
+    <string name="LAST_VERSION_NAME">3.3.5</string>
+    <int name="LAST_VERSION_CODE" value="726" />
+</map>

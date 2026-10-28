@@ -1,0 +1,180 @@
+[14:29:04:853] : OverseaProviderManager Feelfit 不支持跳绳功能 
+[14:29:04:870] : 2025-11-11 14:29:04.870     Level-D QN-BLE addScanListenercom.qingniu.struct.waistmassager.WaistMassagerManager 
+[14:34:57:514] : EventBus注册 
+[14:34:58:551] : DataMigrationHelper 是否需要转储(公共部分): false 
+[14:34:58:566] : DataMigrationHelper 是否需要转储(游客部分):true, false, true 
+[14:34:58:578] : 启动图: null 
+[14:34:58:643] : 加载启动图异常: null 
+[14:34:58:653] : EventBus注册 
+[14:34:58:687] : OverseaProviderManager Feelfit 不支持跳绳功能 
+[14:34:58:688] : SyncUtils 上传跳绳存储数据 失败: 请提供JsRopeDataProvider的实现类 
+[14:34:58:711] : OverseaProviderManager Feelfit 不支持跳绳功能 
+[14:34:58:713] : SyncUtils syncRopeDataList: 请提供JsRopeDataProvider的实现类 
+[14:34:58:727] : pullOriginScenarios:非arboleaf，不拉取情景标签 
+[14:34:58:727] : checkMember: 非arboleaf，不检查会员 
+[14:34:58:747] : SyncUtils 不是主用户或不是arboleaf，不需要同步历史运动数据 
+[14:34:58:749] : SyncUtils 不是主用户或不是arboleaf，不需要同步历史运动数据 
+[14:34:58:761] : SyncUtils 不是主用户或不是arboleaf，不需要同步步数数据 
+[14:34:58:766] : SyncUtils 不是主用户或不是arboleaf，不需要同步运动数据 
+[14:34:58:907] : EventBus注册 
+[14:34:58:949] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， errorCodeList.size = 1 
+[14:34:58:950] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， code = 3001 
+[14:34:58:950] : Level-I QN-BLE isBlueToothSwitchOn: false 
+[14:34:58:951] : Level-I QN-BLE has android.permission.BLUETOOTH_SCAN: true 
+[14:34:58:951] : Level-I QN-BLE has android.permission.BLUETOOTH_CONNECT: true 
+[14:34:58:952] : Level-I QN-BLE has android.permission.BLUETOOTH_ADVERTISE: true 
+[14:34:58:953] : Level-I QN-BLE hasBlePermission: true 
+[14:34:58:953] : Level-I QN-BLE isBlueToothSwitchOn: false 
+[14:34:58:954] : Level-I QN-BLE has android.permission.BLUETOOTH_SCAN: true 
+[14:34:58:954] : Level-I QN-BLE has android.permission.BLUETOOTH_CONNECT: true 
+[14:34:58:955] : Level-I QN-BLE has android.permission.BLUETOOTH_ADVERTISE: true 
+[14:34:58:956] : Level-I QN-BLE hasBlePermission: true 
+[14:34:58:957] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， errorCodeList.size = 1 
+[14:34:58:958] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， code = 3001 
+[14:34:59:725] : Level-I QN-BLE isBlueToothSwitchOn: false 
+[14:34:59:725] : Level-I QN-BLE has android.permission.BLUETOOTH_SCAN: true 
+[14:34:59:726] : Level-I QN-BLE has android.permission.BLUETOOTH_CONNECT: true 
+[14:34:59:726] : Level-I QN-BLE has android.permission.BLUETOOTH_ADVERTISE: true 
+[14:34:59:727] : Level-I QN-BLE hasBlePermission: true 
+[14:34:59:797] : SyncUtils updateCommonSetting success 
+[14:34:59:832] : 同步firebase  token成功-----BaseStateResult{code=200, msg='ok'} 
+[14:34:59:899] : 启动图： null 
+[14:34:59:969] : SyncUtils Attempt to invoke virtual method 'void com.qingniu.greendao.table.Storage.setIsUpload(java.lang.Integer)' on a null object reference 
+[14:34:59:969] : ThirdUploadDataUtils 三星健康 授权开关未打开 
+[14:34:59:971] : ThirdUploadDataUtils fitbit 授权开关未打开 
+[14:34:59:973] : ThirdUploadDataUtils Googlefit 授权开关未打开 
+[14:34:59:976] : ThirdUploadDataUtils Health Connect 授权开关未打开 
+[14:34:59:981] : Level-I QN-BLE isBlueToothSwitchOn: false 
+[14:34:59:981] : Level-I QN-BLE has android.permission.BLUETOOTH_SCAN: true 
+[14:34:59:982] : Level-I QN-BLE has android.permission.BLUETOOTH_CONNECT: true 
+[14:34:59:982] : Level-I QN-BLE has android.permission.BLUETOOTH_ADVERTISE: true 
+[14:34:59:983] : Level-I QN-BLE hasBlePermission: true 
+[14:35:00:291] : Level-I QN-BLE isBlueToothSwitchOn: false 
+[14:35:00:292] : Level-I QN-BLE has android.permission.BLUETOOTH_SCAN: true 
+[14:35:00:292] : Level-I QN-BLE has android.permission.BLUETOOTH_CONNECT: true 
+[14:35:00:293] : Level-I QN-BLE has android.permission.BLUETOOTH_ADVERTISE: true 
+[14:35:00:293] : Level-I QN-BLE hasBlePermission: true 
+[14:35:21:429] : EventBus注册 
+[14:35:21:446] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， errorCodeList.size = 1 
+[14:35:21:446] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， code = 3001 
+[14:35:21:447] : Level-I QN-BLE isBlueToothSwitchOn: false 
+[14:35:21:447] : Level-I QN-BLE has android.permission.BLUETOOTH_SCAN: true 
+[14:35:21:447] : Level-I QN-BLE has android.permission.BLUETOOTH_CONNECT: true 
+[14:35:21:448] : Level-I QN-BLE has android.permission.BLUETOOTH_ADVERTISE: true 
+[14:35:21:448] : Level-I QN-BLE hasBlePermission: true 
+[14:35:21:448] : Level-I QN-BLE isBlueToothSwitchOn: false 
+[14:35:21:449] : Level-I QN-BLE has android.permission.BLUETOOTH_SCAN: true 
+[14:35:21:449] : Level-I QN-BLE has android.permission.BLUETOOTH_CONNECT: true 
+[14:35:21:449] : Level-I QN-BLE has android.permission.BLUETOOTH_ADVERTISE: true 
+[14:35:21:450] : Level-I QN-BLE hasBlePermission: true 
+[14:35:21:450] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， errorCodeList.size = 1 
+[14:35:21:450] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， code = 3001 
+[14:35:21:470] : Level-I QN-BLE isBlueToothSwitchOn: false 
+[14:35:21:473] : Level-I QN-BLE has android.permission.BLUETOOTH_SCAN: true 
+[14:35:21:475] : Level-I QN-BLE has android.permission.BLUETOOTH_CONNECT: true 
+[14:35:21:476] : Level-I QN-BLE has android.permission.BLUETOOTH_ADVERTISE: true 
+[14:35:21:478] : Level-I QN-BLE hasBlePermission: true 
+[14:35:30:109] : DataMigrationHelper 是否需要转储(游客部分):true, false, true 
+[14:35:30:165] : EventBus注册 
+[14:35:30:177] : EventBus注册 
+[14:35:30:184] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， errorCodeList.size = 1 
+[14:35:30:186] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， code = 3001 
+[14:35:30:186] : Level-I QN-BLE isBlueToothSwitchOn: false 
+[14:35:30:188] : Level-I QN-BLE has android.permission.BLUETOOTH_SCAN: true 
+[14:35:30:188] : Level-I QN-BLE has android.permission.BLUETOOTH_CONNECT: true 
+[14:35:30:189] : Level-I QN-BLE has android.permission.BLUETOOTH_ADVERTISE: true 
+[14:35:30:189] : Level-I QN-BLE hasBlePermission: true 
+[14:35:30:190] : Level-I QN-BLE isBlueToothSwitchOn: false 
+[14:35:30:191] : Level-I QN-BLE has android.permission.BLUETOOTH_SCAN: true 
+[14:35:30:191] : Level-I QN-BLE has android.permission.BLUETOOTH_CONNECT: true 
+[14:35:30:192] : Level-I QN-BLE has android.permission.BLUETOOTH_ADVERTISE: true 
+[14:35:30:192] : Level-I QN-BLE hasBlePermission: true 
+[14:35:30:192] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， errorCodeList.size = 1 
+[14:35:30:193] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， code = 3001 
+[14:35:30:333] : 删除firebase  token成功-----BaseStateResult{code=200, msg='ok'} 
+[14:35:37:286] : EventBus注册 
+[14:35:37:295] : EventBus注册 
+[14:35:37:306] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， errorCodeList.size = 1 
+[14:35:37:307] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， code = 3001 
+[14:35:37:308] : Level-I QN-BLE isBlueToothSwitchOn: false 
+[14:35:37:310] : Level-I QN-BLE has android.permission.BLUETOOTH_SCAN: true 
+[14:35:37:311] : Level-I QN-BLE has android.permission.BLUETOOTH_CONNECT: true 
+[14:35:37:311] : Level-I QN-BLE has android.permission.BLUETOOTH_ADVERTISE: true 
+[14:35:37:311] : Level-I QN-BLE hasBlePermission: true 
+[14:35:37:313] : Level-I QN-BLE isBlueToothSwitchOn: false 
+[14:35:37:313] : Level-I QN-BLE has android.permission.BLUETOOTH_SCAN: true 
+[14:35:37:313] : Level-I QN-BLE has android.permission.BLUETOOTH_CONNECT: true 
+[14:35:37:314] : Level-I QN-BLE has android.permission.BLUETOOTH_ADVERTISE: true 
+[14:35:37:314] : Level-I QN-BLE hasBlePermission: true 
+[14:35:37:315] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， errorCodeList.size = 1 
+[14:35:37:315] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， code = 3001 
+[14:35:42:655] : EventBus注册 
+[14:35:42:661] : EventBus注册 
+[14:35:42:668] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， errorCodeList.size = 1 
+[14:35:42:668] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， code = 3001 
+[14:35:42:669] : Level-I QN-BLE isBlueToothSwitchOn: false 
+[14:35:42:670] : Level-I QN-BLE has android.permission.BLUETOOTH_SCAN: true 
+[14:35:42:670] : Level-I QN-BLE has android.permission.BLUETOOTH_CONNECT: true 
+[14:35:42:671] : Level-I QN-BLE has android.permission.BLUETOOTH_ADVERTISE: true 
+[14:35:42:674] : Level-I QN-BLE hasBlePermission: true 
+[14:35:42:674] : Level-I QN-BLE isBlueToothSwitchOn: false 
+[14:35:42:675] : Level-I QN-BLE has android.permission.BLUETOOTH_SCAN: true 
+[14:35:42:675] : Level-I QN-BLE has android.permission.BLUETOOTH_CONNECT: true 
+[14:35:42:676] : Level-I QN-BLE has android.permission.BLUETOOTH_ADVERTISE: true 
+[14:35:42:676] : Level-I QN-BLE hasBlePermission: true 
+[14:35:42:676] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， errorCodeList.size = 1 
+[14:35:42:677] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， code = 3001 
+[14:35:44:477] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， errorCodeList.size = 1 
+[14:35:44:477] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， code = 3001 
+[14:35:44:480] : EventBus重新注册 
+[14:35:44:480] : EventBus重新注册 
+[14:35:44:480] : Level-I QN-BLE isBlueToothSwitchOn: false 
+[14:35:44:481] : Level-I QN-BLE has android.permission.BLUETOOTH_SCAN: true 
+[14:35:44:481] : Level-I QN-BLE has android.permission.BLUETOOTH_CONNECT: true 
+[14:35:44:483] : Level-I QN-BLE has android.permission.BLUETOOTH_ADVERTISE: true 
+[14:35:44:484] : Level-I QN-BLE hasBlePermission: true 
+[14:35:44:485] : Level-I QN-BLE isBlueToothSwitchOn: false 
+[14:35:44:487] : Level-I QN-BLE has android.permission.BLUETOOTH_SCAN: true 
+[14:35:44:490] : Level-I QN-BLE has android.permission.BLUETOOTH_CONNECT: true 
+[14:35:44:492] : Level-I QN-BLE has android.permission.BLUETOOTH_ADVERTISE: true 
+[14:35:44:493] : Level-I QN-BLE hasBlePermission: true 
+[14:35:44:496] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， errorCodeList.size = 1 
+[14:35:44:497] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， code = 3001 
+[14:36:12:654] : NewGoogleFit GoogleFit handleSignInResult: 4843 
+[14:36:12:662] : EventBus重新注册 
+[14:36:12:663] : EventBus重新注册 
+[14:36:12:663] : Level-I QN-BLE isBlueToothSwitchOn: false 
+[14:36:12:666] : Level-I QN-BLE has android.permission.BLUETOOTH_SCAN: true 
+[14:36:12:666] : Level-I QN-BLE has android.permission.BLUETOOTH_CONNECT: true 
+[14:36:12:667] : Level-I QN-BLE has android.permission.BLUETOOTH_ADVERTISE: true 
+[14:36:12:667] : Level-I QN-BLE hasBlePermission: true 
+[14:36:12:667] : Level-I QN-BLE isBlueToothSwitchOn: false 
+[14:36:12:668] : Level-I QN-BLE has android.permission.BLUETOOTH_SCAN: true 
+[14:36:12:668] : Level-I QN-BLE has android.permission.BLUETOOTH_CONNECT: true 
+[14:36:12:668] : Level-I QN-BLE has android.permission.BLUETOOTH_ADVERTISE: true 
+[14:36:12:668] : Level-I QN-BLE hasBlePermission: true 
+[14:36:12:669] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， errorCodeList.size = 1 
+[14:36:12:669] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， code = 3001 
+[14:36:15:562] : EventBus注册 
+[14:36:15:567] : EventBus注册 
+[14:36:15:575] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， errorCodeList.size = 1 
+[14:36:15:576] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， code = 3001 
+[14:36:15:577] : Level-I QN-BLE isBlueToothSwitchOn: false 
+[14:36:15:579] : Level-I QN-BLE has android.permission.BLUETOOTH_SCAN: true 
+[14:36:15:581] : Level-I QN-BLE has android.permission.BLUETOOTH_CONNECT: true 
+[14:36:15:582] : Level-I QN-BLE has android.permission.BLUETOOTH_ADVERTISE: true 
+[14:36:15:582] : Level-I QN-BLE hasBlePermission: true 
+[14:36:15:583] : Level-I QN-BLE isBlueToothSwitchOn: false 
+[14:36:15:583] : Level-I QN-BLE has android.permission.BLUETOOTH_SCAN: true 
+[14:36:15:584] : Level-I QN-BLE has android.permission.BLUETOOTH_CONNECT: true 
+[14:36:15:585] : Level-I QN-BLE has android.permission.BLUETOOTH_ADVERTISE: true 
+[14:36:15:585] : Level-I QN-BLE hasBlePermission: true 
+[14:36:15:585] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， errorCodeList.size = 1 
+[14:36:15:586] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， code = 3001 
+[14:42:28:386] : app进入后台 
+[14:50:53:600] : OverseaProviderManager Feelfit 不支持跳绳功能 
+[14:50:53:610] : 2025-11-11 14:50:53.610     Level-D QN-BLE addScanListenercom.qingniu.struct.waistmassager.WaistMassagerManager 
+[14:57:17:550] : OverseaProviderManager Feelfit 不支持跳绳功能 
+[14:57:17:563] : 2025-11-11 14:57:17.563     Level-D QN-BLE addScanListenercom.qingniu.struct.waistmassager.WaistMassagerManager 
+[15:07:19:717] : OverseaProviderManager Feelfit 不支持跳绳功能 
+[15:07:19:730] : 2025-11-11 15:07:19.730     Level-D QN-BLE addScanListenercom.qingniu.struct.waistmassager.WaistMassagerManager 

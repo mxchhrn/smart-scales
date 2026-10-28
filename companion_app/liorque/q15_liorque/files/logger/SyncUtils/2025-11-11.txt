@@ -1,0 +1,14 @@
+[14:34:58:714] : 不是360APP，不需要同步筋膜枪数据 
+[14:34:58:718] : 无本地血压数据 
+[14:34:58:726] : syncHeartRate  耗时:8 
+[14:34:58:727] : pullOriginGrowthRecordData  耗时:13 
+[14:34:59:632] : pullOriginGirthGoal耗时:945 
+[14:34:59:784] : pullOriginMeasureData  接口请求耗时:1095 
+[14:34:59:791] : pullOriginGirthData  接口请求耗时:1096 
+[14:34:59:853] : pullOriginGirthData  数据处理耗时:65 
+[14:34:59:856] : pullOriginBindDevice耗时:1152 
+[14:34:59:896] : pullOriginFoodRecord  耗时:1157 
+[14:34:59:896] : pullOriginCardConfig  耗时:1159 
+[14:34:59:954] : pullOriginMeasureData  数据处理耗时:171 
+[14:34:59:955] : syncBlood  耗时:1244 
+[14:34:59:966] : syncSubUserList  耗时:1263 

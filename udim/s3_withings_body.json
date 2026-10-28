@@ -1,0 +1,130 @@
+{
+  "device": {
+    "vendor": "Withings",
+    "model": "Body",
+    "soc": "NXP Kinetis K22",
+    "form_factor": "Wi-Fi and BLE smart scale (weight and BMI, multi-user and pregnancy modes, weather display, companion app Health Mate, external SPI NOR flash)",
+    "local_api": []
+  },
+  "nodes": [
+    {
+      "id": "d",
+      "type": "dev",
+      "subgraphs": ["alpha", "beta"],
+      "label": "Withings Body (central device)"
+    },
+    {
+      "id": "env",
+      "type": "env",
+      "subgraphs": ["alpha"],
+      "label": "Platform load: persons, pets, or objects placed on the scale",
+      "properties": {
+        "sensor_types": ["pressure"],
+        "actuator_types": ["display"],
+        "region_label": "bathroom"
+      }
+    },
+    {
+      "id": "u_alpha",
+      "type": "usr",
+      "subgraphs": ["alpha"],
+      "label": "User (proximity, steps onto the platform)",
+      "properties": {
+        "ui_input_modes": ["other"],
+        "ui_output_modes": ["display"],
+        "account_service": "Withings"
+      }
+    },
+    {
+      "id": "u_beta",
+      "type": "usr",
+      "subgraphs": ["beta"],
+      "label": "User (internal network, via Health Mate app on phone)",
+      "properties": {
+        "account_service": "Withings"
+      }
+    },
+    {
+      "id": "u_gamma",
+      "type": "usr",
+      "subgraphs": ["gamma"],
+      "label": "User (external network, via Health Mate app and cloud)",
+      "properties": {
+        "account_service": "Withings"
+      }
+    },
+    {
+      "id": "p_beta",
+      "type": "dev",
+      "subgraphs": ["beta"],
+      "label": "Smartphone with Health Mate app (BLE to the scale, Wi-Fi to the router)",
+      "properties": {
+        "companion_apps": [
+          {
+            "name": "Health Mate",
+            "package_name": "com.withings.wiscale2",
+            "platform": "android-and-ios",
+            "cloud_platform": "Withings"
+          }
+        ]
+      }
+    },
+    {
+      "id": "p_gamma",
+      "type": "dev",
+      "subgraphs": ["gamma"],
+      "label": "Smartphone with Health Mate app (remote)",
+      "properties": {
+        "companion_apps": [
+          {
+            "name": "Health Mate",
+            "package_name": "com.withings.wiscale2",
+            "platform": "android-and-ios",
+            "cloud_platform": "Withings"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r",
+      "type": "dev",
+      "subgraphs": ["beta", "gamma"],
+      "label": "Wi-Fi router (2.4 GHz)",
+      "properties": {
+        "protocols": ["Wi-Fi"]
+      }
+    },
+    {
+      "id": "c_withings",
+      "type": "dev",
+      "subgraphs": ["gamma"],
+      "label": "Withings cloud (account, profiles, measurement history, weather for the device display)",
+      "properties": {
+        "domain": "withings.net",
+        "api_base_url": "https://scalews.withings.net/cgi-bin/ (app), wbs06-ws.withings.net (device)",
+        "service_name": "Withings cloud"
+      }
+    }
+  ],
+  "edges": [
+    {"from": "d", "to": "d", "subgraph": "alpha", "bidirectional": false},
+    {"from": "u_alpha", "to": "d", "subgraph": "alpha", "bidirectional": true},
+    {"from": "env", "to": "d", "subgraph": "alpha", "bidirectional": true},
+    {"from": "u_beta", "to": "p_beta", "subgraph": "beta", "bidirectional": true},
+    {"from": "p_beta", "to": "d", "subgraph": "beta", "bidirectional": true},
+    {"from": "p_beta", "to": "r", "subgraph": "beta", "bidirectional": true},
+    {"from": "d", "to": "r", "subgraph": "beta", "bidirectional": true},
+    {"from": "u_gamma", "to": "p_gamma", "subgraph": "gamma", "bidirectional": true},
+    {"from": "p_gamma", "to": "c_withings", "subgraph": "gamma", "bidirectional": true},
+    {"from": "r", "to": "c_withings", "subgraph": "gamma", "bidirectional": true}
+  ],
+  "metadata": {
+    "ground_truth": true,
+    "flags": [
+      "Cloud endpoints taken from the device flash dumps (wbs06-ws.withings.net) and from the decrypted app traffic and APK (scalews.withings.net).",
+      "The device stores the most recent measurement per user in flash and shows a cloud-sourced weather forecast on its display (cloud to device data flow via r).",
+      "The companion app sends the user's city and region to the cloud (/association?action=getbyaccountid).",
+      "Third-party fitness integrations are outside the playbook and not modeled."
+    ]
+  }
+}

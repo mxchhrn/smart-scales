@@ -1,0 +1,68 @@
+[22:55:20:983] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@cd249cd","onWillPause":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@9941282"}
+result => {}
+===========================
+ 
+[22:55:20:989] : methodName => addListener
+args => {"eventName":"settingEventName","fn":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@efde1d0"}
+===========================
+ 
+[22:55:20:990] : methodName => getStorage
+args => {"key":"current_theme_color"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[22:55:21:025] : methodName => setStatusBarTheme
+args => {"theme":"dark"}
+===========================
+ 
+[22:55:21:039] : methodName => emitEvent
+args => {"eventName":"START_LOADING","data":{"moduleName":"Login","pageName":"Home"}}
+===========================
+ 
+[22:55:21:084] : methodName => onDeviceStatusListener
+args => {"onDeviceStatusChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@b64f1fd"}
+===========================
+ 
+[22:55:21:085] : methodName => onDevicePowerListener
+args => {"onDevicePowerChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@5ef8943"}
+===========================
+ 
+[22:55:21:086] : methodName => onDeviceDataListener
+args => {"onScanDeviceChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@1f7769f","onRealTimeDeviceDataChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@a7c23ec","onResultDeviceData":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@e5563b5","onDeviceAction":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@1baca4a","onSetDeviceFunctionResponse":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@566ddbb","onFirstResultData":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@dfd92d8"}
+result => {}
+===========================
+ 
+[22:55:21:086] : methodName => onWifiDataListener
+args => {"onScanWifiChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@69b9a97","onWifiConfigStatusChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@1250484"}
+result => {}
+===========================
+ 
+[22:55:21:087] : methodName => registerPageLifeCycleEvent
+args => {"onWillResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@9f54933"}
+result => {}
+===========================
+ 
+[22:55:21:088] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@1195cee"}
+result => {}
+===========================
+ 
+[22:55:21:090] : methodName => getStorage
+args => {"key":"current_userId"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[22:55:21:095] : methodName => emitEvent
+args => {"eventName":"END_LOADING","data":{"moduleName":"Login","pageName":"Home"}}
+===========================
+ 
+[22:55:21:096] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@f6732dd"}
+result => {}
+===========================
+ 
+[22:55:21:103] : methodName => setStorage
+args => {"key":"TouristMode","value":"false"}
+===========================
+ 

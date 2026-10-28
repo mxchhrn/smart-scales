@@ -1,0 +1,22 @@
+[22:55:20:107] : BaseApplication initLanguage: en 
+[22:55:20:111] : BaseApplication initDateFormat: MM/dd/yyyy 
+[22:55:20:316] : OverseaProviderManager Feelfit 不支持跳绳功能 
+[22:55:20:350] : EventBus重新注册 
+[22:55:20:365] : BaseApplication initLanguage: en 
+[22:55:20:366] : BaseApplication initDateFormat: MM/dd/yyyy 
+[22:55:20:417] : DataMigrationHelper 是否需要转储(公共部分): true 
+[22:55:20:430] : DataMigrationHelper 是否需要转储(游客部分):true, false, true 
+[22:55:20:454] : EventBus重新注册 
+[22:55:20:600] : EventBus重新注册 
+[22:55:20:636] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， errorCodeList.size = 1 
+[22:55:20:637] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， code = 3005 
+[22:55:20:638] : BaseApplication initLanguage: en 
+[22:55:20:638] : BaseApplication initDateFormat: MM/dd/yyyy 
+[22:55:20:639] : Level-I QN-BLE isBlueToothSwitchOn: true 
+[22:55:20:640] : Level-I QN-BLE has android.permission.BLUETOOTH_SCAN: false 
+[22:55:20:645] : Level-I QN-BLE hasBlePermission: false 
+[22:55:20:653] : Level-I QN-BLE isBlueToothSwitchOn: true 
+[22:55:20:654] : Level-I QN-BLE has android.permission.BLUETOOTH_SCAN: false 
+[22:55:20:655] : Level-I QN-BLE hasBlePermission: false 
+[22:55:20:656] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， errorCodeList.size = 1 
+[22:55:20:656] : Level-D QN-BLE QNBleCheckPlugin checkBleStatus，蓝牙状态检测结果， code = 3005 

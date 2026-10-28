@@ -1,0 +1,511 @@
+{
+  "devices": {},
+  "user": {
+    "database": {
+      "probe": [
+        {
+          "mac": "a4:7e:fa:19:7c:d2",
+          "secret": "6c0a2549da8c25f1",
+          "mfgid": "0017E050",
+          "softversion": 1181
+        }
+      ],
+      "measure": [
+        {
+          "id": 5,
+          "measuregroup": 5,
+          "x": 1759682643000.0,
+          "unit": -3,
+          "value": 10085.0,
+          "y": 10.084999999999999,
+          "user": 44318842
+        },
+        {
+          "id": 8,
+          "x": 1754839254000.0,
+          "unit": -3,
+          "value": 82000.0,
+          "y": 82.0,
+          "user": 44318843
+        },
+        {
+          "id": 9,
+          "measuregroup": 2,
+          "x": 1754839254000.0,
+          "unit": -2,
+          "value": 188.0,
+          "type": 4,
+          "y": 1.8800000000000001,
+          "user": 44318843
+        },
+        {
+          "id": 11,
+          "measuregroup": 4,
+          "x": 1759682717000.0,
+          "unit": -3,
+          "value": 82333.0,
+          "y": 82.333,
+          "user": 44318843
+        },
+        {
+          "id": 16,
+          "measuregroup": 3,
+          "x": 1759682643000.0,
+          "unit": -3,
+          "value": 10085.0,
+          "y": 10.084999999999999,
+          "user": 44318842
+        },
+        {
+          "id": 18,
+          "measuregroup": 6,
+          "x": 1759682865000.0,
+          "unit": -3,
+          "value": 82217.0,
+          "y": 82.21700000000001,
+          "user": 44318843
+        },
+        {
+          "id": 20,
+          "measuregroup": 9,
+          "x": 67000.0,
+          "unit": -3,
+          "value": 82477.0,
+          "y": 82.477,
+          "user": 44318843
+        },
+        {
+          "id": 22,
+          "measuregroup": 7,
+          "x": 1759683177000.0,
+          "unit": -3,
+          "value": 92485.0,
+          "y": 92.485,
+          "user": 44318842
+        },
+        {
+          "id": 23,
+          "measuregroup": 8,
+          "x": 18000.0,
+          "unit": -3,
+          "value": 10068.0,
+          "y": 10.068,
+          "user": 44318842
+        },
+        {
+          "id": 24,
+          "measuregroup": 10,
+          "x": 144000.0,
+          "unit": -3,
+          "value": 92578.0,
+          "y": 92.578,
+          "user": 44318842
+        },
+        {
+          "id": 25,
+          "measuregroup": 12,
+          "x": 1759857062000.0,
+          "unit": -3,
+          "value": 10067.0,
+          "y": 10.067,
+          "user": 44318842
+        },
+        {
+          "id": 27,
+          "measuregroup": 11,
+          "x": 1759857102000.0,
+          "unit": -3,
+          "value": 82421.0,
+          "y": 82.421,
+          "user": 44318843
+        },
+        {
+          "id": 29,
+          "measuregroup": 14,
+          "x": 1761226776000.0,
+          "unit": -3,
+          "value": 82297.0,
+          "y": 82.297,
+          "user": 44318843
+        },
+        {
+          "id": 31,
+          "measuregroup": 13,
+          "x": 1759857155000.0,
+          "unit": -3,
+          "value": 92634.0,
+          "y": 92.63399999999999,
+          "user": 44318842
+        },
+        {
+          "id": 32,
+          "measuregroup": 16,
+          "x": 1761226726000.0,
+          "unit": -3,
+          "value": 10089.0,
+          "y": 10.089,
+          "user": 44318842
+        },
+        {
+          "id": 38,
+          "measuregroup": 17,
+          "x": 1761226883000.0,
+          "unit": -3,
+          "value": 92479.0,
+          "y": 92.479,
+          "user": 44318842
+        },
+        {
+          "id": 40,
+          "measuregroup": 15,
+          "x": 1761226819000.0,
+          "unit": -3,
+          "value": 82325.0,
+          "y": 82.325,
+          "user": 44318843
+        },
+        {
+          "id": 42,
+          "measuregroup": 23,
+          "x": 1761312320000.0,
+          "unit": -3,
+          "value": 83130.0,
+          "y": 83.13,
+          "user": 44318843
+        },
+        {
+          "id": 44,
+          "measuregroup": 22,
+          "x": 1761312208000.0,
+          "unit": -3,
+          "value": 10027.0,
+          "y": 10.027000000000001,
+          "user": 44318842
+        },
+        {
+          "id": 46,
+          "measuregroup": 18,
+          "x": 1761312058000.0,
+          "unit": -3,
+          "value": 10000.0,
+          "y": 10.0,
+          "user": 45144270
+        },
+        {
+          "id": 47,
+          "measuregroup": 19,
+          "x": 1761312058000.0,
+          "unit": -2,
+          "value": 100.0,
+          "type": 4,
+          "user": 45144270
+        },
+        {
+          "id": 48,
+          "measuregroup": 24,
+          "x": 1761312377000.0,
+          "unit": -3,
+          "value": 83113.0,
+          "y": 83.11299999999999,
+          "user": 44318843
+        },
+        {
+          "id": 51,
+          "measuregroup": 26,
+          "x": 1761312653000.0,
+          "unit": -3,
+          "value": 10079.0,
+          "y": 10.078999999999999,
+          "user": 45144270
+        },
+        {
+          "id": 53,
+          "measuregroup": 25,
+          "x": 1761312557000.0,
+          "unit": -3,
+          "value": 93256.0,
+          "y": 93.256,
+          "user": 44318842
+        },
+        {
+          "id": 54,
+          "measuregroup": 29,
+          "x": 1761312889000.0,
+          "unit": -3,
+          "value": 93167.0,
+          "y": 93.167,
+          "user": 44318842
+        },
+        {
+          "id": 55,
+          "measuregroup": 28,
+          "x": 1761312774000.0,
+          "unit": -3,
+          "value": 10075.0,
+          "y": 10.075,
+          "user": 45144270
+        },
+        {
+          "id": 57,
+          "measuregroup": 27,
+          "x": 1761312703000.0,
+          "unit": -3,
+          "value": 83140.0,
+          "y": 83.14,
+          "user": 44318843
+        },
+        {
+          "id": 59,
+          "measuregroup": 31,
+          "x": 1761400454000.0,
+          "unit": -3,
+          "value": 81888.0,
+          "y": 81.888,
+          "user": 44318843
+        },
+        {
+          "id": 61,
+          "measuregroup": 30,
+          "x": 1761312855000.0,
+          "unit": -3,
+          "value": 10089.0,
+          "y": 10.089,
+          "user": 45144270
+        },
+        {
+          "id": 63,
+          "measuregroup": 33,
+          "x": 1761400377000.0,
+          "unit": -3,
+          "value": 10068.0,
+          "y": 10.068,
+          "user": 45144270
+        },
+        {
+          "id": 65,
+          "measuregroup": 20,
+          "x": 1761312173000.0,
+          "unit": -3,
+          "value": 90000.0,
+          "y": 90.0,
+          "user": 45144278
+        },
+        {
+          "id": 66,
+          "measuregroup": 21,
+          "x": 1761312173000.0,
+          "unit": -2,
+          "value": 160.0,
+          "type": 4,
+          "y": 1.6,
+          "user": 45144278
+        },
+        {
+          "id": 68,
+          "measuregroup": 32,
+          "x": 1761400516000.0,
+          "unit": -3,
+          "value": 81927.0,
+          "y": 81.927,
+          "user": 44318843
+        },
+        {
+          "id": 70,
+          "measuregroup": 36,
+          "x": 1761489214000.0,
+          "unit": -3,
+          "value": 82226.0,
+          "y": 82.226,
+          "user": 44318843
+        },
+        {
+          "id": 72,
+          "measuregroup": 35,
+          "x": 1761400697000.0,
+          "unit": -3,
+          "value": 92022.0,
+          "y": 92.022,
+          "user": 45144278
+        },
+        {
+          "id": 74,
+          "measuregroup": 34,
+          "x": 1761400610000.0,
+          "unit": -3,
+          "value": 10075.0,
+          "y": 10.075,
+          "user": 45144270
+        },
+        {
+          "id": 76,
+          "measuregroup": 37,
+          "x": 1761489263000.0,
+          "unit": -3,
+          "value": 82170.0,
+          "y": 82.17,
+          "user": 44318843
+        },
+        {
+          "id": 78,
+          "measuregroup": 40,
+          "x": 1762104331000.0,
+          "unit": -3,
+          "value": 83510.0,
+          "y": 83.51,
+          "user": 44318843
+        },
+        {
+          "id": 79,
+          "measuregroup": 41,
+          "x": 1762104402000.0,
+          "unit": -3,
+          "value": 83428.0,
+          "y": 83.428,
+          "user": 44318843
+        },
+        {
+          "id": 80,
+          "measuregroup": 38,
+          "x": 1761489331000.0,
+          "unit": -3,
+          "value": 92373.0,
+          "y": 92.37299999999999,
+          "user": 45144278
+        },
+        {
+          "id": 81,
+          "measuregroup": 42,
+          "x": 1762104446000.0,
+          "unit": -3,
+          "value": 93612.0,
+          "y": 93.61200000000001,
+          "user": 45144278
+        },
+        {
+          "id": 82,
+          "measuregroup": 39,
+          "x": 1761489137000.0,
+          "unit": -3,
+          "value": 10062.0,
+          "y": 10.062000000000001,
+          "user": 45144270
+        },
+        {
+          "id": 83,
+          "measuregroup": 43,
+          "x": 1762104252000.0,
+          "unit": -3,
+          "value": 10067.0,
+          "y": 10.067,
+          "user": 45144270
+        }
+      ],
+      "users": [
+        {
+          "id": 44318842,
+          "firstname": "Repository-User",
+          "lastname": "Repository-User",
+          "shortname": "REP",
+          "birthdate": -2147558400000,
+          "p4": "{\"32x32\":null,\"64x64\":null,\"128x128\":null,\"256x256\":null}",
+          "creationdate": 1754839251000,
+          "modifieddate": 1754839251000,
+          "type": 3
+        },
+        {
+          "id": 44318843,
+          "firstname": "[redacted]",
+          "lastname": "M",
+          "shortname": "[redacted]",
+          "birthdate": 790646400000,
+          "fatmethod": 3,
+          "email": "[redacted]",
+          "p4": "{\"32x32\":null,\"64x64\":null,\"128x128\":null,\"256x256\":null}",
+          "creationdate": 1754839254000,
+          "modifieddate": 1755451479000
+        },
+        {
+          "id": 45144270,
+          "firstname": "Softi",
+          "lastname": "M",
+          "shortname": "SOF",
+          "birthdate": 1704067200000,
+          "fatmethod": 3,
+          "p4": "{\"32x32\":null,\"64x64\":null,\"128x128\":null,\"256x256\":null}",
+          "creationdate": 1761312058000,
+          "modifieddate": 1761312191000
+        },
+        {
+          "id": 45144278,
+          "firstname": "Testi",
+          "lastname": "M",
+          "shortname": "TES",
+          "birthdate": 1577836800000,
+          "fatmethod": 3,
+          "p4": "{\"32x32\":null,\"64x64\":null,\"128x128\":null,\"256x256\":null}",
+          "creationdate": 1761312173000,
+          "modifieddate": 1761312191000
+        }
+      ],
+      "devices": [
+        {
+          "id": 14321498,
+          "associationDate": 1759682303000,
+          "lastUseDate": 1762104475000,
+          "modifiedDate": 1762104477000,
+          "macAddress": "a4:7e:fa:19:7c:d2",
+          "firmware": 1181,
+          "preferredLanguage": "de_DE",
+          "latitude": "[redacted]",
+          "longitude": "[redacted]",
+          "timezone": "Europe/Berlin",
+          "manualGeoloc": "t",
+          "battery": 99,
+          "model": 7,
+          "color": "white",
+          "klSecret": "3fDsgpdSgGzamb1R2emYGsJ5R3jymZBo",
+          "network": 2,
+          "advertiseKey": "flFJRKKceYrs5Wz1swGK2dCSG0CMu9eK",
+          "pictures": "{\"pictures\":{\"1\":\"p4/product/d449b25b8df4400b649cf69e0ed4900ad8e8f8f9-0000000000000000000000000000000000000000-1_1400x1400\",\"2\":\"p4/product/5fbdc8ab88676c89b2762cdda82d60d30a615164-0000000000000000000000000000000000000000-2_1400x1400\",\"4\":\"p4/product/88197b09866a12813af0460c3abd113989862c6d-0000000000000000000000000000000000000000-4_1400x1400\"}}",
+          "maxScreenCount": 16
+        }
+      ]
+    },
+    "account_encrypted_email": "hgBehiD5fTyjb9Q17YuSVzLCanODDHuEpeBu/9tAfqp3Iw+2KmzkjgzElXBnwQCOK4XZ\n    ",
+    "account_encrypted_authProviderToken": "VVux76Md6eV4y6uobMJiJM2+w7GpEHneh0vP5lPDjG4u7X6twsxaX89b3uo\n    ",
+    "account_accountType": "main",
+    "account_uuid": "[redacted]",
+    "account_virtualDeviceToken": "[redacted]",
+    "account_authProviderName": "google",
+    "account_encrypted_authToken": "BGHdaY+TJLDP8aLuGChmWzZZOiUbnxy2y4GMpoLaHOdhBAqUhKSY9sfGfqfH4bMs\n    ",
+    "email": "[redacted]",
+    "name": "[redacted]",
+    "traits_anonymousId": "[redacted]",
+    "traits_account_id": "19167753",
+    "traits_enable_native_notification": false,
+    "traits_userId": "44318843",
+    "traits_id": "44318843",
+    "mainUserId": "44318843"
+  },
+  "wi-fi": {},
+  "cloud": {
+    "accountId": 19167753,
+    "sessionId": "[redacted]",
+    "providerToken": "[redacted]",
+    "authToken": "[redacted]",
+    "isSecured": 0,
+    "requireSecure": 0,
+    "expirationTimestamp": 1762105052275,
+    "providerType": "google",
+    "serverUrl": "https://scalews.withings.net/cgi-bin",
+    "inappviewUrl": "https://inappviews.withings.com",
+    "maintUrl": "https://maintws.withings.net/cgi-bin",
+    "accountUrl": "https://account.withings.com",
+    "cookieDomain": ".withings.com",
+    "cookieName": "session_key",
+    "sessionType": "main"
+  },
+  "locale": {
+    "lang": "de_DE"
+  }
+}

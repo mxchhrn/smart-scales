@@ -1,0 +1,1564 @@
+[14:34:59:257] : methodName => getActivePageURL
+args => {}
+result => {"url":"http:\/\/127.0.0.1:7200\/h5\/oversea-common\/index.html?moduleName=Health&pageName=Home&user_id=4000853680122284364"}
+===========================
+ 
+[14:34:59:260] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@fea2cc6","onWillPause":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@77d9487"}
+result => {}
+===========================
+ 
+[14:34:59:261] : methodName => addListener
+args => {"eventName":"settingEventName","fn":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@1cc4f52"}
+===========================
+ 
+[14:34:59:281] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/set\/getLatestSettings","method":"GET","params":{}}
+result => {"code":20000,"data":{"date_format":"DD/MM/YYYY","lang":"de","weightUnit":"1","heightUnit":"0","capacityUnit":"1","heatUnit":"2","temperatureUnit":"0","time_display_rule":1,"follow_system_dateformat_key":0,"decimalSymbol":"."}}
+===========================
+ 
+[14:34:59:285] : methodName => setStatusBarTheme
+args => {"theme":"dark"}
+===========================
+ 
+[14:34:59:287] : methodName => emitEvent
+args => {"eventName":"START_LOADING","data":{"moduleName":"Health","pageName":"Home"}}
+===========================
+ 
+[14:34:59:290] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/user\/info","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"account_name":"Chris","accuracy_flag":0,"age":30,"area_method":5,"avatar":"","birthday":"1995-01-21","capacity_unit":1,"country":"DE","created_at":1752410053,"eight_to_four_algorithm_flag":0,"email":"[redacted]","estimated_date_of_delivery":"","fitbit_flag":0,"gender":1,"heat_unit":0,"height":188.0,"height_unit":0,"is_upload_samsung_health":0,"is_upload_user_settings":0,"last_view_at":0,"locale":"de","member_version_flag":0,"migrate_flag":1,"multi_device_mode_flag":1,"multi_device_register_flag":1,"person_body_shape":0,"person_goal":0,"person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"primary_user_id":"4000853680122284364","register_area_code":"DE","time_stamp":1762610861,"user_id":"4000853680122284364","user_settings":{},"user_type":0,"weighing_mode":0,"weight":83.35,"weight_unit":1}}
+===========================
+ 
+[14:34:59:440] : methodName => getStorage
+args => {"key":"current_theme_color"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:34:59:711] : methodName => onDeviceStatusListener
+args => {"onDeviceStatusChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@4d19b2"}
+===========================
+ 
+[14:34:59:712] : methodName => onDevicePowerListener
+args => {"onDevicePowerChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@e35c65f"}
+===========================
+ 
+[14:34:59:716] : methodName => onDeviceDataListener
+args => {"onScanDeviceChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@adc2257","onRealTimeDeviceDataChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@87b5144","onResultDeviceData":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@ddc822d","onDeviceAction":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@25b5362","onSetDeviceFunctionResponse":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@4168cf3","onFirstResultData":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@37e3db0"}
+result => {}
+===========================
+ 
+[14:34:59:717] : methodName => onWifiDataListener
+args => {"onScanWifiChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@d1f43ae","onWifiConfigStatusChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@383054f"}
+result => {}
+===========================
+ 
+[14:34:59:718] : methodName => registerPageLifeCycleEvent
+args => {"onWillResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@394a76b"}
+result => {}
+===========================
+ 
+[14:34:59:720] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@9501a86"}
+result => {}
+===========================
+ 
+[14:34:59:721] : methodName => getStorage
+args => {"key":"current_userId"}
+result => {"value":"4000853680122284364","error_code":0}
+===========================
+ 
+[14:34:59:724] : methodName => onBleEnvListener
+args => {"onBleEnvMissingItemsChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@ad5e03f"}
+result => {}
+===========================
+ 
+[14:34:59:727] : methodName => getBleEnvMissingItems
+args => {}
+===========================
+ 
+[14:34:59:728] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@e9a3136","onPause":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@8699837"}
+result => {}
+===========================
+ 
+[14:34:59:729] : methodName => getStorage
+args => {"key":"globalSyncSetting"}
+result => {"value":"{\"index_extension\":-1,\"friends_view_data_flag\":1}","error_code":0}
+===========================
+ 
+[14:34:59:730] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@daf53e6"}
+result => {}
+===========================
+ 
+[14:34:59:734] : methodName => registerPageLifeCycleEvent
+args => {"onWillPause":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@50cc872"}
+result => {}
+===========================
+ 
+[14:34:59:734] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@2d2e140"}
+result => {}
+===========================
+ 
+[14:34:59:738] : methodName => getStorage
+args => {"key":"guide_parameter"}
+result => {"value":"16","error_code":0}
+===========================
+ 
+[14:34:59:739] : methodName => getStorage
+args => {"key":"firstBindTime"}
+result => {"value":"1753388558","error_code":0}
+===========================
+ 
+[14:34:59:740] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@8277e17","onWillPause":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@e05e204"}
+result => {}
+===========================
+ 
+[14:34:59:747] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/bind_device\/list","method":"GET","params":{}}
+result => {"code":0,"data":{"scale":[],"ruler":[],"rope":[],"gun":[],"blood":[],"kitchen":[],"height_weight_scale":[],"neck_massager":[],"waist_massager":[]}}
+===========================
+ 
+[14:34:59:749] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@5356d9c"}
+result => {}
+===========================
+ 
+[14:34:59:750] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@1cd63a5"}
+result => {}
+===========================
+ 
+[14:34:59:751] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/bind_device\/list","method":"GET","params":{}}
+result => {"code":0,"data":{"scale":[],"ruler":[],"rope":[],"gun":[],"blood":[],"kitchen":[],"height_weight_scale":[],"neck_massager":[],"waist_massager":[]}}
+===========================
+ 
+[14:34:59:753] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@387ffa0","onWillPause":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@68ac759"}
+result => {}
+===========================
+ 
+[14:34:59:754] : methodName => onKitchenScaleDataListener
+args => {"isOversea":"1","onGetScaleData":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@7fd75cc"}
+result => {"error_code":0}
+===========================
+ 
+[14:34:59:755] : methodName => registerPageLifeCycleEvent
+args => {"isOversea":"1","onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@456411b"}
+===========================
+ 
+[14:34:59:762] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/micro\/v1\/kitchen\/get_goal","method":"GET","params":{"user_id":"4000853680122284364","start_date":1762815600,"end_date":1762901999}}
+result => {"code":20000,"data":{"has_goal":0,"goal_data":{"current_weight":0.0,"custom_calorie_flag":0,"exercise_state":0,"set_goal_date":"","shape_goal":0,"status":0,"target_carbohydrate":0.0,"target_energy":0.0,"target_fat":0.0,"target_protein":0.0,"user_id":"4000853680122284364"}},"err_message":""}
+===========================
+ 
+[14:34:59:765] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@7199885"}
+result => {}
+===========================
+ 
+[14:34:59:766] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@10fa9e8"}
+result => {}
+===========================
+ 
+[14:34:59:861] : methodName => emitEvent
+args => {"eventName":"END_LOADING","data":{"moduleName":"Health","pageName":"Home"}}
+===========================
+ 
+[14:34:59:862] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@8a2bb7c"}
+result => {}
+===========================
+ 
+[14:34:59:863] : methodName => getSystemAuthStatus
+args => {"type":"album"}
+===========================
+ 
+[14:34:59:865] : methodName => getSystemAuthStatus
+args => {"type":"camera"}
+===========================
+ 
+[14:34:59:866] : methodName => getSystemAuthStatus
+args => {"type":"location_permission"}
+===========================
+ 
+[14:34:59:868] : methodName => getSystemAuthStatus
+args => {"type":"bluetooth"}
+===========================
+ 
+[14:34:59:891] : methodName => getSystemAuthStatus
+args => {"type":"notification_permission"}
+===========================
+ 
+[14:34:59:891] : methodName => getSystemAuthStatus
+args => {"type":"alarm"}
+===========================
+ 
+[14:34:59:892] : methodName => getSystemAuthStatus
+args => {"type":"notification_permission"}
+===========================
+ 
+[14:34:59:892] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@2d41157"}
+result => {}
+===========================
+ 
+[14:34:59:894] : methodName => registerAppLifeCycleEvent
+args => {"onEnterForeground":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@51e6bf3"}
+result => {}
+===========================
+ 
+[14:34:59:895] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@3ca30b0"}
+result => {}
+===========================
+ 
+[14:34:59:942] : methodName => getStorage
+args => {"key":"localRecordIsShowRedDotHomedics"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:34:59:969] : methodName => getStorage
+args => {"key":"localNotShowRedDotHomedics"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:34:59:973] : methodName => getStorage
+args => {"key":"localAlarmDotAlreadyShown"}
+result => {"value":"1","error_code":0}
+===========================
+ 
+[14:34:59:975] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@ccaaed"}
+result => {}
+===========================
+ 
+[14:34:59:975] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@af80d70"}
+result => {}
+===========================
+ 
+[14:34:59:976] : methodName => registerAppLifeCycleEvent
+args => {"onEnterForeground":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@1f3e80f"}
+result => {}
+===========================
+ 
+[14:34:59:980] : methodName => getStorage
+args => {"key":"loginDidHotFixFlag"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:34:59:981] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@ba1b2a0"}
+result => {}
+===========================
+ 
+[14:34:59:983] : methodName => addListener
+args => {"eventName":"maskPageHiddenEventdata_statistics","fn":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@dfc01b"}
+===========================
+ 
+[14:34:59:984] : methodName => addListener
+args => {"eventName":"maskPageHiddenEventfull_screen_prompt","fn":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@3042f7"}
+===========================
+ 
+[14:34:59:985] : methodName => getStorage
+args => {"key":"HealthConnectTipKey"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:34:59:986] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@5e699ef"}
+result => {}
+===========================
+ 
+[14:34:59:987] : methodName => getStorage
+args => {"key":"last_open_card"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:34:59:989] : methodName => setStatusBarTheme
+args => {"theme":"light"}
+===========================
+ 
+[14:34:59:991] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@cec9a3d"}
+result => {}
+===========================
+ 
+[14:34:59:993] : methodName => registerPageLifeCycleEvent
+args => {"onPause":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@60d9d39"}
+result => {}
+===========================
+ 
+[14:34:59:994] : methodName => registerPageLifeCycleEvent
+args => {"onWillResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@ba1d3f5"}
+result => {}
+===========================
+ 
+[14:34:59:995] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@6b7f018"}
+result => {}
+===========================
+ 
+[14:34:59:996] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@71a88d7"}
+result => {}
+===========================
+ 
+[14:34:59:997] : methodName => getStorage
+args => {"key":"remind_not_show_guide","userId":"4000853680122284364"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:34:59:998] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@f57bbcf"}
+result => {}
+===========================
+ 
+[14:34:59:999] : methodName => getSystemAuthStatus
+args => {"type":"camera"}
+===========================
+ 
+[14:35:00:000] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@4938f48"}
+result => {}
+===========================
+ 
+[14:35:00:001] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@6b955c7"}
+result => {}
+===========================
+ 
+[14:35:00:003] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@536f192"}
+result => {}
+===========================
+ 
+[14:35:00:007] : methodName => getStorage
+args => {"isOversea":"1","key":"STORAGE_TMP_FOOD_LIST"}
+result => {"value":""}
+===========================
+ 
+[14:35:00:008] : methodName => registerPageLifeCycleEvent
+args => {"isOversea":"1","onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@1e07fdb"}
+===========================
+ 
+[14:35:00:009] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@69261b6","onPause":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@edd3eb7"}
+result => {}
+===========================
+ 
+[14:35:00:010] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@2dae342","onPause":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@f7d0f53"}
+result => {}
+===========================
+ 
+[14:35:00:012] : methodName => nativeScreenBrightHolder
+args => {"support":0}
+result => {}
+===========================
+ 
+[14:35:00:059] : methodName => getStorage
+args => {"key":"remind_not_show_guide","userId":"4000853680122284364"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:00:085] : methodName => getStorage
+args => {"key":"hadCloseDialog"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:00:090] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/user\/info","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"account_name":"Chris","accuracy_flag":0,"age":30,"area_method":5,"avatar":"","birthday":"1995-01-21","capacity_unit":1,"country":"DE","created_at":1752410053,"eight_to_four_algorithm_flag":0,"email":"[redacted]","estimated_date_of_delivery":"","fitbit_flag":0,"gender":1,"heat_unit":0,"height":188.0,"height_unit":0,"is_upload_samsung_health":0,"is_upload_user_settings":0,"last_view_at":0,"locale":"de","member_version_flag":0,"migrate_flag":1,"multi_device_mode_flag":1,"multi_device_register_flag":1,"person_body_shape":0,"person_goal":0,"person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"primary_user_id":"4000853680122284364","register_area_code":"DE","time_stamp":1762610861,"user_id":"4000853680122284364","user_settings":{},"user_type":0,"weighing_mode":0,"weight":83.35,"weight_unit":1}}
+===========================
+ 
+[14:35:00:095] : methodName => sendHttpReq
+args => {"path":"\/api\/v4\/user_settings\/show_common_setting","method":"GET","params":{},"cancelRequestInTourist":0,"isShowErr":0,"isUpgrade":0}
+===========================
+ 
+[14:35:00:107] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/user\/info","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"account_name":"Chris","accuracy_flag":0,"age":30,"area_method":5,"avatar":"","birthday":"1995-01-21","capacity_unit":1,"country":"DE","created_at":1752410053,"eight_to_four_algorithm_flag":0,"email":"[redacted]","estimated_date_of_delivery":"","fitbit_flag":0,"gender":1,"heat_unit":0,"height":188.0,"height_unit":0,"is_upload_samsung_health":0,"is_upload_user_settings":0,"last_view_at":0,"locale":"de","member_version_flag":0,"migrate_flag":1,"multi_device_mode_flag":1,"multi_device_register_flag":1,"person_body_shape":0,"person_goal":0,"person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"primary_user_id":"4000853680122284364","register_area_code":"DE","time_stamp":1762610861,"user_id":"4000853680122284364","user_settings":{},"user_type":0,"weighing_mode":0,"weight":83.35,"weight_unit":1}}
+===========================
+ 
+[14:35:00:287] : methodName => getStorage
+args => {"key":"last_release_at_for_check_new_version"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:00:290] : methodName => getActivePageURL
+args => {}
+result => {"url":"http:\/\/127.0.0.1:7200\/h5\/oversea-common\/index.html?moduleName=Health&pageName=Home&user_id=4000853680122284364"}
+===========================
+ 
+[14:35:00:290] : methodName => getStorage
+args => {"key":"current_userId"}
+result => {"value":"4000853680122284364","error_code":0}
+===========================
+ 
+[14:35:00:294] : methodName => getBleEnvMissingItems
+args => {}
+===========================
+ 
+[14:35:00:295] : methodName => getStorage
+args => {"key":"globalSyncSetting"}
+result => {"value":"{\"index_extension\":-1,\"friends_view_data_flag\":1}","error_code":0}
+===========================
+ 
+[14:35:00:296] : methodName => getStorage
+args => {"key":"firstBindTime"}
+result => {"value":"1753388558","error_code":0}
+===========================
+ 
+[14:35:00:296] : methodName => getSystemAuthStatus
+args => {"type":"album"}
+===========================
+ 
+[14:35:00:297] : methodName => getSystemAuthStatus
+args => {"type":"camera"}
+===========================
+ 
+[14:35:00:299] : methodName => getSystemAuthStatus
+args => {"type":"location_permission"}
+===========================
+ 
+[14:35:00:300] : methodName => getSystemAuthStatus
+args => {"type":"bluetooth"}
+===========================
+ 
+[14:35:00:301] : methodName => getSystemAuthStatus
+args => {"type":"notification_permission"}
+===========================
+ 
+[14:35:00:302] : methodName => getSystemAuthStatus
+args => {"type":"alarm"}
+===========================
+ 
+[14:35:00:303] : methodName => getSystemAuthStatus
+args => {"type":"notification_permission"}
+===========================
+ 
+[14:35:00:304] : methodName => getStorage
+args => {"key":"localAlarmDotAlreadyShown"}
+result => {"value":"1","error_code":0}
+===========================
+ 
+[14:35:00:306] : methodName => getStorage
+args => {"key":"localRecordIsShowRedDotHomedics"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:00:308] : methodName => getStorage
+args => {"key":"localNotShowRedDotHomedics"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:00:309] : methodName => getStorage
+args => {"key":"last_release_at_for_check_new_version"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:00:311] : methodName => onKitchenScaleDataListener
+args => {"isOversea":"1","onGetScaleData":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@4e16ca6"}
+result => {"error_code":0}
+===========================
+ 
+[14:35:00:337] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/remind\/list","method":"GET","params":{}}
+result => {"code":20000,"data":{"reminds":[]}}
+===========================
+ 
+[14:35:00:339] : methodName => sendHttpReq
+args => {"path":"\/api\/v4\/friend_requests\/check_friend_request","method":"GET","params":{},"cancelRequestInTourist":0,"isShowErr":0,"isUpgrade":0}
+===========================
+ 
+[14:35:00:344] : methodName => getStorage
+args => {"key":"remind_not_show_guide","userId":"4000853680122284364"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:00:350] : methodName => getStorage
+args => {"key":"hadCloseDialog"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:00:360] : methodName => sendHttpReq
+args => {"path":"\/api\/v4\/app_ratings\/check_app_ratings","method":"GET","params":{},"cancelRequestInTourist":0,"isShowErr":0,"isUpgrade":0}
+===========================
+ 
+[14:35:00:362] : methodName => switchTabBarDot
+args => {"key":"mine","status":0}
+===========================
+ 
+[14:35:00:376] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@48deddc"}
+result => {}
+===========================
+ 
+[14:35:00:726] : methodName => sendHttpReq
+args => {"method":"GET","path":"\/api\/v4\/unknown_datas\/check_new_unknown_data","params":{"unknown_data_types":"1,2"}}
+===========================
+ 
+[14:35:00:737] : methodName => setStorage
+args => {"key":"globalSyncSetting","value":"{\"index_extension\":-1,\"friends_view_data_flag\":1}","isLogoutClean":1}
+===========================
+ 
+[14:35:00:956] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/girth\/get_range_data","method":"GET","params":{"user_id":"4000853680122284364","start_date":0,"end_date":1762868099,"order":"asc"}}
+result => {"code":20000,"data":{"girth_ary":[]}}
+===========================
+ 
+[14:35:00:973] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/user\/info","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"account_name":"Chris","accuracy_flag":0,"age":30,"area_method":5,"avatar":"","birthday":"1995-01-21","capacity_unit":1,"country":"DE","created_at":1752410053,"eight_to_four_algorithm_flag":0,"email":"[redacted]","estimated_date_of_delivery":"","fitbit_flag":0,"gender":1,"heat_unit":0,"height":188.0,"height_unit":0,"is_upload_samsung_health":0,"is_upload_user_settings":0,"last_view_at":0,"locale":"de","member_version_flag":0,"migrate_flag":1,"multi_device_mode_flag":1,"multi_device_register_flag":1,"person_body_shape":0,"person_goal":0,"person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"primary_user_id":"4000853680122284364","register_area_code":"DE","time_stamp":1762610861,"user_id":"4000853680122284364","user_settings":{},"user_type":0,"weighing_mode":0,"weight":83.35,"weight_unit":1}}
+===========================
+ 
+[14:35:01:008] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/measure\/detail","method":"GET","params":{"is_last":1,"user_id":"4000853680122284364"}}
+result => {"code":0,"data":{"accuracy_flag":0,"actual_resistance":577,"actual_sec_resistance":515,"birthday":"1995-01-21","bmi":23.6,"bmr":1879.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":0.0,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":16.2,"bone":3.5,"bone_ratio":0.0,"cardiac_index":0.0,"custom_scenario":[],"device_user_info":"","fat_free_weight":69.9,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4158650741180858704","measure_mode_flags":0,"method":5,"muscle":54.2,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.1,"protein_mass":0.0,"remark":"","resistance":577,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.2,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":515,"sinew":66.4,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":0.0,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.3,"system_scenario":[],"time_stamp":1762610861,"user_id":"4000853680122284364","visfat":6,"water":60.5,"body_water_mass":0.0,"weight":83.35,"sinew_ratio":0.0,"subfat_mass":1191.905,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0}}
+===========================
+ 
+[14:35:01:052] : methodName => getStorage
+args => {"key":"homeAllowShowWeightGoalFinishMaskPageFlag","userId":"4000853680122284364"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:01:058] : methodName => getStorage
+args => {"key":"homeAllowShowBodyFatGoalFinishMaskPageFlag","userId":"4000853680122284364"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:01:060] : methodName => getStorage
+args => {"key":"app_launch_status"}
+result => {"value":"1","error_code":0}
+===========================
+ 
+[14:35:01:125] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/measure\/data_list","method":"GET","params":{"user_id":"4000853680122284364","limit":7,"order":"desc","is_valid":0}}
+result => {"code":0,"data":{"parameter":"68719509502","list":[{"accuracy_flag":0,"actual_resistance":577,"actual_sec_resistance":515,"birthday":"1995-01-21","bmi":23.6,"bmr":1879.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.502699999999997,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":16.2,"bone":3.5,"bone_ratio":4.199160167966407,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":69.9,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4158650741180858704","measure_mode_flags":0,"method":5,"muscle":54.2,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.1,"protein_mass":15.919849999999999,"remark":"","resistance":577,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.2,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":515,"sinew":66.4,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":79.6640671865627,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.3,"system_scenario":[],"time_stamp":1762610861,"user_id":"4000853680122284364","visfat":6,"water":60.5,"body_water_mass":50.42674999999999,"weight":83.35,"sinew_ratio":79.6640671865627,"subfat_mass":1191.905,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":347,"actual_sec_resistance":384,"birthday":"1995-01-21","bmi":23.6,"bmr":1890.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.0182,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":15.6,"bone":3.5,"bone_ratio":4.1941282204913115,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":70.4,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4158650740157448358","measure_mode_flags":0,"method":5,"muscle":54.5,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.2,"protein_mass":16.0224,"remark":"","resistance":347,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":91.6,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":384,"sinew":66.9,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":80.16776512881965,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":13.8,"system_scenario":[],"time_stamp":1762610788,"user_id":"4000853680122284364","visfat":6,"water":60.9,"body_water_mass":50.82105000000001,"weight":83.45,"sinew_ratio":80.16776512881965,"subfat_mass":1151.6100000000001,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":562,"actual_sec_resistance":501,"birthday":"1995-01-21","bmi":23.6,"bmr":1879.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.41935,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":16.1,"bone":3.5,"bone_ratio":4.199160167966407,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":69.9,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4157137855677726779","measure_mode_flags":0,"method":5,"muscle":54.2,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.1,"protein_mass":15.919849999999999,"remark":"","resistance":562,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.2,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":501,"sinew":66.4,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":79.6640671865627,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.3,"system_scenario":[],"time_stamp":1762520681,"user_id":"4000853680122284364","visfat":6,"water":60.5,"body_water_mass":50.42674999999999,"weight":83.35,"sinew_ratio":79.6640671865627,"subfat_mass":1191.905,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":490,"actual_sec_resistance":485,"birthday":"1995-01-21","bmi":23.6,"bmr":1881.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.335999999999999,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":16.0,"bone":3.5,"bone_ratio":4.199160167966407,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":70.0,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4157137854016782505","measure_mode_flags":0,"method":5,"muscle":54.3,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.1,"protein_mass":15.919849999999999,"remark":"","resistance":490,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.3,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":485,"sinew":66.5,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":79.78404319136173,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.1,"system_scenario":[],"time_stamp":1762520614,"user_id":"4000853680122284364","visfat":6,"water":60.6,"body_water_mass":50.5101,"weight":83.35,"sinew_ratio":79.78404319136173,"subfat_mass":1175.235,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":567,"actual_sec_resistance":502,"birthday":"1995-01-21","bmi":23.3,"bmr":1869.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":12.9368,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":26,"bodyfat":15.7,"bone":3.5,"bone_ratio":4.24757281553398,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":69.4,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4153035420457762995","measure_mode_flags":0,"method":5,"muscle":54.4,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.2,"protein_mass":15.820800000000002,"remark":"","resistance":567,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.9,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":502,"sinew":66.0,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":80.09708737864078,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":13.9,"system_scenario":[],"time_stamp":1762276137,"user_id":"4000853680122284364","visfat":6,"water":60.8,"body_water_mass":50.0992,"weight":82.4,"sinew_ratio":80.09708737864078,"subfat_mass":1145.3600000000001,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":0,"actual_sec_resistance":0,"birthday":"1995-01-21","bmi":23.2,"bmr":0.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":0.0,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":0,"bodyage":0,"bodyfat":0.0,"bone":0.0,"bone_ratio":0.0,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":0.0,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4153033678110327011","measure_mode_flags":0,"method":5,"muscle":0.0,"origin_resistances":"","parameter":"32766","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":0.0,"protein_mass":0.0,"remark":"","resistance":0,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":0.0,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":0,"sinew":0.0,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":0.0,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":0.0,"system_scenario":[],"time_stamp":1762276046,"user_id":"4000853680122284364","visfat":0,"water":0.0,"body_water_mass":0.0,"weight":82.35,"sinew_ratio":0.0,"subfat_mass":0.0,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":546,"actual_sec_resistance":490,"birthday":"1995-01-21","bmi":23.7,"bmr":1882.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.543199999999999,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":16.2,"bone":3.5,"bone_ratio":4.186602870813397,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":70.0,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4150175807811092717","measure_mode_flags":0,"method":5,"muscle":54.1,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.1,"protein_mass":15.9676,"remark":"","resistance":546,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":91.9,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":490,"sinew":66.5,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":79.54545454545455,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.3,"system_scenario":[],"time_stamp":1762105654,"user_id":"4000853680122284364","visfat":6,"water":60.5,"body_water_mass":50.577999999999996,"weight":83.6,"sinew_ratio":79.54545454545455,"subfat_mass":1195.48,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0}]}}
+===========================
+ 
+[14:35:01:132] : methodName => switchTabBarDot
+args => {"key":"mine","status":0}
+===========================
+ 
+[14:35:01:153] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/measure\/detail","method":"GET","params":{"is_last":0,"user_id":"4000853680122284364"}}
+result => {"code":0,"data":{"accuracy_flag":0,"actual_resistance":0,"actual_sec_resistance":0,"birthday":"1995-01-21","bmi":2.8,"bmr":0.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":0.0,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":0,"bodyage":0,"bodyfat":0.0,"bone":0.0,"bone_ratio":0.0,"cardiac_index":0.0,"custom_scenario":[],"device_user_info":"","fat_free_weight":0.0,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4000853820799189212","measure_mode_flags":0,"method":5,"muscle":0.0,"origin_resistances":"","parameter":"32766","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":0.0,"protein_mass":0.0,"remark":"","resistance":0,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":0.0,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":0,"sinew":0.0,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":0.0,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":0.0,"system_scenario":[],"time_stamp":1752411691,"user_id":"4000853680122284364","visfat":0,"water":0.0,"body_water_mass":0.0,"weight":10.15,"sinew_ratio":0.0,"subfat_mass":0.0,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0}}
+===========================
+ 
+[14:35:01:181] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/measure\/data_list","method":"GET","params":{"user_id":"4000853680122284364","limit":5,"order":"desc","is_valid":0}}
+result => {"code":0,"data":{"parameter":"68719509502","list":[{"accuracy_flag":0,"actual_resistance":577,"actual_sec_resistance":515,"birthday":"1995-01-21","bmi":23.6,"bmr":1879.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.502699999999997,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":16.2,"bone":3.5,"bone_ratio":4.199160167966407,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":69.9,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4158650741180858704","measure_mode_flags":0,"method":5,"muscle":54.2,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.1,"protein_mass":15.919849999999999,"remark":"","resistance":577,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.2,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":515,"sinew":66.4,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":79.6640671865627,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.3,"system_scenario":[],"time_stamp":1762610861,"user_id":"4000853680122284364","visfat":6,"water":60.5,"body_water_mass":50.42674999999999,"weight":83.35,"sinew_ratio":79.6640671865627,"subfat_mass":1191.905,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":347,"actual_sec_resistance":384,"birthday":"1995-01-21","bmi":23.6,"bmr":1890.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.0182,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":15.6,"bone":3.5,"bone_ratio":4.1941282204913115,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":70.4,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4158650740157448358","measure_mode_flags":0,"method":5,"muscle":54.5,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.2,"protein_mass":16.0224,"remark":"","resistance":347,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":91.6,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":384,"sinew":66.9,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":80.16776512881965,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":13.8,"system_scenario":[],"time_stamp":1762610788,"user_id":"4000853680122284364","visfat":6,"water":60.9,"body_water_mass":50.82105000000001,"weight":83.45,"sinew_ratio":80.16776512881965,"subfat_mass":1151.6100000000001,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":562,"actual_sec_resistance":501,"birthday":"1995-01-21","bmi":23.6,"bmr":1879.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.41935,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":16.1,"bone":3.5,"bone_ratio":4.199160167966407,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":69.9,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4157137855677726779","measure_mode_flags":0,"method":5,"muscle":54.2,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.1,"protein_mass":15.919849999999999,"remark":"","resistance":562,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.2,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":501,"sinew":66.4,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":79.6640671865627,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.3,"system_scenario":[],"time_stamp":1762520681,"user_id":"4000853680122284364","visfat":6,"water":60.5,"body_water_mass":50.42674999999999,"weight":83.35,"sinew_ratio":79.6640671865627,"subfat_mass":1191.905,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":490,"actual_sec_resistance":485,"birthday":"1995-01-21","bmi":23.6,"bmr":1881.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.335999999999999,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":16.0,"bone":3.5,"bone_ratio":4.199160167966407,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":70.0,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4157137854016782505","measure_mode_flags":0,"method":5,"muscle":54.3,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.1,"protein_mass":15.919849999999999,"remark":"","resistance":490,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.3,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":485,"sinew":66.5,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":79.78404319136173,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.1,"system_scenario":[],"time_stamp":1762520614,"user_id":"4000853680122284364","visfat":6,"water":60.6,"body_water_mass":50.5101,"weight":83.35,"sinew_ratio":79.78404319136173,"subfat_mass":1175.235,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":567,"actual_sec_resistance":502,"birthday":"1995-01-21","bmi":23.3,"bmr":1869.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":12.9368,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":26,"bodyfat":15.7,"bone":3.5,"bone_ratio":4.24757281553398,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":69.4,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4153035420457762995","measure_mode_flags":0,"method":5,"muscle":54.4,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.2,"protein_mass":15.820800000000002,"remark":"","resistance":567,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.9,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":502,"sinew":66.0,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":80.09708737864078,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":13.9,"system_scenario":[],"time_stamp":1762276137,"user_id":"4000853680122284364","visfat":6,"water":60.8,"body_water_mass":50.0992,"weight":82.4,"sinew_ratio":80.09708737864078,"subfat_mass":1145.3600000000001,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0}]}}
+===========================
+ 
+[14:35:01:198] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/measure\/detail","method":"GET","params":{"is_last":0,"user_id":"4000853680122284364"}}
+result => {"code":0,"data":{"accuracy_flag":0,"actual_resistance":0,"actual_sec_resistance":0,"birthday":"1995-01-21","bmi":2.8,"bmr":0.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":0.0,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":0,"bodyage":0,"bodyfat":0.0,"bone":0.0,"bone_ratio":0.0,"cardiac_index":0.0,"custom_scenario":[],"device_user_info":"","fat_free_weight":0.0,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4000853820799189212","measure_mode_flags":0,"method":5,"muscle":0.0,"origin_resistances":"","parameter":"32766","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":0.0,"protein_mass":0.0,"remark":"","resistance":0,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":0.0,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":0,"sinew":0.0,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":0.0,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":0.0,"system_scenario":[],"time_stamp":1752411691,"user_id":"4000853680122284364","visfat":0,"water":0.0,"body_water_mass":0.0,"weight":10.15,"sinew_ratio":0.0,"subfat_mass":0.0,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0}}
+===========================
+ 
+[14:35:01:281] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/bind_device\/list","method":"GET","params":{}}
+result => {"code":0,"data":{"scale":[],"ruler":[],"rope":[],"gun":[],"blood":[],"kitchen":[],"height_weight_scale":[],"neck_massager":[],"waist_massager":[]}}
+===========================
+ 
+[14:35:01:302] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/user\/info","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"account_name":"Chris","accuracy_flag":0,"age":30,"area_method":5,"avatar":"","birthday":"1995-01-21","capacity_unit":1,"country":"DE","created_at":1752410053,"eight_to_four_algorithm_flag":0,"email":"[redacted]","estimated_date_of_delivery":"","fitbit_flag":0,"gender":1,"heat_unit":0,"height":188.0,"height_unit":0,"is_upload_samsung_health":0,"is_upload_user_settings":0,"last_view_at":0,"locale":"de","member_version_flag":0,"migrate_flag":1,"multi_device_mode_flag":1,"multi_device_register_flag":1,"person_body_shape":0,"person_goal":0,"person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"primary_user_id":"4000853680122284364","register_area_code":"DE","time_stamp":1762610861,"user_id":"4000853680122284364","user_settings":{},"user_type":0,"weighing_mode":0,"weight":83.35,"weight_unit":1}}
+===========================
+ 
+[14:35:01:328] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/measure\/summary","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"counts":28,"days":122}}
+===========================
+ 
+[14:35:01:330] : methodName => getStorage
+args => {"key":"guide_parameter"}
+result => {"value":"16","error_code":0}
+===========================
+ 
+[14:35:01:338] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/capacity\/summary","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"counts":0,"days":0}}
+===========================
+ 
+[14:35:01:344] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/girth\/summary","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"counts":0,"days":0}}
+===========================
+ 
+[14:35:01:349] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/micro\/v1\/kitchen\/summary","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"counts":0,"days":0},"err_message":""}
+===========================
+ 
+[14:35:01:362] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/blood_data\/summary","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"counts":0,"days":0}}
+===========================
+ 
+[14:35:01:368] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/heartoxygen\/summary","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"counts":0,"days":0}}
+===========================
+ 
+[14:35:01:403] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/measure\/data_list","method":"GET","params":{"user_id":"4000853680122284364","limit":7,"order":"desc","is_valid":0}}
+result => {"code":0,"data":{"parameter":"68719509502","list":[{"accuracy_flag":0,"actual_resistance":577,"actual_sec_resistance":515,"birthday":"1995-01-21","bmi":23.6,"bmr":1879.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.502699999999997,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":16.2,"bone":3.5,"bone_ratio":4.199160167966407,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":69.9,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4158650741180858704","measure_mode_flags":0,"method":5,"muscle":54.2,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.1,"protein_mass":15.919849999999999,"remark":"","resistance":577,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.2,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":515,"sinew":66.4,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":79.6640671865627,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.3,"system_scenario":[],"time_stamp":1762610861,"user_id":"4000853680122284364","visfat":6,"water":60.5,"body_water_mass":50.42674999999999,"weight":83.35,"sinew_ratio":79.6640671865627,"subfat_mass":1191.905,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":347,"actual_sec_resistance":384,"birthday":"1995-01-21","bmi":23.6,"bmr":1890.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.0182,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":15.6,"bone":3.5,"bone_ratio":4.1941282204913115,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":70.4,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4158650740157448358","measure_mode_flags":0,"method":5,"muscle":54.5,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.2,"protein_mass":16.0224,"remark":"","resistance":347,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":91.6,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":384,"sinew":66.9,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":80.16776512881965,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":13.8,"system_scenario":[],"time_stamp":1762610788,"user_id":"4000853680122284364","visfat":6,"water":60.9,"body_water_mass":50.82105000000001,"weight":83.45,"sinew_ratio":80.16776512881965,"subfat_mass":1151.6100000000001,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":562,"actual_sec_resistance":501,"birthday":"1995-01-21","bmi":23.6,"bmr":1879.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.41935,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":16.1,"bone":3.5,"bone_ratio":4.199160167966407,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":69.9,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4157137855677726779","measure_mode_flags":0,"method":5,"muscle":54.2,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.1,"protein_mass":15.919849999999999,"remark":"","resistance":562,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.2,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":501,"sinew":66.4,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":79.6640671865627,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.3,"system_scenario":[],"time_stamp":1762520681,"user_id":"4000853680122284364","visfat":6,"water":60.5,"body_water_mass":50.42674999999999,"weight":83.35,"sinew_ratio":79.6640671865627,"subfat_mass":1191.905,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":490,"actual_sec_resistance":485,"birthday":"1995-01-21","bmi":23.6,"bmr":1881.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.335999999999999,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":16.0,"bone":3.5,"bone_ratio":4.199160167966407,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":70.0,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4157137854016782505","measure_mode_flags":0,"method":5,"muscle":54.3,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.1,"protein_mass":15.919849999999999,"remark":"","resistance":490,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.3,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":485,"sinew":66.5,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":79.78404319136173,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.1,"system_scenario":[],"time_stamp":1762520614,"user_id":"4000853680122284364","visfat":6,"water":60.6,"body_water_mass":50.5101,"weight":83.35,"sinew_ratio":79.78404319136173,"subfat_mass":1175.235,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":567,"actual_sec_resistance":502,"birthday":"1995-01-21","bmi":23.3,"bmr":1869.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":12.9368,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":26,"bodyfat":15.7,"bone":3.5,"bone_ratio":4.24757281553398,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":69.4,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4153035420457762995","measure_mode_flags":0,"method":5,"muscle":54.4,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.2,"protein_mass":15.820800000000002,"remark":"","resistance":567,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.9,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":502,"sinew":66.0,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":80.09708737864078,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":13.9,"system_scenario":[],"time_stamp":1762276137,"user_id":"4000853680122284364","visfat":6,"water":60.8,"body_water_mass":50.0992,"weight":82.4,"sinew_ratio":80.09708737864078,"subfat_mass":1145.3600000000001,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":0,"actual_sec_resistance":0,"birthday":"1995-01-21","bmi":23.2,"bmr":0.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":0.0,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":0,"bodyage":0,"bodyfat":0.0,"bone":0.0,"bone_ratio":0.0,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":0.0,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4153033678110327011","measure_mode_flags":0,"method":5,"muscle":0.0,"origin_resistances":"","parameter":"32766","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":0.0,"protein_mass":0.0,"remark":"","resistance":0,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":0.0,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":0,"sinew":0.0,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":0.0,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":0.0,"system_scenario":[],"time_stamp":1762276046,"user_id":"4000853680122284364","visfat":0,"water":0.0,"body_water_mass":0.0,"weight":82.35,"sinew_ratio":0.0,"subfat_mass":0.0,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":546,"actual_sec_resistance":490,"birthday":"1995-01-21","bmi":23.7,"bmr":1882.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.543199999999999,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":16.2,"bone":3.5,"bone_ratio":4.186602870813397,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":70.0,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4150175807811092717","measure_mode_flags":0,"method":5,"muscle":54.1,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.1,"protein_mass":15.9676,"remark":"","resistance":546,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":91.9,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":490,"sinew":66.5,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":79.54545454545455,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.3,"system_scenario":[],"time_stamp":1762105654,"user_id":"4000853680122284364","visfat":6,"water":60.5,"body_water_mass":50.577999999999996,"weight":83.6,"sinew_ratio":79.54545454545455,"subfat_mass":1195.48,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0}]}}
+===========================
+ 
+[14:35:01:414] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/capacity\/data_list","method":"GET","params":{"user_id":"4000853680122284364","start_date":0,"end_date":1762868100,"order":"desc"}}
+result => {"code":20000,"data":{"list":[]}}
+===========================
+ 
+[14:35:01:417] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/capacity\/data_list","method":"GET","params":{"user_id":"4000853680122284364","start_date":1762815600,"end_date":1762901999,"order":"desc"}}
+result => {"code":20000,"data":{"list":[]}}
+===========================
+ 
+[14:35:01:423] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/heartoxygen\/detail","method":"GET","params":{"user_id":"4000853680122284364","is_last":1}}
+result => {"code":20000}
+===========================
+ 
+[14:35:01:469] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/bind_device\/list","method":"GET","params":{}}
+result => {"code":0,"data":{"scale":[],"ruler":[],"rope":[],"gun":[],"blood":[],"kitchen":[],"height_weight_scale":[],"neck_massager":[],"waist_massager":[]}}
+===========================
+ 
+[14:35:01:477] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/micro\/v1\/kitchen\/get_goal","method":"GET","params":{"user_id":"4000853680122284364","start_date":1762815600,"end_date":1762901999}}
+result => {"code":20000,"data":{"has_goal":0,"goal_data":{"current_weight":0.0,"custom_calorie_flag":0,"exercise_state":0,"set_goal_date":"","shape_goal":0,"status":0,"target_carbohydrate":0.0,"target_energy":0.0,"target_fat":0.0,"target_protein":0.0,"user_id":"4000853680122284364"}},"err_message":""}
+===========================
+ 
+[14:35:01:480] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/user\/info","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"account_name":"Chris","accuracy_flag":0,"age":30,"area_method":5,"avatar":"","birthday":"1995-01-21","capacity_unit":1,"country":"DE","created_at":1752410053,"eight_to_four_algorithm_flag":0,"email":"[redacted]","estimated_date_of_delivery":"","fitbit_flag":0,"gender":1,"heat_unit":0,"height":188.0,"height_unit":0,"is_upload_samsung_health":0,"is_upload_user_settings":0,"last_view_at":0,"locale":"de","member_version_flag":0,"migrate_flag":1,"multi_device_mode_flag":1,"multi_device_register_flag":1,"person_body_shape":0,"person_goal":0,"person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"primary_user_id":"4000853680122284364","register_area_code":"DE","time_stamp":1762610861,"user_id":"4000853680122284364","user_settings":{},"user_type":0,"weighing_mode":0,"weight":83.35,"weight_unit":1}}
+===========================
+ 
+[14:35:01:572] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/user\/info","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"account_name":"Chris","accuracy_flag":0,"age":30,"area_method":5,"avatar":"","birthday":"1995-01-21","capacity_unit":1,"country":"DE","created_at":1752410053,"eight_to_four_algorithm_flag":0,"email":"[redacted]","estimated_date_of_delivery":"","fitbit_flag":0,"gender":1,"heat_unit":0,"height":188.0,"height_unit":0,"is_upload_samsung_health":0,"is_upload_user_settings":0,"last_view_at":0,"locale":"de","member_version_flag":0,"migrate_flag":1,"multi_device_mode_flag":1,"multi_device_register_flag":1,"person_body_shape":0,"person_goal":0,"person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"primary_user_id":"4000853680122284364","register_area_code":"DE","time_stamp":1762610861,"user_id":"4000853680122284364","user_settings":{},"user_type":0,"weighing_mode":0,"weight":83.35,"weight_unit":1}}
+===========================
+ 
+[14:35:01:581] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/remind\/list","method":"GET","params":{}}
+result => {"code":20000,"data":{"reminds":[]}}
+===========================
+ 
+[14:35:01:584] : methodName => sendHttpReq
+args => {"path":"\/api\/v4\/friend_requests\/check_friend_request","method":"GET","params":{},"cancelRequestInTourist":0,"isShowErr":0,"isUpgrade":0}
+===========================
+ 
+[14:35:01:589] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/user_cards\/show_user_card","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"cards":[]}}
+===========================
+ 
+[14:35:01:594] : methodName => sendHttpReq
+args => {"method":"GET","path":"\/api\/v1\/hot_reloadings\/check_version","params":{"last_release_at":0},"cancelRequestInTourist":1,"isUpgrade":1}
+===========================
+ 
+[14:35:01:595] : methodName => switchTabBarDot
+args => {"key":"mine","status":0}
+===========================
+ 
+[14:35:01:609] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/measure\/detail","method":"GET","params":{"is_last":1,"user_id":"4000853680122284364"}}
+result => {"code":0,"data":{"accuracy_flag":0,"actual_resistance":577,"actual_sec_resistance":515,"birthday":"1995-01-21","bmi":23.6,"bmr":1879.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":0.0,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":16.2,"bone":3.5,"bone_ratio":0.0,"cardiac_index":0.0,"custom_scenario":[],"device_user_info":"","fat_free_weight":69.9,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4158650741180858704","measure_mode_flags":0,"method":5,"muscle":54.2,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.1,"protein_mass":0.0,"remark":"","resistance":577,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.2,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":515,"sinew":66.4,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":0.0,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.3,"system_scenario":[],"time_stamp":1762610861,"user_id":"4000853680122284364","visfat":6,"water":60.5,"body_water_mass":0.0,"weight":83.35,"sinew_ratio":0.0,"subfat_mass":1191.905,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0}}
+===========================
+ 
+[14:35:01:648] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/measure\/data_list","method":"GET","params":{"user_id":"4000853680122284364","limit":7,"order":"desc","is_valid":0}}
+result => {"code":0,"data":{"parameter":"68719509502","list":[{"accuracy_flag":0,"actual_resistance":577,"actual_sec_resistance":515,"birthday":"1995-01-21","bmi":23.6,"bmr":1879.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.502699999999997,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":16.2,"bone":3.5,"bone_ratio":4.199160167966407,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":69.9,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4158650741180858704","measure_mode_flags":0,"method":5,"muscle":54.2,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.1,"protein_mass":15.919849999999999,"remark":"","resistance":577,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.2,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":515,"sinew":66.4,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":79.6640671865627,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.3,"system_scenario":[],"time_stamp":1762610861,"user_id":"4000853680122284364","visfat":6,"water":60.5,"body_water_mass":50.42674999999999,"weight":83.35,"sinew_ratio":79.6640671865627,"subfat_mass":1191.905,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":347,"actual_sec_resistance":384,"birthday":"1995-01-21","bmi":23.6,"bmr":1890.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.0182,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":15.6,"bone":3.5,"bone_ratio":4.1941282204913115,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":70.4,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4158650740157448358","measure_mode_flags":0,"method":5,"muscle":54.5,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.2,"protein_mass":16.0224,"remark":"","resistance":347,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":91.6,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":384,"sinew":66.9,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":80.16776512881965,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":13.8,"system_scenario":[],"time_stamp":1762610788,"user_id":"4000853680122284364","visfat":6,"water":60.9,"body_water_mass":50.82105000000001,"weight":83.45,"sinew_ratio":80.16776512881965,"subfat_mass":1151.6100000000001,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":562,"actual_sec_resistance":501,"birthday":"1995-01-21","bmi":23.6,"bmr":1879.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.41935,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":16.1,"bone":3.5,"bone_ratio":4.199160167966407,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":69.9,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4157137855677726779","measure_mode_flags":0,"method":5,"muscle":54.2,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.1,"protein_mass":15.919849999999999,"remark":"","resistance":562,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.2,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":501,"sinew":66.4,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":79.6640671865627,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.3,"system_scenario":[],"time_stamp":1762520681,"user_id":"4000853680122284364","visfat":6,"water":60.5,"body_water_mass":50.42674999999999,"weight":83.35,"sinew_ratio":79.6640671865627,"subfat_mass":1191.905,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":490,"actual_sec_resistance":485,"birthday":"1995-01-21","bmi":23.6,"bmr":1881.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.335999999999999,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":16.0,"bone":3.5,"bone_ratio":4.199160167966407,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":70.0,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4157137854016782505","measure_mode_flags":0,"method":5,"muscle":54.3,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.1,"protein_mass":15.919849999999999,"remark":"","resistance":490,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.3,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":485,"sinew":66.5,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":79.78404319136173,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.1,"system_scenario":[],"time_stamp":1762520614,"user_id":"4000853680122284364","visfat":6,"water":60.6,"body_water_mass":50.5101,"weight":83.35,"sinew_ratio":79.78404319136173,"subfat_mass":1175.235,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":567,"actual_sec_resistance":502,"birthday":"1995-01-21","bmi":23.3,"bmr":1869.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":12.9368,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":26,"bodyfat":15.7,"bone":3.5,"bone_ratio":4.24757281553398,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":69.4,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4153035420457762995","measure_mode_flags":0,"method":5,"muscle":54.4,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.2,"protein_mass":15.820800000000002,"remark":"","resistance":567,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.9,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":502,"sinew":66.0,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":80.09708737864078,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":13.9,"system_scenario":[],"time_stamp":1762276137,"user_id":"4000853680122284364","visfat":6,"water":60.8,"body_water_mass":50.0992,"weight":82.4,"sinew_ratio":80.09708737864078,"subfat_mass":1145.3600000000001,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":0,"actual_sec_resistance":0,"birthday":"1995-01-21","bmi":23.2,"bmr":0.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":0.0,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":0,"bodyage":0,"bodyfat":0.0,"bone":0.0,"bone_ratio":0.0,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":0.0,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4153033678110327011","measure_mode_flags":0,"method":5,"muscle":0.0,"origin_resistances":"","parameter":"32766","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":0.0,"protein_mass":0.0,"remark":"","resistance":0,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":0.0,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":0,"sinew":0.0,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":0.0,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":0.0,"system_scenario":[],"time_stamp":1762276046,"user_id":"4000853680122284364","visfat":0,"water":0.0,"body_water_mass":0.0,"weight":82.35,"sinew_ratio":0.0,"subfat_mass":0.0,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":546,"actual_sec_resistance":490,"birthday":"1995-01-21","bmi":23.7,"bmr":1882.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.543199999999999,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":16.2,"bone":3.5,"bone_ratio":4.186602870813397,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":70.0,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4150175807811092717","measure_mode_flags":0,"method":5,"muscle":54.1,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.1,"protein_mass":15.9676,"remark":"","resistance":546,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":91.9,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":490,"sinew":66.5,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":79.54545454545455,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.3,"system_scenario":[],"time_stamp":1762105654,"user_id":"4000853680122284364","visfat":6,"water":60.5,"body_water_mass":50.577999999999996,"weight":83.6,"sinew_ratio":79.54545454545455,"subfat_mass":1195.48,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0}]}}
+===========================
+ 
+[14:35:01:665] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/measure\/detail","method":"GET","params":{"is_last":0,"user_id":"4000853680122284364"}}
+result => {"code":0,"data":{"accuracy_flag":0,"actual_resistance":0,"actual_sec_resistance":0,"birthday":"1995-01-21","bmi":2.8,"bmr":0.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":0.0,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":0,"bodyage":0,"bodyfat":0.0,"bone":0.0,"bone_ratio":0.0,"cardiac_index":0.0,"custom_scenario":[],"device_user_info":"","fat_free_weight":0.0,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4000853820799189212","measure_mode_flags":0,"method":5,"muscle":0.0,"origin_resistances":"","parameter":"32766","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":0.0,"protein_mass":0.0,"remark":"","resistance":0,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":0.0,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":0,"sinew":0.0,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":0.0,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":0.0,"system_scenario":[],"time_stamp":1752411691,"user_id":"4000853680122284364","visfat":0,"water":0.0,"body_water_mass":0.0,"weight":10.15,"sinew_ratio":0.0,"subfat_mass":0.0,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0}}
+===========================
+ 
+[14:35:01:727] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/measure\/data_list","method":"GET","params":{"user_id":"4000853680122284364","limit":5,"order":"desc","is_valid":0}}
+result => {"code":0,"data":{"parameter":"68719509502","list":[{"accuracy_flag":0,"actual_resistance":577,"actual_sec_resistance":515,"birthday":"1995-01-21","bmi":23.6,"bmr":1879.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.502699999999997,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":16.2,"bone":3.5,"bone_ratio":4.199160167966407,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":69.9,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4158650741180858704","measure_mode_flags":0,"method":5,"muscle":54.2,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.1,"protein_mass":15.919849999999999,"remark":"","resistance":577,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.2,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":515,"sinew":66.4,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":79.6640671865627,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.3,"system_scenario":[],"time_stamp":1762610861,"user_id":"4000853680122284364","visfat":6,"water":60.5,"body_water_mass":50.42674999999999,"weight":83.35,"sinew_ratio":79.6640671865627,"subfat_mass":1191.905,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":347,"actual_sec_resistance":384,"birthday":"1995-01-21","bmi":23.6,"bmr":1890.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.0182,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":15.6,"bone":3.5,"bone_ratio":4.1941282204913115,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":70.4,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4158650740157448358","measure_mode_flags":0,"method":5,"muscle":54.5,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.2,"protein_mass":16.0224,"remark":"","resistance":347,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":91.6,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":384,"sinew":66.9,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":80.16776512881965,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":13.8,"system_scenario":[],"time_stamp":1762610788,"user_id":"4000853680122284364","visfat":6,"water":60.9,"body_water_mass":50.82105000000001,"weight":83.45,"sinew_ratio":80.16776512881965,"subfat_mass":1151.6100000000001,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":562,"actual_sec_resistance":501,"birthday":"1995-01-21","bmi":23.6,"bmr":1879.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.41935,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":16.1,"bone":3.5,"bone_ratio":4.199160167966407,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":69.9,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4157137855677726779","measure_mode_flags":0,"method":5,"muscle":54.2,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.1,"protein_mass":15.919849999999999,"remark":"","resistance":562,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.2,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":501,"sinew":66.4,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":79.6640671865627,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.3,"system_scenario":[],"time_stamp":1762520681,"user_id":"4000853680122284364","visfat":6,"water":60.5,"body_water_mass":50.42674999999999,"weight":83.35,"sinew_ratio":79.6640671865627,"subfat_mass":1191.905,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":490,"actual_sec_resistance":485,"birthday":"1995-01-21","bmi":23.6,"bmr":1881.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.335999999999999,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":16.0,"bone":3.5,"bone_ratio":4.199160167966407,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":70.0,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4157137854016782505","measure_mode_flags":0,"method":5,"muscle":54.3,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.1,"protein_mass":15.919849999999999,"remark":"","resistance":490,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.3,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":485,"sinew":66.5,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":79.78404319136173,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.1,"system_scenario":[],"time_stamp":1762520614,"user_id":"4000853680122284364","visfat":6,"water":60.6,"body_water_mass":50.5101,"weight":83.35,"sinew_ratio":79.78404319136173,"subfat_mass":1175.235,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":567,"actual_sec_resistance":502,"birthday":"1995-01-21","bmi":23.3,"bmr":1869.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":12.9368,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":26,"bodyfat":15.7,"bone":3.5,"bone_ratio":4.24757281553398,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":69.4,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4153035420457762995","measure_mode_flags":0,"method":5,"muscle":54.4,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.2,"protein_mass":15.820800000000002,"remark":"","resistance":567,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.9,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":502,"sinew":66.0,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":80.09708737864078,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":13.9,"system_scenario":[],"time_stamp":1762276137,"user_id":"4000853680122284364","visfat":6,"water":60.8,"body_water_mass":50.0992,"weight":82.4,"sinew_ratio":80.09708737864078,"subfat_mass":1145.3600000000001,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0}]}}
+===========================
+ 
+[14:35:01:770] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/measure\/detail","method":"GET","params":{"is_last":0,"user_id":"4000853680122284364"}}
+result => {"code":0,"data":{"accuracy_flag":0,"actual_resistance":0,"actual_sec_resistance":0,"birthday":"1995-01-21","bmi":2.8,"bmr":0.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":0.0,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":0,"bodyage":0,"bodyfat":0.0,"bone":0.0,"bone_ratio":0.0,"cardiac_index":0.0,"custom_scenario":[],"device_user_info":"","fat_free_weight":0.0,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4000853820799189212","measure_mode_flags":0,"method":5,"muscle":0.0,"origin_resistances":"","parameter":"32766","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":0.0,"protein_mass":0.0,"remark":"","resistance":0,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":0.0,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":0,"sinew":0.0,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":0.0,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":0.0,"system_scenario":[],"time_stamp":1752411691,"user_id":"4000853680122284364","visfat":0,"water":0.0,"body_water_mass":0.0,"weight":10.15,"sinew_ratio":0.0,"subfat_mass":0.0,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0}}
+===========================
+ 
+[14:35:01:798] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/bind_device\/list","method":"GET","params":{}}
+result => {"code":0,"data":{"scale":[],"ruler":[],"rope":[],"gun":[],"blood":[],"kitchen":[],"height_weight_scale":[],"neck_massager":[],"waist_massager":[]}}
+===========================
+ 
+[14:35:01:810] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/user\/info","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"account_name":"Chris","accuracy_flag":0,"age":30,"area_method":5,"avatar":"","birthday":"1995-01-21","capacity_unit":1,"country":"DE","created_at":1752410053,"eight_to_four_algorithm_flag":0,"email":"[redacted]","estimated_date_of_delivery":"","fitbit_flag":0,"gender":1,"heat_unit":0,"height":188.0,"height_unit":0,"is_upload_samsung_health":0,"is_upload_user_settings":0,"last_view_at":0,"locale":"de","member_version_flag":0,"migrate_flag":1,"multi_device_mode_flag":1,"multi_device_register_flag":1,"person_body_shape":0,"person_goal":0,"person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"primary_user_id":"4000853680122284364","register_area_code":"DE","time_stamp":1762610861,"user_id":"4000853680122284364","user_settings":{},"user_type":0,"weighing_mode":0,"weight":83.35,"weight_unit":1}}
+===========================
+ 
+[14:35:01:823] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/measure\/summary","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"counts":28,"days":122}}
+===========================
+ 
+[14:35:01:836] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/capacity\/summary","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"counts":0,"days":0}}
+===========================
+ 
+[14:35:01:841] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/girth\/summary","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"counts":0,"days":0}}
+===========================
+ 
+[14:35:01:842] : methodName => switchTabBarDot
+args => {"key":"mine","status":0}
+===========================
+ 
+[14:35:01:845] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/micro\/v1\/kitchen\/summary","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"counts":0,"days":0},"err_message":""}
+===========================
+ 
+[14:35:01:846] : methodName => getStorage
+args => {"key":"SHOW_DATA_STATISTICS"}
+result => {"value":"1","error_code":0}
+===========================
+ 
+[14:35:01:849] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/blood_data\/summary","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"counts":0,"days":0}}
+===========================
+ 
+[14:35:01:854] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/heartoxygen\/summary","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"counts":0,"days":0}}
+===========================
+ 
+[14:35:01:891] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/measure\/data_list","method":"GET","params":{"user_id":"4000853680122284364","limit":7,"order":"desc","is_valid":0}}
+result => {"code":0,"data":{"parameter":"68719509502","list":[{"accuracy_flag":0,"actual_resistance":577,"actual_sec_resistance":515,"birthday":"1995-01-21","bmi":23.6,"bmr":1879.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.502699999999997,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":16.2,"bone":3.5,"bone_ratio":4.199160167966407,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":69.9,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4158650741180858704","measure_mode_flags":0,"method":5,"muscle":54.2,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.1,"protein_mass":15.919849999999999,"remark":"","resistance":577,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.2,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":515,"sinew":66.4,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":79.6640671865627,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.3,"system_scenario":[],"time_stamp":1762610861,"user_id":"4000853680122284364","visfat":6,"water":60.5,"body_water_mass":50.42674999999999,"weight":83.35,"sinew_ratio":79.6640671865627,"subfat_mass":1191.905,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":347,"actual_sec_resistance":384,"birthday":"1995-01-21","bmi":23.6,"bmr":1890.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.0182,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":15.6,"bone":3.5,"bone_ratio":4.1941282204913115,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":70.4,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4158650740157448358","measure_mode_flags":0,"method":5,"muscle":54.5,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.2,"protein_mass":16.0224,"remark":"","resistance":347,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":91.6,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":384,"sinew":66.9,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":80.16776512881965,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":13.8,"system_scenario":[],"time_stamp":1762610788,"user_id":"4000853680122284364","visfat":6,"water":60.9,"body_water_mass":50.82105000000001,"weight":83.45,"sinew_ratio":80.16776512881965,"subfat_mass":1151.6100000000001,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":562,"actual_sec_resistance":501,"birthday":"1995-01-21","bmi":23.6,"bmr":1879.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.41935,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":16.1,"bone":3.5,"bone_ratio":4.199160167966407,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":69.9,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4157137855677726779","measure_mode_flags":0,"method":5,"muscle":54.2,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.1,"protein_mass":15.919849999999999,"remark":"","resistance":562,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.2,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":501,"sinew":66.4,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":79.6640671865627,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.3,"system_scenario":[],"time_stamp":1762520681,"user_id":"4000853680122284364","visfat":6,"water":60.5,"body_water_mass":50.42674999999999,"weight":83.35,"sinew_ratio":79.6640671865627,"subfat_mass":1191.905,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":490,"actual_sec_resistance":485,"birthday":"1995-01-21","bmi":23.6,"bmr":1881.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.335999999999999,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":16.0,"bone":3.5,"bone_ratio":4.199160167966407,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":70.0,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4157137854016782505","measure_mode_flags":0,"method":5,"muscle":54.3,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.1,"protein_mass":15.919849999999999,"remark":"","resistance":490,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.3,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":485,"sinew":66.5,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":79.78404319136173,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.1,"system_scenario":[],"time_stamp":1762520614,"user_id":"4000853680122284364","visfat":6,"water":60.6,"body_water_mass":50.5101,"weight":83.35,"sinew_ratio":79.78404319136173,"subfat_mass":1175.235,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":567,"actual_sec_resistance":502,"birthday":"1995-01-21","bmi":23.3,"bmr":1869.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":12.9368,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":26,"bodyfat":15.7,"bone":3.5,"bone_ratio":4.24757281553398,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":69.4,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4153035420457762995","measure_mode_flags":0,"method":5,"muscle":54.4,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.2,"protein_mass":15.820800000000002,"remark":"","resistance":567,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.9,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":502,"sinew":66.0,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":80.09708737864078,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":13.9,"system_scenario":[],"time_stamp":1762276137,"user_id":"4000853680122284364","visfat":6,"water":60.8,"body_water_mass":50.0992,"weight":82.4,"sinew_ratio":80.09708737864078,"subfat_mass":1145.3600000000001,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":0,"actual_sec_resistance":0,"birthday":"1995-01-21","bmi":23.2,"bmr":0.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":0.0,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":0,"bodyage":0,"bodyfat":0.0,"bone":0.0,"bone_ratio":0.0,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":0.0,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4153033678110327011","measure_mode_flags":0,"method":5,"muscle":0.0,"origin_resistances":"","parameter":"32766","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":0.0,"protein_mass":0.0,"remark":"","resistance":0,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":0.0,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":0,"sinew":0.0,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":0.0,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":0.0,"system_scenario":[],"time_stamp":1762276046,"user_id":"4000853680122284364","visfat":0,"water":0.0,"body_water_mass":0.0,"weight":82.35,"sinew_ratio":0.0,"subfat_mass":0.0,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0},{"accuracy_flag":0,"actual_resistance":546,"actual_sec_resistance":490,"birthday":"1995-01-21","bmi":23.7,"bmr":1882.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":13.543199999999999,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":16.2,"bone":3.5,"bone_ratio":4.186602870813397,"cardiac_index":0.0,"custom_scenario":[],"device_name":"CS20A","device_user_info":"","fat_free_weight":70.0,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4150175807811092717","measure_mode_flags":0,"method":5,"muscle":54.1,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.1,"protein_mass":15.9676,"remark":"","resistance":546,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":91.9,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":490,"sinew":66.5,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":79.54545454545455,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.3,"system_scenario":[],"time_stamp":1762105654,"user_id":"4000853680122284364","visfat":6,"water":60.5,"body_water_mass":50.577999999999996,"weight":83.6,"sinew_ratio":79.54545454545455,"subfat_mass":1195.48,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0}]}}
+===========================
+ 
+[14:35:01:895] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/capacity\/data_list","method":"GET","params":{"user_id":"4000853680122284364","start_date":0,"end_date":1762868100,"order":"desc"}}
+result => {"code":20000,"data":{"list":[]}}
+===========================
+ 
+[14:35:01:896] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/capacity\/data_list","method":"GET","params":{"user_id":"4000853680122284364","start_date":1762815600,"end_date":1762901999,"order":"desc"}}
+result => {"code":20000,"data":{"list":[]}}
+===========================
+ 
+[14:35:01:899] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/heartoxygen\/detail","method":"GET","params":{"user_id":"4000853680122284364","is_last":1}}
+result => {"code":20000}
+===========================
+ 
+[14:35:01:918] : methodName => sendHttpReq
+args => {"method":"GET","path":"\/api\/v1\/hot_reloadings\/check_version","params":{"last_release_at":0},"cancelRequestInTourist":1,"isUpgrade":1}
+===========================
+ 
+[14:35:01:921] : methodName => sendHttpReq
+args => {"method":"GET","path":"\/api\/v4\/unknown_datas\/check_new_unknown_data","params":{"unknown_data_types":"3"}}
+===========================
+ 
+[14:35:01:926] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/blood_data\/list","method":"GET","params":{"user_id":"4000853680122284364","start_date":0,"end_date":1762868100,"order":"desc","limit":31}}
+result => {"code":20000,"data":{"list":[]}}
+===========================
+ 
+[14:35:01:945] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/user\/info","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"account_name":"Chris","accuracy_flag":0,"age":30,"area_method":5,"avatar":"","birthday":"1995-01-21","capacity_unit":1,"country":"DE","created_at":1752410053,"eight_to_four_algorithm_flag":0,"email":"[redacted]","estimated_date_of_delivery":"","fitbit_flag":0,"gender":1,"heat_unit":0,"height":188.0,"height_unit":0,"is_upload_samsung_health":0,"is_upload_user_settings":0,"last_view_at":0,"locale":"de","member_version_flag":0,"migrate_flag":1,"multi_device_mode_flag":1,"multi_device_register_flag":1,"person_body_shape":0,"person_goal":0,"person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"primary_user_id":"4000853680122284364","register_area_code":"DE","time_stamp":1762610861,"user_id":"4000853680122284364","user_settings":{},"user_type":0,"weighing_mode":0,"weight":83.35,"weight_unit":1}}
+===========================
+ 
+[14:35:01:952] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/graphql","method":"POST","params":{"params":[{"url":"\/api\/v1\/goal\/get","variables":{"user_id":"4000853680122284364","goal_type":"weight"}},{"url":"\/api\/v1\/goal\/get","variables":{"user_id":"4000853680122284364","goal_type":"bodyfat"}}]}}
+result => {"code":20000,"data":{"data":[{"code":20000,"data":{}},{"code":20000,"data":{}}]}}
+===========================
+ 
+[14:35:02:012] : methodName => getStorage
+args => {"key":"localWaterRemindTip","userId":"4000853680122284364"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:02:019] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/micro\/v1\/kitchen\/get_goal","method":"GET","params":{"user_id":"4000853680122284364","start_date":1762815600,"end_date":1762901999}}
+result => {"code":20000,"data":{"has_goal":0,"goal_data":{"current_weight":0.0,"custom_calorie_flag":0,"exercise_state":0,"set_goal_date":"","shape_goal":0,"status":0,"target_carbohydrate":0.0,"target_energy":0.0,"target_fat":0.0,"target_protein":0.0,"user_id":"4000853680122284364"}},"err_message":""}
+===========================
+ 
+[14:35:02:028] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/graphql","method":"POST","params":{"params":[{"url":"\/api\/v1\/goal\/get","variables":{"user_id":"4000853680122284364","goal_type":"weight"}},{"url":"\/api\/v1\/goal\/get","variables":{"user_id":"4000853680122284364","goal_type":"bodyfat"}}]}}
+result => {"code":20000,"data":{"data":[{"code":20000,"data":{}},{"code":20000,"data":{}}]}}
+===========================
+ 
+[14:35:02:029] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/goal\/get","method":"GET","params":{"user_id":"4000853680122284364","goal_type":"weight"}}
+result => {"code":20000,"data":{}}
+===========================
+ 
+[14:35:02:031] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/goal\/get","method":"GET","params":{"user_id":"4000853680122284364","goal_type":"bodyfat"}}
+result => {"code":20000,"data":{}}
+===========================
+ 
+[14:35:02:032] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/goal\/get","method":"GET","params":{"user_id":"4000853680122284364","goal_type":"water"}}
+result => {"code":20000,"data":{"expected_finish_at":0,"finish_goal_at":0,"finish_unit":0,"finish_value":0.0,"goal_type":"water","goal_unit":7,"goal_value":2717.0,"init_goal_unit":7,"init_goal_value":0.0,"isUpload":1,"setup_goal_at":1762694230,"user_id":"4000853680122284364"}}
+===========================
+ 
+[14:35:02:036] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/user_cards\/show_user_card","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"cards":[]}}
+===========================
+ 
+[14:35:02:338] : methodName => getThirdAppStatus
+args => {"type":"googlefit"}
+===========================
+ 
+[14:35:02:552] : methodName => sendHttpReq
+args => {"method":"POST","path":"\/api\/v4\/goals\/setup_goal","params":{"goals":[{"user_id":"4000853680122284364","goal_type":"water","goal_value":2717,"goal_unit":7,"setup_goal_at":1762868102,"init_goal_value":0,"init_goal_unit":7,"finish_goal_at":0,"finish_value":0,"finish_unit":7}]},"cancelRequestInTourist":0,"isShowErr":0,"isUpgrade":0}
+===========================
+ 
+[14:35:02:853] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/set_goal\/add","method":"POST","params":{"user_id":"4000853680122284364","goal_type":"water","goal_value":2717,"goal_unit":7,"setup_goal_at":1762868102,"init_goal_value":0,"init_goal_unit":7,"finish_goal_at":0,"finish_value":0,"finish_unit":7}}
+result => {"code":20000}
+===========================
+ 
+[14:35:16:157] : methodName => getActivePageURL
+args => {}
+result => {"url":"http:\/\/127.0.0.1:7200\/h5\/oversea-common\/index.html?moduleName=Health&pageName=Home&user_id=4000853680122284364"}
+===========================
+ 
+[14:35:16:168] : methodName => switchTabBarVisible
+args => {"visible":0}
+result => {"error_code":0}
+===========================
+ 
+[14:35:16:176] : methodName => emitEvent
+args => {"eventName":"maskPageUpdateParamsEventsub_users","data":{"tag":"dMHRAAhb3UXbWAkDfTMu5","mode":"switch"}}
+===========================
+ 
+[14:35:16:238] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/user\/list","method":"GET","params":{}}
+result => {"code":20000,"data":{"users":[{"account_name":"Chris","accuracy_flag":0,"age":30,"area_method":5,"avatar":"","birthday":"1995-01-21","capacity_unit":1,"country":"DE","created_at":1752410053,"eight_to_four_algorithm_flag":0,"email":"[redacted]","estimated_date_of_delivery":"","fitbit_flag":0,"gender":1,"heat_unit":0,"height":188.0,"height_unit":0,"is_upload_samsung_health":0,"is_upload_user_settings":0,"last_view_at":0,"locale":"de","member_version_flag":0,"migrate_flag":1,"multi_device_mode_flag":1,"multi_device_register_flag":1,"person_body_shape":0,"person_goal":0,"person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"primary_user_id":"4000853680122284364","register_area_code":"DE","time_stamp":1762610861,"user_id":"4000853680122284364","user_settings":{},"user_type":0,"weighing_mode":0,"weight":83.35,"weight_unit":1},{"account_name":"Testi","accuracy_flag":0,"age":25,"area_method":5,"avatar":"","birthday":"2000-01-01","capacity_unit":1,"country":"DE","created_at":1761223634,"eight_to_four_algorithm_flag":0,"email":"","estimated_date_of_delivery":"","fitbit_flag":0,"gender":0,"heat_unit":0,"height":160.0,"height_unit":0,"is_upload_samsung_health":0,"is_upload_user_settings":0,"last_view_at":0,"locale":"de","member_version_flag":0,"migrate_flag":1,"multi_device_mode_flag":0,"multi_device_register_flag":0,"person_body_shape":0,"person_goal":0,"person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"primary_user_id":"4000853680122284364","register_area_code":"DE","time_stamp":1762610954,"user_id":"4135376282164708970","user_settings":{},"user_type":1,"weighing_mode":0,"weight":93.6,"weight_unit":1},{"account_name":"Softi","accuracy_flag":0,"age":25,"area_method":5,"avatar":"","birthday":"2000-01-01","capacity_unit":1,"country":"DE","created_at":1761224010,"eight_to_four_algorithm_flag":0,"email":"","estimated_date_of_delivery":"","fitbit_flag":0,"gender":1,"heat_unit":0,"height":100.0,"height_unit":0,"is_upload_samsung_health":0,"is_upload_user_settings":0,"last_view_at":0,"locale":"de","member_version_flag":0,"migrate_flag":1,"multi_device_mode_flag":0,"multi_device_register_flag":0,"person_body_shape":0,"person_goal":0,"person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"primary_user_id":"4000853680122284364","register_area_code":"DE","time_stamp":1762610701,"user_id":"4135382597746344909","user_settings":{},"user_type":1,"weighing_mode":0,"weight":10.15,"weight_unit":1}]}}
+===========================
+ 
+[14:35:16:240] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@1388375"}
+result => {}
+===========================
+ 
+[14:35:16:242] : methodName => addListener
+args => {"eventName":"maskPageUpdateParamsEventsub_users","fn":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@4a40598"}
+===========================
+ 
+[14:35:16:513] : methodName => emitEvent
+args => {"eventName":"maskPageUpdateParamsEventsub_users","data":{"tag":"dMHRAAhb3UXbWAkDfTMu5","mode":"switch"}}
+===========================
+ 
+[14:35:16:514] : methodName => emitEvent
+args => {"eventName":"maskPageShowEventsub_users"}
+===========================
+ 
+[14:35:18:171] : methodName => emitEvent
+args => {"eventName":"maskPageHiddenEventsub_users"}
+===========================
+ 
+[14:35:18:380] : methodName => getStorage
+args => {"key":"last_open_card"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:18:387] : methodName => switchTabBarVisible
+args => {"visible":1}
+result => {"error_code":0}
+===========================
+ 
+[14:35:21:482] : methodName => getBleEnvMissingItems
+args => {}
+===========================
+ 
+[14:35:21:599] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@8c1d584","onWillPause":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@1ae516d"}
+result => {}
+===========================
+ 
+[14:35:21:601] : methodName => addListener
+args => {"eventName":"settingEventName","fn":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@d48c5f0"}
+===========================
+ 
+[14:35:21:611] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/set\/getLatestSettings","method":"GET","params":{}}
+result => {"code":20000,"data":{"date_format":"DD/MM/YYYY","lang":"de","weightUnit":"1","heightUnit":"0","capacityUnit":"1","heatUnit":"2","temperatureUnit":"0","time_display_rule":1,"follow_system_dateformat_key":0,"decimalSymbol":"."}}
+===========================
+ 
+[14:35:21:630] : methodName => setStatusBarTheme
+args => {"theme":"dark"}
+===========================
+ 
+[14:35:21:632] : methodName => emitEvent
+args => {"eventName":"START_LOADING","data":{"moduleName":"Mine","pageName":"Home"}}
+===========================
+ 
+[14:35:21:644] : methodName => getStorage
+args => {"key":"current_theme_color"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:21:673] : methodName => onDeviceStatusListener
+args => {"onDeviceStatusChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@c59a5f3"}
+===========================
+ 
+[14:35:21:673] : methodName => onDevicePowerListener
+args => {"onDevicePowerChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@c3b5529"}
+===========================
+ 
+[14:35:21:674] : methodName => onDeviceDataListener
+args => {"onScanDeviceChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@48679dc","onRealTimeDeviceDataChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@28b1ae5","onResultDeviceData":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@98a69ba","onDeviceAction":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@c01e06b","onSetDeviceFunctionResponse":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@cef57c8","onFirstResultData":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@b578061"}
+result => {}
+===========================
+ 
+[14:35:21:674] : methodName => onWifiDataListener
+args => {"onScanWifiChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@2ac19d","onWifiConfigStatusChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@5a07612"}
+result => {}
+===========================
+ 
+[14:35:21:675] : methodName => registerPageLifeCycleEvent
+args => {"onWillResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@10be15e"}
+result => {}
+===========================
+ 
+[14:35:21:675] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@930b56a"}
+result => {}
+===========================
+ 
+[14:35:21:677] : methodName => getStorage
+args => {"key":"current_userId"}
+result => {"value":"4000853680122284364","error_code":0}
+===========================
+ 
+[14:35:21:678] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/bind_device\/list","method":"GET","params":{}}
+result => {"code":0,"data":{"scale":[],"ruler":[],"rope":[],"gun":[],"blood":[],"kitchen":[],"height_weight_scale":[],"neck_massager":[],"waist_massager":[]}}
+===========================
+ 
+[14:35:21:679] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@1169c09"}
+result => {}
+===========================
+ 
+[14:35:21:709] : methodName => emitEvent
+args => {"eventName":"END_LOADING","data":{"moduleName":"Mine","pageName":"Home"}}
+===========================
+ 
+[14:35:21:711] : methodName => getSystemAuthStatus
+args => {"type":"album"}
+===========================
+ 
+[14:35:21:711] : methodName => getSystemAuthStatus
+args => {"type":"camera"}
+===========================
+ 
+[14:35:21:712] : methodName => getSystemAuthStatus
+args => {"type":"location_permission"}
+===========================
+ 
+[14:35:21:713] : methodName => getSystemAuthStatus
+args => {"type":"bluetooth"}
+===========================
+ 
+[14:35:21:714] : methodName => getSystemAuthStatus
+args => {"type":"notification_permission"}
+===========================
+ 
+[14:35:21:715] : methodName => getSystemAuthStatus
+args => {"type":"alarm"}
+===========================
+ 
+[14:35:21:716] : methodName => getSystemAuthStatus
+args => {"type":"notification_permission"}
+===========================
+ 
+[14:35:21:716] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@86f20e6"}
+result => {}
+===========================
+ 
+[14:35:21:717] : methodName => registerAppLifeCycleEvent
+args => {"onEnterForeground":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@40c1dc3"}
+result => {}
+===========================
+ 
+[14:35:21:718] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/remind\/list","method":"GET","params":{}}
+result => {"code":20000,"data":{"reminds":[]}}
+===========================
+ 
+[14:35:21:719] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@b6c0717"}
+result => {}
+===========================
+ 
+[14:35:21:720] : methodName => getStorage
+args => {"key":"localRecordIsShowRedDotHomedics"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:21:723] : methodName => getStorage
+args => {"key":"localNotShowRedDotHomedics"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:21:724] : methodName => getStorage
+args => {"key":"localAlarmDotAlreadyShown"}
+result => {"value":"1","error_code":0}
+===========================
+ 
+[14:35:21:725] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@aa3b9a3"}
+result => {}
+===========================
+ 
+[14:35:21:728] : methodName => sendHttpReq
+args => {"path":"\/api\/v4\/friend_requests\/check_friend_request","method":"GET","params":{},"cancelRequestInTourist":0,"isShowErr":0,"isUpgrade":0}
+===========================
+ 
+[14:35:21:729] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@8cedc2a"}
+result => {}
+===========================
+ 
+[14:35:21:730] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@23d8764","onPause":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@ecb4dcd"}
+result => {}
+===========================
+ 
+[14:35:21:745] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/user\/info","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"account_name":"Chris","accuracy_flag":0,"age":30,"area_method":5,"avatar":"","birthday":"1995-01-21","capacity_unit":1,"country":"DE","created_at":1752410053,"eight_to_four_algorithm_flag":0,"email":"[redacted]","estimated_date_of_delivery":"","fitbit_flag":0,"gender":1,"heat_unit":0,"height":188.0,"height_unit":0,"is_upload_samsung_health":0,"is_upload_user_settings":0,"last_view_at":0,"locale":"de","member_version_flag":0,"migrate_flag":1,"multi_device_mode_flag":1,"multi_device_register_flag":1,"person_body_shape":0,"person_goal":0,"person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"primary_user_id":"4000853680122284364","register_area_code":"DE","time_stamp":1762610861,"user_id":"4000853680122284364","user_settings":{},"user_type":0,"weighing_mode":0,"weight":83.35,"weight_unit":1}}
+===========================
+ 
+[14:35:21:767] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/measure\/detail","method":"GET","params":{"is_last":1,"user_id":"4000853680122284364"}}
+result => {"code":0,"data":{"accuracy_flag":0,"actual_resistance":577,"actual_sec_resistance":515,"birthday":"1995-01-21","bmi":23.6,"bmr":1879.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"body_fat_mass":0.0,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bodyage":27,"bodyfat":16.2,"bone":3.5,"bone_ratio":0.0,"cardiac_index":0.0,"custom_scenario":[],"device_user_info":"","fat_free_weight":69.9,"gender":1,"heart_rate":0,"height":188.0,"internal_model":"030F","is_upload":0,"is_upload_fitbit_bodyfat":0,"is_upload_fitbit_weight":0,"is_upload_google_fit":0,"is_upload_health_connect":0,"is_upload_samsung_health":0,"is_upload_scenario":1,"left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measurement_id":"4158650741180858704","measure_mode_flags":0,"method":5,"muscle":54.2,"origin_resistances":"","parameter":"68719509502","person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"protein":19.1,"protein_mass":0.0,"remark":"","resistance":577,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.2,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":515,"sinew":66.4,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"muscle_ratio":0.0,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.3,"system_scenario":[],"time_stamp":1762610861,"user_id":"4000853680122284364","visfat":6,"water":60.5,"body_water_mass":0.0,"weight":83.35,"sinew_ratio":0.0,"subfat_mass":1191.905,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0}}
+===========================
+ 
+[14:35:21:768] : methodName => switchTabBarDot
+args => {"key":"mine","status":0}
+===========================
+ 
+[14:35:21:775] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/user\/info","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"account_name":"Chris","accuracy_flag":0,"age":30,"area_method":5,"avatar":"","birthday":"1995-01-21","capacity_unit":1,"country":"DE","created_at":1752410053,"eight_to_four_algorithm_flag":0,"email":"[redacted]","estimated_date_of_delivery":"","fitbit_flag":0,"gender":1,"heat_unit":0,"height":188.0,"height_unit":0,"is_upload_samsung_health":0,"is_upload_user_settings":0,"last_view_at":0,"locale":"de","member_version_flag":0,"migrate_flag":1,"multi_device_mode_flag":1,"multi_device_register_flag":1,"person_body_shape":0,"person_goal":0,"person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"primary_user_id":"4000853680122284364","register_area_code":"DE","time_stamp":1762610861,"user_id":"4000853680122284364","user_settings":{},"user_type":0,"weighing_mode":0,"weight":83.35,"weight_unit":1}}
+===========================
+ 
+[14:35:21:788] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/user\/info","method":"GET","params":{"user_id":"4000853680122284364"}}
+result => {"code":20000,"data":{"account_name":"Chris","accuracy_flag":0,"age":30,"area_method":5,"avatar":"","birthday":"1995-01-21","capacity_unit":1,"country":"DE","created_at":1752410053,"eight_to_four_algorithm_flag":0,"email":"[redacted]","estimated_date_of_delivery":"","fitbit_flag":0,"gender":1,"heat_unit":0,"height":188.0,"height_unit":0,"is_upload_samsung_health":0,"is_upload_user_settings":0,"last_view_at":0,"locale":"de","member_version_flag":0,"migrate_flag":1,"multi_device_mode_flag":1,"multi_device_register_flag":1,"person_body_shape":0,"person_goal":0,"person_type":0,"pre_pregnancy_weight":0.0,"pre_pregnancy_weight_unit":0,"pregnant_flag":0,"primary_user_id":"4000853680122284364","register_area_code":"DE","time_stamp":1762610861,"user_id":"4000853680122284364","user_settings":{},"user_type":0,"weighing_mode":0,"weight":83.35,"weight_unit":1}}
+===========================
+ 
+[14:35:21:793] : methodName => sendHttpReq
+args => {"path":"\/api\/v4\/messages\/check_message","method":"GET","params":{"user_id":"4000853680122284364"},"cancelRequestInTourist":0,"isShowErr":0,"isUpgrade":0}
+===========================
+ 
+[14:35:21:798] : methodName => sendHttpReq
+args => {"path":"\/api\/v4\/messages\/check_message","method":"GET","params":{"user_id":"4000853680122284364"},"cancelRequestInTourist":0,"isShowErr":0,"isUpgrade":0}
+===========================
+ 
+[14:35:21:813] : methodName => setStorage
+args => {"key":"userFeedBackEmail","value":"[redacted]"}
+===========================
+ 
+[14:35:22:024] : methodName => switchTabBarDot
+args => {"key":"mine","status":0}
+===========================
+ 
+[14:35:28:470] : methodName => setTabBarClickable
+args => {"clickable":0}
+===========================
+ 
+[14:35:30:009] : methodName => setStorage
+args => {"key":"current_userId","value":""}
+===========================
+ 
+[14:35:30:154] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/set\/signout","method":"POST","params":{}}
+result => {"code":20000}
+===========================
+ 
+[14:35:30:158] : methodName => setTabBarClickable
+args => {"clickable":1}
+===========================
+ 
+[14:35:30:202] : methodName => setStorage
+args => {"key":"babyMeasureFirstTipKey","value":""}
+===========================
+ 
+[14:35:30:236] : methodName => setStorage
+args => {"key":"globalSyncSetting","value":""}
+===========================
+ 
+[14:35:30:333] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@74eb2d6","onWillPause":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@e838957"}
+result => {}
+===========================
+ 
+[14:35:30:335] : methodName => addListener
+args => {"eventName":"settingEventName","fn":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@84d63f3"}
+===========================
+ 
+[14:35:30:343] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/set\/getLatestSettings","method":"GET","params":{}}
+result => {"code":20000,"data":{"date_format":"yyyy/MM/dd","lang":"de","weightUnit":"2","heightUnit":"1","capacityUnit":"1","heatUnit":"2","temperatureUnit":"0","time_display_rule":1,"follow_system_dateformat_key":0,"decimalSymbol":"."}}
+===========================
+ 
+[14:35:30:352] : methodName => getStorage
+args => {"key":"current_theme_color"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:30:368] : methodName => setStatusBarTheme
+args => {"theme":"dark"}
+===========================
+ 
+[14:35:30:369] : methodName => emitEvent
+args => {"eventName":"START_LOADING","data":{"moduleName":"Login","pageName":"Home"}}
+===========================
+ 
+[14:35:30:449] : methodName => onDeviceStatusListener
+args => {"onDeviceStatusChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@125a4fc"}
+===========================
+ 
+[14:35:30:449] : methodName => onDevicePowerListener
+args => {"onDevicePowerChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@c343785"}
+===========================
+ 
+[14:35:30:450] : methodName => onDeviceDataListener
+args => {"onScanDeviceChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@85c701","onRealTimeDeviceDataChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@75e39a6","onResultDeviceData":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@5134fe7","onDeviceAction":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@f3b9794","onSetDeviceFunctionResponse":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@506d23d","onFirstResultData":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@244a32"}
+result => {}
+===========================
+ 
+[14:35:30:453] : methodName => onWifiDataListener
+args => {"onScanWifiChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@2c8d77e","onWifiConfigStatusChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@aa054df"}
+result => {}
+===========================
+ 
+[14:35:30:454] : methodName => registerPageLifeCycleEvent
+args => {"onWillResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@996ed8a"}
+result => {}
+===========================
+ 
+[14:35:30:455] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@18d7271"}
+result => {}
+===========================
+ 
+[14:35:30:457] : methodName => getStorage
+args => {"key":"current_userId"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:30:458] : methodName => registerPageLifeCycleEvent
+args => {"onWillPause":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@196fea9"}
+result => {}
+===========================
+ 
+[14:35:30:459] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@24f515c"}
+result => {}
+===========================
+ 
+[14:35:30:460] : methodName => getStorage
+args => {"key":"guide_parameter"}
+result => {"value":"16","error_code":0}
+===========================
+ 
+[14:35:30:461] : methodName => getStorage
+args => {"key":"firstBindTime"}
+result => {"value":"1753388558","error_code":0}
+===========================
+ 
+[14:35:30:462] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@afe331d","onWillPause":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@73cc992"}
+result => {}
+===========================
+ 
+[14:35:30:463] : methodName => getStorage
+args => {"key":"globalSyncSetting"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:30:464] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@93f8ea"}
+result => {}
+===========================
+ 
+[14:35:30:473] : methodName => emitEvent
+args => {"eventName":"END_LOADING","data":{"moduleName":"Login","pageName":"Home"}}
+===========================
+ 
+[14:35:30:474] : methodName => registerAppLifeCycleEvent
+args => {"onEnterForeground":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@c5df278"}
+result => {}
+===========================
+ 
+[14:35:30:475] : methodName => getStorage
+args => {"key":"last_release_at_for_check_new_version"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:30:480] : methodName => setStorage
+args => {"key":"loginDidHotFixFlag","value":"hotfix"}
+===========================
+ 
+[14:35:30:481] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@f14709a"}
+result => {}
+===========================
+ 
+[14:35:30:482] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@e5adcc1"}
+result => {}
+===========================
+ 
+[14:35:30:488] : methodName => setStorage
+args => {"key":"TouristMode","value":"false"}
+===========================
+ 
+[14:35:30:500] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/measure\/detail","method":"GET","params":{"is_last":1,"user_id":""}}
+result => {"code":10000}
+===========================
+ 
+[14:35:30:510] : methodName => getStorage
+args => {"key":"hadCloseDialog"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:30:515] : methodName => sendHttpReq
+args => {"method":"GET","path":"\/api\/v1\/hot_reloadings\/check_version","params":{"last_release_at":0},"cancelRequestInTourist":1,"isUpgrade":1}
+===========================
+ 
+[14:35:37:278] : methodName => navigateTo
+args => {"path":"index.html","params":{"themeColor":"","moduleName":"Login","pageName":"CreateAccount","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6IkxvZ2luIiwicGFnZU5hbWUiOiJIb21lIn1d"},"config":{"immersion":1,"isHidden":1}}
+result => {}
+===========================
+ 
+[14:35:37:420] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@df8f502","onWillPause":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@f331e13"}
+result => {}
+===========================
+ 
+[14:35:37:421] : methodName => addListener
+args => {"eventName":"settingEventName","fn":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@df0da49"}
+===========================
+ 
+[14:35:37:428] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/set\/getLatestSettings","method":"GET","params":{}}
+result => {"code":20000,"data":{"date_format":"yyyy/MM/dd","lang":"de","weightUnit":"2","heightUnit":"1","capacityUnit":"1","heatUnit":"2","temperatureUnit":"0","time_display_rule":1,"follow_system_dateformat_key":0,"decimalSymbol":"."}}
+===========================
+ 
+[14:35:37:437] : methodName => getStorage
+args => {"key":"current_theme_color"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:37:451] : methodName => setStatusBarTheme
+args => {"theme":"dark"}
+===========================
+ 
+[14:35:37:452] : methodName => emitEvent
+args => {"eventName":"START_LOADING","data":{"moduleName":"Login","pageName":"CreateAccount"}}
+===========================
+ 
+[14:35:37:498] : methodName => onDeviceStatusListener
+args => {"onDeviceStatusChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@f58ec4b"}
+===========================
+ 
+[14:35:37:499] : methodName => onDevicePowerListener
+args => {"onDevicePowerChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@ddda628"}
+===========================
+ 
+[14:35:37:500] : methodName => onDeviceDataListener
+args => {"onScanDeviceChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@95e6e7d","onRealTimeDeviceDataChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@48d5172","onResultDeviceData":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@f2899c3","onDeviceAction":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@2f51240","onSetDeviceFunctionResponse":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@b687579","onFirstResultData":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@3db12be"}
+result => {}
+===========================
+ 
+[14:35:37:501] : methodName => onWifiDataListener
+args => {"onScanWifiChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@971f035","onWifiConfigStatusChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@ab19cca"}
+result => {}
+===========================
+ 
+[14:35:37:502] : methodName => registerPageLifeCycleEvent
+args => {"onWillResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@45e5ab1"}
+result => {}
+===========================
+ 
+[14:35:37:503] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@c14304"}
+result => {}
+===========================
+ 
+[14:35:37:504] : methodName => getStorage
+args => {"key":"current_userId"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:37:516] : methodName => emitEvent
+args => {"eventName":"END_LOADING","data":{"moduleName":"Login","pageName":"CreateAccount"}}
+===========================
+ 
+[14:35:37:518] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/user\/list","method":"GET","params":{}}
+result => {"code":20000,"data":{"users":[]}}
+===========================
+ 
+[14:35:37:519] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@23a70d2"}
+result => {}
+===========================
+ 
+[14:35:37:521] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/measure\/detail","method":"GET","params":{"user_id":"","is_last":1,"is_valid":0}}
+result => {"code":10000}
+===========================
+ 
+[14:35:37:522] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/goal\/get","method":"GET","params":{"user_id":"","goal_type":"weight"}}
+result => {"code":30001}
+===========================
+ 
+[14:35:37:523] : methodName => getStorage
+args => {"key":"touristRegisterAreaCode"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:37:525] : methodName => getStorage
+args => {"key":"userInfo"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:37:526] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@51fd5c9"}
+result => {}
+===========================
+ 
+[14:35:37:539] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/measure\/detail","method":"GET","params":{"is_last":1,"user_id":""}}
+result => {"code":10000}
+===========================
+ 
+[14:35:42:647] : methodName => navigateTo
+args => {"path":"index.html","params":{"themeColor":"","code":"agreement","moduleName":"Document","pageName":"TermAndPrivacy","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6IkxvZ2luIiwicGFnZU5hbWUiOiJIb21lIn0seyJtb2R1bGVOYW1lIjoiTG9naW4iLCJwYWdlTmFtZSI6IkNyZWF0ZUFjY291bnQifV0"},"config":{"immersion":1,"isHidden":1}}
+result => {}
+===========================
+ 
+[14:35:42:796] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@b8e987e","onWillPause":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@da181df"}
+result => {}
+===========================
+ 
+[14:35:42:797] : methodName => addListener
+args => {"eventName":"settingEventName","fn":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@5880f5"}
+===========================
+ 
+[14:35:42:801] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/set\/getLatestSettings","method":"GET","params":{}}
+result => {"code":20000,"data":{"date_format":"yyyy/MM/dd","lang":"de","weightUnit":"2","heightUnit":"1","capacityUnit":"1","heatUnit":"2","temperatureUnit":"0","time_display_rule":1,"follow_system_dateformat_key":0,"decimalSymbol":"."}}
+===========================
+ 
+[14:35:42:807] : methodName => getStorage
+args => {"key":"current_theme_color"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:42:834] : methodName => setStatusBarTheme
+args => {"theme":"dark"}
+===========================
+ 
+[14:35:42:835] : methodName => emitEvent
+args => {"eventName":"START_LOADING","data":{"moduleName":"Document","pageName":"TermAndPrivacy"}}
+===========================
+ 
+[14:35:42:854] : methodName => emitEvent
+args => {"eventName":"END_LOADING","data":{"moduleName":"Document","pageName":"TermAndPrivacy"}}
+===========================
+ 
+[14:35:42:857] : methodName => sendHttpReq
+args => {"method":"GET","path":"\/api\/v4\/faqs\/show_faq_by_code","params":{"code":"agreement","locale":"de","app_id":"Feelfit"},"cancelRequestInTourist":1}
+===========================
+ 
+[14:35:44:468] : methodName => navigateBack
+args => {}
+result => {}
+===========================
+ 
+[14:35:44:504] : methodName => getStorage
+args => {"key":"current_userId"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:44:507] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/user\/list","method":"GET","params":{}}
+result => {"code":20000,"data":{"users":[]}}
+===========================
+ 
+[14:35:44:512] : methodName => getStorage
+args => {"key":"userInfo"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:35:44:518] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/measure\/detail","method":"GET","params":{"is_last":1,"user_id":""}}
+result => {"code":10000}
+===========================
+ 
+[14:36:02:593] : methodName => getThirdAuth
+args => {"thirdType":"google"}
+===========================
+ 
+[14:36:12:693] : methodName => getStorage
+args => {"key":"current_userId"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:36:12:701] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/user\/list","method":"GET","params":{}}
+result => {"code":20000,"data":{"users":[]}}
+===========================
+ 
+[14:36:12:703] : methodName => getStorage
+args => {"key":"userInfo"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:36:12:712] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/measure\/detail","method":"GET","params":{"is_last":1,"user_id":""}}
+result => {"code":10000}
+===========================
+ 
+[14:36:15:552] : methodName => navigateTo
+args => {"path":"index.html","params":{"themeColor":"","touristToRegister":"","moduleName":"Login","pageName":"Register","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6IkxvZ2luIiwicGFnZU5hbWUiOiJIb21lIn0seyJtb2R1bGVOYW1lIjoiTG9naW4iLCJwYWdlTmFtZSI6IkNyZWF0ZUFjY291bnQifV0"},"config":{"immersion":1,"isHidden":1}}
+result => {}
+===========================
+ 
+[14:36:15:697] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@d0b1bfa","onWillPause":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@d9d45ab"}
+result => {}
+===========================
+ 
+[14:36:15:698] : methodName => addListener
+args => {"eventName":"settingEventName","fn":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@472f408"}
+===========================
+ 
+[14:36:15:704] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/set\/getLatestSettings","method":"GET","params":{}}
+result => {"code":20000,"data":{"date_format":"yyyy/MM/dd","lang":"de","weightUnit":"2","heightUnit":"1","capacityUnit":"1","heatUnit":"2","temperatureUnit":"0","time_display_rule":1,"follow_system_dateformat_key":0,"decimalSymbol":"."}}
+===========================
+ 
+[14:36:15:725] : methodName => setStatusBarTheme
+args => {"theme":"dark"}
+===========================
+ 
+[14:36:15:725] : methodName => emitEvent
+args => {"eventName":"START_LOADING","data":{"moduleName":"Login","pageName":"Register"}}
+===========================
+ 
+[14:36:15:739] : methodName => getStorage
+args => {"key":"current_theme_color"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:36:15:778] : methodName => onDeviceStatusListener
+args => {"onDeviceStatusChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@25540d1"}
+===========================
+ 
+[14:36:15:781] : methodName => onDevicePowerListener
+args => {"onDevicePowerChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@8136637"}
+===========================
+ 
+[14:36:15:782] : methodName => onDeviceDataListener
+args => {"onScanDeviceChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@ef177a4","onRealTimeDeviceDataChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@c1c190d","onResultDeviceData":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@4a6d0c2","onDeviceAction":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@6ae2ed3","onSetDeviceFunctionResponse":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@4a06a10","onFirstResultData":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@fe3909"}
+result => {}
+===========================
+ 
+[14:36:15:783] : methodName => onWifiDataListener
+args => {"onScanWifiChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@60a173c","onWifiConfigStatusChange":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@9c85cc5"}
+result => {}
+===========================
+ 
+[14:36:15:784] : methodName => registerPageLifeCycleEvent
+args => {"onWillResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@1ff6b28"}
+result => {}
+===========================
+ 
+[14:36:15:785] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@5d44b27"}
+result => {}
+===========================
+ 
+[14:36:15:785] : methodName => getStorage
+args => {"key":"current_userId"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:36:15:798] : methodName => emitEvent
+args => {"eventName":"END_LOADING","data":{"moduleName":"Login","pageName":"Register"}}
+===========================
+ 
+[14:36:15:801] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/user\/list","method":"GET","params":{}}
+result => {"code":20000,"data":{"users":[]}}
+===========================
+ 
+[14:36:15:802] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@9d9e39c"}
+result => {}
+===========================
+ 
+[14:36:15:805] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/measure\/detail","method":"GET","params":{"user_id":"","is_last":1,"is_valid":0}}
+result => {"code":10000}
+===========================
+ 
+[14:36:15:807] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/goal\/get","method":"GET","params":{"user_id":"","goal_type":"weight"}}
+result => {"code":30001}
+===========================
+ 
+[14:36:15:808] : methodName => getStorage
+args => {"key":"touristRegisterAreaCode"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:36:15:810] : methodName => getStorage
+args => {"key":"userInfo"}
+result => {"value":"","error_code":0}
+===========================
+ 
+[14:36:15:811] : methodName => registerPageLifeCycleEvent
+args => {"onResume":"com.yolanda.jsbridgelib.jsbridge.JBCallbackImpl@afd2f1b"}
+result => {}
+===========================
+ 
+[14:36:15:823] : methodName => sendHttpReqLocal
+args => {"path":"\/api\/v1\/measure\/detail","method":"GET","params":{"is_last":1,"user_id":""}}
+result => {"code":10000}
+===========================
+ 
+[14:38:09:018] : methodName => sendHttpReq
+args => {"path":"\/api\/v4\/users\/sign_up","method":"POST","params":{"email":"[redacted]","password":"oXdRG4R8699pR7d6sPpm1n5iyUSq6d2Nzqcs+gPnkszUkCV7dunTpRYIQljWuFS1Glw2JsEmPud0oy96+1a6ZJcVvrymVIqtxkq5ORSYgoWZaAtcevSgHxkjHnB\/TmHRR8TPXEu\/+dnzQg1vmBJM3+Y9lRPOONCMkfaoyk2rnyY=","country":"DE","height_unit":0,"weight_unit":1,"capacity_unit":1,"heat_unit":2,"account_name":"[redacted]","birthday":"","gender":-1,"multi_device_mode_flag":1,"multi_device_register_flag":1,"member_version_flag":0}}
+===========================
+ 

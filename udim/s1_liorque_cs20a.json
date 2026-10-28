@@ -1,0 +1,142 @@
+{
+  "device": {
+    "vendor": "LIORQUE",
+    "model": "CS20A",
+    "soc": "ESP32-S0WD",
+    "form_factor": "Wi-Fi and BLE body-composition smart scale (bioimpedance, multi-user profiles, companion app Feelfit)",
+    "local_api": []
+  },
+  "nodes": [
+    {
+      "id": "d",
+      "type": "dev",
+      "subgraphs": ["alpha", "beta"],
+      "label": "LIORQUE CS20A (central device)"
+    },
+    {
+      "id": "env",
+      "type": "env",
+      "subgraphs": ["alpha"],
+      "label": "Platform load: persons, pets, or objects placed on the scale",
+      "properties": {
+        "sensor_types": ["pressure", "other"],
+        "actuator_types": ["display"],
+        "region_label": "bathroom"
+      }
+    },
+    {
+      "id": "u_alpha",
+      "type": "usr",
+      "subgraphs": ["alpha"],
+      "label": "User (proximity, steps onto the platform)",
+      "properties": {
+        "ui_input_modes": ["other"],
+        "ui_output_modes": ["display"],
+        "account_service": "Feelfit"
+      }
+    },
+    {
+      "id": "u_beta",
+      "type": "usr",
+      "subgraphs": ["beta"],
+      "label": "User (internal network, via Feelfit app on phone)",
+      "properties": {
+        "account_service": "Feelfit"
+      }
+    },
+    {
+      "id": "u_gamma",
+      "type": "usr",
+      "subgraphs": ["gamma"],
+      "label": "User (external network, via Feelfit app and cloud)",
+      "properties": {
+        "account_service": "Feelfit"
+      }
+    },
+    {
+      "id": "p_beta",
+      "type": "dev",
+      "subgraphs": ["beta"],
+      "label": "Smartphone with Feelfit app (BLE to the scale, Wi-Fi to the router)",
+      "properties": {
+        "companion_apps": [
+          {
+            "name": "Feelfit",
+            "package_name": "com.qingniu.feelfit",
+            "platform": "android-and-ios",
+            "cloud_platform": "Feelfit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "p_gamma",
+      "type": "dev",
+      "subgraphs": ["gamma"],
+      "label": "Smartphone with Feelfit app (remote)",
+      "properties": {
+        "companion_apps": [
+          {
+            "name": "Feelfit",
+            "package_name": "com.qingniu.feelfit",
+            "platform": "android-and-ios",
+            "cloud_platform": "Feelfit"
+          }
+        ]
+      }
+    },
+    {
+      "id": "r",
+      "type": "dev",
+      "subgraphs": ["beta", "gamma"],
+      "label": "Wi-Fi router (2.4 GHz)",
+      "properties": {
+        "protocols": ["Wi-Fi"]
+      }
+    },
+    {
+      "id": "c_feelfit",
+      "type": "dev",
+      "subgraphs": ["gamma"],
+      "label": "Feelfit cloud (account, profiles, measurement history)",
+      "properties": {
+        "domain": "qnclouds.com",
+        "api_base_url": "https://feelfit.qnclouds.com/api/v4/",
+        "service_name": "Feelfit cloud"
+      }
+    },
+    {
+      "id": "c_yolanda",
+      "type": "dev",
+      "subgraphs": ["gamma"],
+      "label": "Yolanda device API and OTA service (endpoints stored in device flash)",
+      "properties": {
+        "domain": "yolanda.hk",
+        "api_base_url": "http://wifi.yolanda.hk/wifi_api/, https://ota.yolanda.hk",
+        "service_name": "Yolanda device configuration and OTA"
+      }
+    }
+  ],
+  "edges": [
+    {"from": "d", "to": "d", "subgraph": "alpha", "bidirectional": false},
+    {"from": "u_alpha", "to": "d", "subgraph": "alpha", "bidirectional": true},
+    {"from": "env", "to": "d", "subgraph": "alpha", "bidirectional": true},
+    {"from": "u_beta", "to": "p_beta", "subgraph": "beta", "bidirectional": true},
+    {"from": "p_beta", "to": "d", "subgraph": "beta", "bidirectional": true},
+    {"from": "p_beta", "to": "r", "subgraph": "beta", "bidirectional": true},
+    {"from": "d", "to": "r", "subgraph": "beta", "bidirectional": true},
+    {"from": "u_gamma", "to": "p_gamma", "subgraph": "gamma", "bidirectional": true},
+    {"from": "p_gamma", "to": "c_feelfit", "subgraph": "gamma", "bidirectional": true},
+    {"from": "r", "to": "c_feelfit", "subgraph": "gamma", "bidirectional": true},
+    {"from": "r", "to": "c_yolanda", "subgraph": "gamma", "bidirectional": true}
+  ],
+  "metadata": {
+    "ground_truth": true,
+    "flags": [
+      "Cloud endpoints taken from the device flash dumps (wifi.yolanda.hk, ota.yolanda.hk) and from the decrypted app traffic and APK (feelfit.qnclouds.com).",
+      "The scale to phone link is BLE (G_beta); the scale additionally joins the Wi-Fi network for the Yolanda device API and OTA checks.",
+      "The companion app stores a non-rotating cloud token, so p_beta access yields the full c_feelfit account data (paper, Section on persistent credential escalation).",
+      "Third-party fitness integrations are outside the playbook and not modeled."
+    ]
+  }
+}

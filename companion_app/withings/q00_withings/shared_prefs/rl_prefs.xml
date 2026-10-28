@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="rl_traits">{&quot;anonymousId&quot;:&quot;[redacted]&quot;,&quot;account_id&quot;:&quot;19680913&quot;,&quot;enable_native_notification&quot;:false,&quot;userId&quot;:&quot;45378651&quot;,&quot;id&quot;:&quot;45378651&quot;}</string>
+    <int name="rl_application_info_key" value="8000017" />
+    <long name="rl_server_last_updated" value="1762869441366" />
+</map>

@@ -1,0 +1,110 @@
+[12:46:14:369] : 找到热更新包数量: 0 
+[14:13:50:897] : 找到热更新包数量: 0 
+[14:17:05:982] : LocalServerManager 发出重新加载h5页面广播! 
+[14:17:06:097] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[14:17:06:158] : 寻找翻译失败,原因:dist/h5/oversea-common/translation/appSpecialTranslation.json 
+[14:17:06:250] : 执行initData url:index.html?moduleName=Health&pageName=Home 
+[14:17:06:253] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Health&pageName=Home&user_id=4000853680122284364 
+[14:17:06:254] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Health&pageName=Home&user_id=4000853680122284364 
+[14:17:06:254] : 硬件加速 
+[14:17:06:261] : initdata执行完毕 
+[14:17:06:814] : checkVersion失败，原因：com.qingniu.oversea.base.net.errors.ServerException 
+[14:17:11:023] : 执行initData url:index.html?moduleName=Device&pageName=MyDevice&isTabPage=true 
+[14:17:11:026] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=MyDevice&isTabPage=true&user_id=4000853680122284364 
+[14:17:11:027] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=MyDevice&isTabPage=true&user_id=4000853680122284364 
+[14:17:11:027] : 硬件加速 
+[14:17:11:033] : initdata执行完毕 
+[14:17:12:472] : {"path":"index.html","params":{"themeColor":"","deviceName":"CS20A","deviceMac":"98%3AF4%3AAB%3A98%3AE8%3AC6","category":"scale","mode":"","oversea":"1","moduleName":"Device","pageName":"DeviceDetails","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0"},"config":{"immersion":1,"isHidden":1}} 
+[14:17:12:507] : 执行initData url:index.html?moduleName=Device&pageName=DeviceDetails&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0&deviceMac=98%3AF4%3AAB%3A98%3AE8%3AC6&category=scale&deviceName=CS20A&__ocPersistentKey=e30&isCloseGestureBack=0&oversea=1 
+[14:17:12:507] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=DeviceDetails&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0&deviceMac=98%3AF4%3AAB%3A98%3AE8%3AC6&category=scale&deviceName=CS20A&__ocPersistentKey=e30&isCloseGestureBack=0&oversea=1&user_id=4000853680122284364 
+[14:17:12:508] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=DeviceDetails&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0&deviceMac=98%3AF4%3AAB%3A98%3AE8%3AC6&category=scale&deviceName=CS20A&__ocPersistentKey=e30&isCloseGestureBack=0&oversea=1&user_id=4000853680122284364 
+[14:17:12:508] : 硬件加速 
+[14:17:12:511] : initdata执行完毕 
+[14:17:16:105] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[14:17:56:275] : {"path":"index.html","params":{"themeColor":"","deviceName":"CS20A","deviceMac":"98%3AF4%3AAB%3A98%3AE8%3AC6","category":"scale","mode":"","oversea":"1","moduleName":"Device","pageName":"DeviceDetails","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0"},"config":{"immersion":1,"isHidden":1}} 
+[14:17:56:305] : 执行initData url:index.html?moduleName=Device&pageName=DeviceDetails&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0&deviceMac=98%3AF4%3AAB%3A98%3AE8%3AC6&category=scale&deviceName=CS20A&__ocPersistentKey=e30&isCloseGestureBack=0&oversea=1 
+[14:17:56:307] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=DeviceDetails&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0&deviceMac=98%3AF4%3AAB%3A98%3AE8%3AC6&category=scale&deviceName=CS20A&__ocPersistentKey=e30&isCloseGestureBack=0&oversea=1&user_id=4000853680122284364 
+[14:17:56:308] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=DeviceDetails&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0&deviceMac=98%3AF4%3AAB%3A98%3AE8%3AC6&category=scale&deviceName=CS20A&__ocPersistentKey=e30&isCloseGestureBack=0&oversea=1&user_id=4000853680122284364 
+[14:17:56:308] : 硬件加速 
+[14:17:56:311] : initdata执行完毕 
+[14:17:59:770] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[14:18:01:379] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[14:18:01:380] : mOnScanDeviceChangeCallBack是否为空: 1 
+[14:18:01:948] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[14:18:01:949] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[14:18:02:113] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[14:18:02:113] : mOnScanDeviceChangeCallBack是否为空: 1 
+[14:18:02:351] : 蓝牙连接状态回调给h5: {"device_status":"connected","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[14:18:02:352] : 蓝牙连接状态回调给h5: {"device_status":"connected","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[14:18:03:916] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[14:18:03:917] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[14:18:05:769] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[14:18:05:769] : mOnScanDeviceChangeCallBack是否为空: 1 
+[14:18:05:843] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[14:18:05:846] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[14:18:05:926] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[14:18:05:927] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[14:18:07:180] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[14:18:07:181] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[14:18:07:182] : 蓝牙连接状态回调给h5: {"device_status":"connected","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[14:18:07:183] : 蓝牙连接状态回调给h5: {"device_status":"connected","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[14:18:09:142] : 蓝牙连接状态回调给h5 onDeviceReady: {"device_status":"actionable","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[14:18:09:795] : 蓝牙连接状态回调给h5 onDeviceReady: {"device_status":"actionable","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[14:18:09:880] : 执行initData url:index.html?moduleName=Mine&pageName=Home 
+[14:18:09:884] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Mine&pageName=Home&user_id=4000853680122284364 
+[14:18:09:885] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Mine&pageName=Home&user_id=4000853680122284364 
+[14:18:09:887] : 硬件加速 
+[14:18:09:892] : initdata执行完毕 
+[14:18:09:964] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[14:18:09:966] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[14:18:09:967] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[14:18:12:130] : {"path":"index.html","params":{"themeColor":"","moduleName":"Mine","pageName":"Set","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifV0"},"config":{"immersion":1,"isHidden":1}} 
+[14:18:12:151] : 执行initData url:index.html?moduleName=Mine&pageName=Set&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifV0&__ocPersistentKey=e30&isCloseGestureBack=0 
+[14:18:12:154] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Mine&pageName=Set&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[14:18:12:154] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Mine&pageName=Set&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[14:18:12:154] : 硬件加速 
+[14:18:12:158] : initdata执行完毕 
+[14:18:16:448] : {"path":"index.html","params":{"themeColor":"","moduleName":"Mine","pageName":"AccountAndSecurity","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifSx7Im1vZHVsZU5hbWUiOiJNaW5lIiwicGFnZU5hbWUiOiJTZXQifV0"},"config":{"immersion":1,"isHidden":1}} 
+[14:18:16:472] : 执行initData url:index.html?moduleName=Mine&pageName=AccountAndSecurity&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifSx7Im1vZHVsZU5hbWUiOiJNaW5lIiwicGFnZU5hbWUiOiJTZXQifV0&__ocPersistentKey=e30&isCloseGestureBack=0 
+[14:18:16:475] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Mine&pageName=AccountAndSecurity&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifSx7Im1vZHVsZU5hbWUiOiJNaW5lIiwicGFnZU5hbWUiOiJTZXQifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[14:18:16:477] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Mine&pageName=AccountAndSecurity&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifSx7Im1vZHVsZU5hbWUiOiJNaW5lIiwicGFnZU5hbWUiOiJTZXQifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[14:18:16:478] : 硬件加速 
+[14:18:16:479] : initdata执行完毕 
+[14:18:19:827] : {"path":"index.html","params":{"themeColor":"","moduleName":"Mine","pageName":"SystemPermissions","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifSx7Im1vZHVsZU5hbWUiOiJNaW5lIiwicGFnZU5hbWUiOiJTZXQifV0"},"config":{"immersion":1,"isHidden":1}} 
+[14:18:19:875] : 执行initData url:index.html?moduleName=Mine&pageName=SystemPermissions&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifSx7Im1vZHVsZU5hbWUiOiJNaW5lIiwicGFnZU5hbWUiOiJTZXQifV0&__ocPersistentKey=e30&isCloseGestureBack=0 
+[14:18:19:879] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Mine&pageName=SystemPermissions&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifSx7Im1vZHVsZU5hbWUiOiJNaW5lIiwicGFnZU5hbWUiOiJTZXQifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[14:18:19:880] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Mine&pageName=SystemPermissions&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifSx7Im1vZHVsZU5hbWUiOiJNaW5lIiwicGFnZU5hbWUiOiJTZXQifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[14:18:19:882] : 硬件加速 
+[14:18:19:884] : initdata执行完毕 
+[14:18:23:806] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[14:18:30:556] : {"path":"index.html","params":{"themeColor":"","deviceName":"CS20A","deviceMac":"98%3AF4%3AAB%3A98%3AE8%3AC6","category":"scale","mode":"","oversea":"1","moduleName":"Device","pageName":"DeviceDetails","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0"},"config":{"immersion":1,"isHidden":1}} 
+[14:18:30:578] : 执行initData url:index.html?moduleName=Device&pageName=DeviceDetails&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0&deviceMac=98%3AF4%3AAB%3A98%3AE8%3AC6&category=scale&deviceName=CS20A&__ocPersistentKey=e30&isCloseGestureBack=0&oversea=1 
+[14:18:30:579] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=DeviceDetails&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0&deviceMac=98%3AF4%3AAB%3A98%3AE8%3AC6&category=scale&deviceName=CS20A&__ocPersistentKey=e30&isCloseGestureBack=0&oversea=1&user_id=4000853680122284364 
+[14:18:30:580] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=DeviceDetails&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0&deviceMac=98%3AF4%3AAB%3A98%3AE8%3AC6&category=scale&deviceName=CS20A&__ocPersistentKey=e30&isCloseGestureBack=0&oversea=1&user_id=4000853680122284364 
+[14:18:30:580] : 硬件加速 
+[14:18:30:584] : initdata执行完毕 
+[14:18:41:291] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[14:19:02:998] : 执行initData url:index.html?moduleName=Health&pageName=MutiManualRecord 
+[14:19:03:000] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Health&pageName=MutiManualRecord&user_id=4000853680122284364 
+[14:19:03:000] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Health&pageName=MutiManualRecord&user_id=4000853680122284364 
+[14:19:03:001] : 硬件加速 
+[14:19:03:008] : initdata执行完毕 
+[14:19:09:152] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[14:19:35:017] : 进入后台计时：270897 
+[14:21:17:690] : 返回前台耗时：102676 
+[14:21:17:735] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[14:21:28:842] : {"path":"index.html","params":{"themeColor":"","moduleName":"Device","pageName":"SelectDevice","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0"},"config":{"immersion":1,"isHidden":1}} 
+[14:21:28:873] : 执行initData url:index.html?moduleName=Device&pageName=SelectDevice&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0&__ocPersistentKey=e30&isCloseGestureBack=0 
+[14:21:28:875] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=SelectDevice&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[14:21:28:876] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Device&pageName=SelectDevice&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkRldmljZSIsInBhZ2VOYW1lIjoiTXlEZXZpY2UifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[14:21:28:876] : 硬件加速 
+[14:21:28:899] : initdata执行完毕 
+[14:21:30:908] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[14:21:35:309] : {"path":"index.html","params":{"themeColor":"","moduleName":"Mine","pageName":"Set","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifV0"},"config":{"immersion":1,"isHidden":1}} 
+[14:21:35:332] : 执行initData url:index.html?moduleName=Mine&pageName=Set&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifV0&__ocPersistentKey=e30&isCloseGestureBack=0 
+[14:21:35:333] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Mine&pageName=Set&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[14:21:35:334] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Mine&pageName=Set&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6Ik1pbmUiLCJwYWdlTmFtZSI6IkhvbWUifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4000853680122284364 
+[14:21:35:334] : 硬件加速 
+[14:21:35:337] : initdata执行完毕 
+[14:21:38:110] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[14:22:05:889] : 进入后台计时：421774 

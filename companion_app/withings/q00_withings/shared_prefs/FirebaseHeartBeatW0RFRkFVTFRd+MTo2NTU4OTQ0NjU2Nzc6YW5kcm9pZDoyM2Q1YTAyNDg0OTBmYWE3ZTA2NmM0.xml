@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="fire-count" value="1" />
+    <string name="last-used-date">2025-11-13</string>
+    <long name="fire-global" value="1763035233776" />
+    <set name="fire-installations/18.0.0 fire-rc/22.1.2 fire-dl/22.1.0 fire-abt/21.1.1 kotlin/2.2.10 fire-core/21.0.0 device-model/akita device-name/akita fire-core-ktx/21.0.0 fire-auth-ktx/23.2.1 fire-cls-ndk/19.4.4 android-platform/ fire-sessions/2.1.2 fire-cls/19.4.4 android-target-sdk/35 fire-transport/19.0.0 fire-dl-ktx/22.1.0 android-min-sdk/28 fire-perf-ktx/21.0.5 fire-auth/23.2.1 fire-android/35 android-installer/com.android.vending device-brand/google fire-fcm/24.1.2 fire-perf/21.0.5 fire-analytics/22.5.0 fire-cfg-ktx/22.1.2 fire-analytics-ktx/22.5.0">
+        <string>2025-11-13</string>
+    </set>
+</map>

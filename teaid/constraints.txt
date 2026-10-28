@@ -1,0 +1,12 @@
+# version constraints for the direct dependencies of teaid (pip -c)
+# pins the versions the artifact was developed and evaluated with;
+# transitive dependencies are left to pip so python 3.10 to 3.13 resolve
+dpkt==1.9.8
+meross_iot==0.4.9.0
+pandas==2.3.1
+plyvel==1.5.1
+pyshark==0.6
+sqlcipher3==0.6.4
+requests==2.32.4
+tuya-connector-python==0.1.2
+websocket==0.2.1

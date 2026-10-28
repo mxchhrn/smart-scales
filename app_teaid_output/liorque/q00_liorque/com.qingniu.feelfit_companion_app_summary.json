@@ -1,0 +1,65 @@
+{
+  "devices": {
+    "scale_server_port": "7200",
+    "scale_server_ip": "127.0.0.1",
+    "smartphone": "google Pixel 8a",
+    "app_version": "4.14.0",
+    "app_name": "Feelfit"
+  },
+  "user": {
+    "database": {
+      "BIND_DEVICE": [],
+      "DEVICE_INFO": [],
+      "MEASURE_DATA": [],
+      "SCALE_USER": [],
+      "STORAGE": [
+        {
+          "KEY": "date_format",
+          "VALUE": "MM/dd/yyyy"
+        },
+        {
+          "KEY": "app_launch_status",
+          "VALUE": "1"
+        },
+        {
+          "KEY": "latest_update_app_version",
+          "VALUE": "4.14.0"
+        },
+        {
+          "KEY": "local_started_address",
+          "VALUE": "127.0.0.1"
+        },
+        {
+          "KEY": "localServerPort",
+          "VALUE": "7200"
+        },
+        {
+          "KEY": "GOOGLE_FIT_SWITCH"
+        },
+        {
+          "KEY": "SAMSUNG_HEALTH_SWITCH"
+        },
+        {
+          "KEY": "old_data_migrate_flag",
+          "VALUE": "1"
+        },
+        {
+          "KEY": "user_entry_main_success"
+        },
+        {
+          "KEY": "TouristMode",
+          "VALUE": "false"
+        }
+      ],
+      "USER_TABLE": []
+    }
+  },
+  "wi-fi": {},
+  "cloud": {
+    "server_domain": "https://feelfit.qnclouds.com",
+    "cloud_api": []
+  },
+  "locale": {
+    "lang": "en_US"
+  }
+}

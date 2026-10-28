@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "teaid"
+version = "0.1.0"
+description = "Tool for Evidence Acquisition from IoT Devices (TEAID)"
+readme = "README.md"
+authors = [
+  { name = "Maximilian Eichhorn" },
+  { name = "Christian Minuth" },
+  { name = "Felix Freiling" },
+]
+requires-python = ">=3.10"
+dependencies = [
+  "dpkt",
+  "meross_iot",
+  "pandas",
+  "plyvel",
+  "sqlcipher3",
+  "pyshark",
+  "requests>=2.25",
+  "tuya-connector-python",
+  "websocket"
+]
+
+[tool.setuptools.packages.find]
+include = ["teaid*"]
+
+[project.scripts]
+teaid = "teaid.teaid:main"

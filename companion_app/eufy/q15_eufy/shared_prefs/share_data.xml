@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="lastTime">1760877123</string>
+    <boolean name="sp_key_first_show_data_feed_back_tips" value="false" />
+    <int name="tokenTime" value="1760877191" />
+    <boolean name="is_already_get_user_info" value="true" />
+    <boolean name="gdbrClickYes" value="true" />
+    <string name="EXTRA_USER_UID">aa007d45-ec05-49c2-ba18-23863aa52bdb</string>
+    <string name="t9150_min_version">010.070.019.414</string>
+    <string name="id">ff2b0a9185c093b35683d76a44e279368449a47c</string>
+    <boolean name="guide" value="true" />
+    <string name="heightUnit">cm</string>
+    <int name="hasBloodPressure" value="0" />
+    <string name="KEY_EXPLOREREDDOT_MESSAGE">{&quot;country&quot;:&quot;AT,BG,HR,CZ,DK,EE,FI,FR,GR,HU,IT,LV,LT,MT,PL,PT,RO,SK,SI,ES,SE,UK,GB,DE,US,CA,NL,LU,BE&quot;,&quot;mall_link&quot;:&quot;https://security-mall.eufylife.com/s?backVisible\u003d1&quot;,&quot;mall_name&quot;:&quot;Explore&quot;,&quot;red_dot_id&quot;:0,&quot;red_dot_style&quot;:0}</string>
+    <string name="eufy_country_abbr">DE</string>
+    <string name="EXTRA_DEVICE_ID">eufyt9150cfe80606558a</string>
+    <string name="registered_country">DE</string>
+    <string name="access_token">[redacted]</string>
+    <string name="refresh_token">[redacted]</string>
+    <string name="user_id">ff2b0a9185c093b35683d76a44e279368449a47c</string>
+    <string name="nick_name">[redacted]</string>
+    <int name="t9147SdkFlag" value="0" />
+    <string name="seven_day_history_cf:e8:06:06:55:8a_ff2b0a9185c093b35683d76a44e279368449a47c_14bc941c-d53c-4cbb-b93a-255b955db075">38_0</string>
+    <string name="registered_region">EU</string>
+    <boolean name="sp_key_goal_finish_dialog14bc941c-d53c-4cbb-b93a-255b955db075" value="false" />
+    <boolean name="SP_KEY_OPEN_BLE" value="true" />
+    <string name="request_log_host">https://log.eufylife.com</string>
+    <boolean name="sp_t9130_guide" value="false" />
+    <boolean name="sp_t9150_guide" value="true" />
+    <boolean name="SP_PRIVACY_UPDATE_NO_NEED_SHOW" value="true" />
+    <string name="user_center_info">5b48da9a76e1e767af0a0ad45c27f7a51483f3846d8357402b47af9ada65463022055210d427f38c10c0e07f197a5026c04dc0325cdba79cf129ac49e24931e452346c107b0890af8a3caa14f28a75c9a335c3fc6704e0228da961ce4e300eb69e66d3f25b947b5e7997d9bf64101c88</string>
+    <string name="timezone">Europe/Berlin</string>
+    <boolean name="sp_key_goal_finish_dialog82936478-7d96-46e9-a64a-a3d97fbac90d" value="false" />
+    <string name="key_app_uuid">d6cc680f8c3300048daec0a14596fe0cc3989c9535f85324ce4f1b68f05c906e</string>
+    <string name="token_type">Bearer</string>
+    <string name="currentConnectMac">CF:E8:06:06:55:8A</string>
+    <int name="pop" value="0" />
+    <string name="uid">65cd7c139c35dec4607663ab2d9abed9b72b8638d8d9a3542c016daee84b461639dfda2ea887e76fdf95fc55ec26aea5</string>
+    <string name="account_phone_number"></string>
+    <int name="expires_in" value="2592000" />
+    <string name="push_token">[redacted]</string>
+    <string name="email">[redacted]</string>
+    <string name="account_email_number">ba8dc6633cbd0c3b2b781d71dd92727af7e504d844bb7f1f7d0fcdb3a6536e9d</string>
+    <string name="seven_day_history_cf:e8:06:06:55:8a_ff2b0a9185c093b35683d76a44e279368449a47c_82936478-7d96-46e9-a64a-a3d97fbac90d">8_0</string>
+    <string name="token_json">[redacted]</string>
+    <string name="request_exchange_host">https://aiot-light-api-pr.eufylife.com</string>
+    <int name="memberCount" value="3" />
+    <boolean name="is_contain_light_device" value="false" />
+    <string name="avatar"></string>
+    <string name="message"></string>
+    <string name="wifi_mac_address_cf:e8:06:06:55:8a">d8:bc:38:a7:a1:f8</string>
+    <int name="res_code" value="1" />
+    <boolean name="gdbrUpdate" value="false" />
+    <string name="request_host">https://api.eufylife.com/v1/</string>
+    <string name="androidVersion">EufyLife-Android-3.3.9</string>
+    <boolean name="HEALTH_CONNECT" value="false" />
+</map>

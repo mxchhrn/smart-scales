@@ -1,0 +1,213 @@
+{
+  "devices": {},
+  "user": {
+    "database": {
+      "probe": [],
+      "measure": [
+        {
+          "id": 7,
+          "measuregroup": 7,
+          "x": 1763043558000.0,
+          "unit": -3,
+          "value": 10069.0,
+          "y": 10.068999999999999,
+          "user": 45378648
+        },
+        {
+          "id": 8,
+          "x": 1763042944000.0,
+          "unit": -3,
+          "value": 83000.0,
+          "y": 83.0,
+          "user": 45378651
+        },
+        {
+          "id": 9,
+          "measuregroup": 2,
+          "x": 1763042944000.0,
+          "unit": -2,
+          "value": 188.0,
+          "type": 4,
+          "y": 1.8800000000000001,
+          "user": 45378651
+        },
+        {
+          "id": 11,
+          "measuregroup": 8,
+          "x": 1763043670000.0,
+          "unit": -3,
+          "value": 83769.0,
+          "y": 83.76899999999999,
+          "user": 45378651
+        },
+        {
+          "id": 12,
+          "measuregroup": 9,
+          "x": 1763043737000.0,
+          "unit": -3,
+          "value": 83762.0,
+          "y": 83.76200000000001,
+          "user": 45378651
+        },
+        {
+          "id": 13,
+          "measuregroup": 5,
+          "x": 1763043455000.0,
+          "unit": -3,
+          "value": 92000.0,
+          "y": 92.0,
+          "user": 45378724
+        },
+        {
+          "id": 14,
+          "measuregroup": 6,
+          "x": 1763043455000.0,
+          "unit": -2,
+          "value": 165.0,
+          "type": 4,
+          "y": 1.65,
+          "user": 45378724
+        },
+        {
+          "id": 15,
+          "measuregroup": 10,
+          "x": 1763043821000.0,
+          "unit": -3,
+          "value": 93941.0,
+          "y": 93.941,
+          "user": 45378724
+        },
+        {
+          "id": 16,
+          "measuregroup": 3,
+          "x": 1763043275000.0,
+          "unit": -3,
+          "value": 10000.0,
+          "y": 10.0,
+          "user": 45378702
+        },
+        {
+          "id": 17,
+          "measuregroup": 4,
+          "x": 1763043275000.0,
+          "unit": -2,
+          "value": 101.0,
+          "type": 4,
+          "y": 1.01,
+          "user": 45378702
+        },
+        {
+          "id": 18,
+          "measuregroup": 11,
+          "x": 1763043878000.0,
+          "unit": -3,
+          "value": 10077.0,
+          "y": 10.077000000000002,
+          "user": 45378702
+        }
+      ],
+      "users": [
+        {
+          "id": 45378648,
+          "firstname": "Repository-User",
+          "lastname": "Repository-User",
+          "shortname": "REP",
+          "birthdate": -2147558400000,
+          "p4": "{\"32x32\":null,\"64x64\":null,\"128x128\":null,\"256x256\":null}",
+          "creationdate": 1763042940000,
+          "modifieddate": 1763042940000,
+          "type": 3
+        },
+        {
+          "id": 45378651,
+          "firstname": "John",
+          "lastname": "Isec",
+          "shortname": "JOH",
+          "birthdate": 951177600000,
+          "fatmethod": 3,
+          "email": "[redacted]",
+          "p4": "{\"32x32\":null,\"64x64\":null,\"128x128\":null,\"256x256\":null}",
+          "creationdate": 1763042944000,
+          "modifieddate": 1763042948000
+        },
+        {
+          "id": 45378702,
+          "firstname": "Zofti",
+          "lastname": "Isec",
+          "shortname": "ZOF",
+          "birthdate": 1605830400000,
+          "fatmethod": 3,
+          "p4": "{\"32x32\":null,\"64x64\":null,\"128x128\":null,\"256x256\":null}",
+          "creationdate": 1763043275000,
+          "modifieddate": 1763043275000
+        },
+        {
+          "id": 45378724,
+          "firstname": "TestiT",
+          "lastname": "Isec",
+          "shortname": "TES",
+          "birthdate": 1328140800000,
+          "fatmethod": 3,
+          "p4": "{\"32x32\":null,\"64x64\":null,\"128x128\":null,\"256x256\":null}",
+          "creationdate": 1763043455000,
+          "modifieddate": 1763043455000
+        }
+      ],
+      "devices": [
+        {
+          "id": 14321498,
+          "associationDate": 1763043070000,
+          "lastUseDate": 1763043903000,
+          "modifiedDate": 1763043905000,
+          "macAddress": "a4:7e:fa:19:7c:d2",
+          "firmware": 1181,
+          "preferredLanguage": "de_DE",
+          "latitude": "[redacted]",
+          "longitude": "[redacted]",
+          "timezone": "Europe/Berlin",
+          "manualGeoloc": "f",
+          "battery": 95,
+          "model": 7,
+          "color": "white",
+          "klSecret": "suX7UeSUrCmRgtdeWyr9wRuVFHCCVwhU",
+          "advertiseKey": "fXSEK59zmTCmc5yNIdbBQ9WZwjWjv2Nh",
+          "pictures": "{\"pictures\":{\"1\":\"p4/product/d449b25b8df4400b649cf69e0ed4900ad8e8f8f9-0000000000000000000000000000000000000000-1_1400x1400\",\"2\":\"p4/product/5fbdc8ab88676c89b2762cdda82d60d30a615164-0000000000000000000000000000000000000000-2_1400x1400\",\"4\":\"p4/product/88197b09866a12813af0460c3abd113989862c6d-0000000000000000000000000000000000000000-4_1400x1400\"}}",
+          "maxScreenCount": 16
+        }
+      ]
+    },
+    "account_encrypted_email": "N5COG8myrAg61eXQhbbib7nQW2Qv+IHchYh57G0y3TNOaOhIeicfzq2PnriM1oX8MFg\n    ",
+    "account_encrypted_authProviderToken": "lccL23T4QtrfN/wlcpkX7RVb550VqxVt57ITTlrtodyW6Rq44Gi7k1/WBbY\n    ",
+    "account_accountType": "main",
+    "account_uuid": "[redacted]",
+    "account_virtualDeviceToken": "[redacted]",
+    "account_authProviderName": "withings",
+    "traits_anonymousId": "[redacted]",
+    "traits_account_id": "19680913",
+    "traits_enable_native_notification": false,
+    "traits_userId": "45378651",
+    "traits_id": "45378651",
+    "mainUserId": "45378651"
+  },
+  "wi-fi": {},
+  "cloud": {
+    "accountId": 19680913,
+    "sessionId": "[redacted]",
+    "providerToken": "[redacted]",
+    "authToken": "[redacted]",
+    "isSecured": 0,
+    "requireSecure": 0,
+    "expirationTimestamp": 1763086141247,
+    "providerType": "withings",
+    "serverUrl": "https://scalews.withings.net/cgi-bin",
+    "inappviewUrl": "https://inappviews.withings.com",
+    "maintUrl": "https://maintws.withings.net/cgi-bin",
+    "accountUrl": "https://account.withings.com",
+    "cookieDomain": ".withings.com",
+    "cookieName": "session_key",
+    "sessionType": "main"
+  },
+  "locale": {
+    "lang": "de_DE"
+  }
+}

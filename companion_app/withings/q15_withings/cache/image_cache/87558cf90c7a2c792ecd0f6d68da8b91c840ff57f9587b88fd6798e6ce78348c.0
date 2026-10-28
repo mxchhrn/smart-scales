@@ -1,0 +1,18 @@
+200
+1763048874540
+1763048874629
+14
+content-type:image/png
+content-length:115743
+last-modified:Thu, 24 Aug 2023 09:24:25 GMT
+x-amz-server-side-encryption:AES256
+x-amz-version-id:qMpSQZCPccIAfah.Z0wkbcgTKQpZ0oEt
+accept-ranges:bytes
+server:AmazonS3
+date:Thu, 13 Nov 2025 04:49:07 GMT
+etag:"74660eece5f3421d3ecca160b5e114bd"
+x-cache:Hit from cloudfront
+via:1.1 19392de11dadb918bd6f24e199ea180e.cloudfront.net (CloudFront)
+x-amz-cf-pop:MUC50-P3
+x-amz-cf-id:yqhKnlH7kDBglc_wjIkQLLCA58UwOCdty9rZQoDj1LpMi4iftAzHkQ==
+age:51540

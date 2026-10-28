@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="ecdh_key_444b380e56f3ffad8aeb4c76494c15f9_light_shared_key">c9d3f39eeb947d7a039b5f9ef9de77f032e05493258e42c9da6d4076dc9c86b4</string>
+    <string name="ecdh_key_444b380e56f3ffad8aeb4c76494c15f9_light_server_public_key"></string>
+    <string name="ecdh_key_444b380e56f3ffad8aeb4c76494c15f9_light_key_ident">6ca54e31d7f59cc77b1ea2d5b72f7ebf</string>
+    <string name="ecdh_key_444b380e56f3ffad8aeb4c76494c15f9_light_public_key">043A97F1522839A346D9B4ECB2061F696311EBC1067FA06661A3FDA8734ECC0630CE8CA8E647A61FF519E73C423302C00A0D05224A549AFF62229653BE23965EC1</string>
+    <string name="ecdh_key_444b380e56f3ffad8aeb4c76494c15f9_light_private_key">D22A61DB98370288A557F21F1CE3A840FF4FEF2F54B7BCE4B35CDCA3F87A9151</string>
+</map>

@@ -1,0 +1,51 @@
+[14:29:04:872] : 找到热更新包数量: 0 
+[14:34:58:548] : LocalServerManager 发出重新加载h5页面广播! 
+[14:34:58:684] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[14:34:58:766] : 寻找翻译失败,原因:dist/h5/oversea-common/translation/appSpecialTranslation.json 
+[14:34:58:915] : 执行initData url:index.html?moduleName=Health&pageName=Home 
+[14:34:58:917] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Health&pageName=Home&user_id=4000853680122284364 
+[14:34:58:918] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Health&pageName=Home&user_id=4000853680122284364 
+[14:34:58:918] : 硬件加速 
+[14:34:58:947] : initdata执行完毕 
+[14:34:59:670] : checkVersion失败，原因：com.qingniu.oversea.base.net.errors.ServerException 
+[14:35:21:433] : 执行initData url:index.html?moduleName=Mine&pageName=Home 
+[14:35:21:435] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Mine&pageName=Home&user_id=4000853680122284364 
+[14:35:21:437] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Mine&pageName=Home&user_id=4000853680122284364 
+[14:35:21:437] : 硬件加速 
+[14:35:21:444] : initdata执行完毕 
+[14:35:30:178] : 执行initData url:index.html?moduleName=Login&pageName=Home 
+[14:35:30:179] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Login&pageName=Home&user_id= 
+[14:35:30:180] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Login&pageName=Home&user_id= 
+[14:35:30:180] : 硬件加速 
+[14:35:30:184] : initdata执行完毕 
+[14:35:30:500] : MeasureDataController getMeasuredData 参数中user_id为空 
+[14:35:37:267] : {"path":"index.html","params":{"themeColor":"","moduleName":"Login","pageName":"CreateAccount","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6IkxvZ2luIiwicGFnZU5hbWUiOiJIb21lIn1d"},"config":{"immersion":1,"isHidden":1}} 
+[14:35:37:297] : 执行initData url:index.html?moduleName=Login&pageName=CreateAccount&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkxvZ2luIiwicGFnZU5hbWUiOiJIb21lIn1d&__ocPersistentKey=e30&isCloseGestureBack=0 
+[14:35:37:299] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Login&pageName=CreateAccount&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkxvZ2luIiwicGFnZU5hbWUiOiJIb21lIn1d&__ocPersistentKey=e30&isCloseGestureBack=0&user_id= 
+[14:35:37:300] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Login&pageName=CreateAccount&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkxvZ2luIiwicGFnZU5hbWUiOiJIb21lIn1d&__ocPersistentKey=e30&isCloseGestureBack=0&user_id= 
+[14:35:37:300] : 硬件加速 
+[14:35:37:305] : initdata执行完毕 
+[14:35:37:520] : MeasureDataController getMeasuredData 参数中user_id为空 
+[14:35:37:522] : GoalController getGoal 参数中没有user_id 
+[14:35:37:539] : MeasureDataController getMeasuredData 参数中user_id为空 
+[14:35:42:640] : {"path":"index.html","params":{"themeColor":"","code":"agreement","moduleName":"Document","pageName":"TermAndPrivacy","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6IkxvZ2luIiwicGFnZU5hbWUiOiJIb21lIn0seyJtb2R1bGVOYW1lIjoiTG9naW4iLCJwYWdlTmFtZSI6IkNyZWF0ZUFjY291bnQifV0"},"config":{"immersion":1,"isHidden":1}} 
+[14:35:42:661] : 执行initData url:index.html?moduleName=Document&pageName=TermAndPrivacy&code=agreement&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkxvZ2luIiwicGFnZU5hbWUiOiJIb21lIn0seyJtb2R1bGVOYW1lIjoiTG9naW4iLCJwYWdlTmFtZSI6IkNyZWF0ZUFjY291bnQifV0&__ocPersistentKey=e30&isCloseGestureBack=0 
+[14:35:42:663] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Document&pageName=TermAndPrivacy&code=agreement&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkxvZ2luIiwicGFnZU5hbWUiOiJIb21lIn0seyJtb2R1bGVOYW1lIjoiTG9naW4iLCJwYWdlTmFtZSI6IkNyZWF0ZUFjY291bnQifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id= 
+[14:35:42:664] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Document&pageName=TermAndPrivacy&code=agreement&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkxvZ2luIiwicGFnZU5hbWUiOiJIb21lIn0seyJtb2R1bGVOYW1lIjoiTG9naW4iLCJwYWdlTmFtZSI6IkNyZWF0ZUFjY291bnQifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id= 
+[14:35:42:664] : 硬件加速 
+[14:35:42:667] : initdata执行完毕 
+[14:35:44:517] : MeasureDataController getMeasuredData 参数中user_id为空 
+[14:36:12:712] : MeasureDataController getMeasuredData 参数中user_id为空 
+[14:36:15:541] : {"path":"index.html","params":{"themeColor":"","touristToRegister":"","moduleName":"Login","pageName":"Register","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6IkxvZ2luIiwicGFnZU5hbWUiOiJIb21lIn0seyJtb2R1bGVOYW1lIjoiTG9naW4iLCJwYWdlTmFtZSI6IkNyZWF0ZUFjY291bnQifV0"},"config":{"immersion":1,"isHidden":1}} 
+[14:36:15:568] : 执行initData url:index.html?moduleName=Login&pageName=Register&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkxvZ2luIiwicGFnZU5hbWUiOiJIb21lIn0seyJtb2R1bGVOYW1lIjoiTG9naW4iLCJwYWdlTmFtZSI6IkNyZWF0ZUFjY291bnQifV0&__ocPersistentKey=e30&isCloseGestureBack=0 
+[14:36:15:570] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Login&pageName=Register&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkxvZ2luIiwicGFnZU5hbWUiOiJIb21lIn0seyJtb2R1bGVOYW1lIjoiTG9naW4iLCJwYWdlTmFtZSI6IkNyZWF0ZUFjY291bnQifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id= 
+[14:36:15:571] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Login&pageName=Register&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkxvZ2luIiwicGFnZU5hbWUiOiJIb21lIn0seyJtb2R1bGVOYW1lIjoiTG9naW4iLCJwYWdlTmFtZSI6IkNyZWF0ZUFjY291bnQifV0&__ocPersistentKey=e30&isCloseGestureBack=0&user_id= 
+[14:36:15:571] : 硬件加速 
+[14:36:15:575] : initdata执行完毕 
+[14:36:15:804] : MeasureDataController getMeasuredData 参数中user_id为空 
+[14:36:15:806] : GoalController getGoal 参数中没有user_id 
+[14:36:15:823] : MeasureDataController getMeasuredData 参数中user_id为空 
+[14:42:28:388] : 进入后台计时：1012268 
+[14:50:53:612] : 找到热更新包数量: 0 
+[14:57:17:565] : 找到热更新包数量: 0 
+[15:07:19:732] : 找到热更新包数量: 0 

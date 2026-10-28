@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <boolean name="isSqa" value="false" />
+    <string name="encrypted_email">c8rqw34Oa5N2bhN4ZdHtdsUUte5RMSKGS9dsbV50/NQ1cBxI/ZkaKf8HQqCFG4wYJE1w&#10;    </string>
+    <string name="encrypted_authProviderToken">I4M+vfBvOutlmdqoCXN+6lxp/3g2VttV3VA38reOYEyuU0Qppma0A5wQd6o&#10;    </string>
+    <int name="consumerId" value="0" />
+    <boolean name="privacyPolicy" value="true" />
+    <string name="accountType">main</string>
+    <boolean name="syncNeeded" value="false" />
+    <string name="timeZone">Europe/Berlin</string>
+    <boolean name="hasPassword" value="false" />
+    <string name="locale">de_DE</string>
+    <string name="uuid">[redacted]</string>
+    <string name="virtualDeviceToken">[redacted]</string>
+    <boolean name="isFqa" value="false" />
+    <string name="authProviderName">google</string>
+    <boolean name="termsOfUsage" value="true" />
+    <boolean name="isWpm03AcknowledgmentRequired" value="false" />
+    <string name="consents">[]</string>
+    <string name="id">19167753</string>
+    <int name="state" value="1" />
+    <string name="encrypted_authToken">QXr38vChgiqKHS1yy/sUvwxroEy2j/fsQXWkzYzJmCXQVtsT2IV0fP/Unh8pvp+L&#10;    </string>
+    <boolean name="requireSecureSession" value="false" />
+    <int name="status" value="0" />
+</map>

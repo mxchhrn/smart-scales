@@ -1,0 +1,204 @@
+[14:58:06:378] : 找到热更新包数量: 0 
+[15:00:46:021] : LocalServerManager 发出重新加载h5页面广播! 
+[15:00:46:129] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[15:00:46:199] : 寻找翻译失败,原因:dist/h5/oversea-common/translation/appSpecialTranslation.json 
+[15:00:46:309] : 执行initData url:index.html?moduleName=Health&pageName=Home 
+[15:00:46:314] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Health&pageName=Home&user_id=4000853680122284364 
+[15:00:46:314] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Health&pageName=Home&user_id=4000853680122284364 
+[15:00:46:315] : 硬件加速 
+[15:00:46:323] : initdata执行完毕 
+[15:00:47:860] : checkVersion失败，原因：com.qingniu.oversea.base.net.errors.ServerException 
+[15:01:33:555] : 进入后台计时：319804 
+[15:02:13:777] : 返回前台耗时：40228 
+[15:02:13:786] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[15:04:05:969] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[15:04:05:969] : mOnScanDeviceChangeCallBack是否为空: 1 
+[15:04:06:339] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:04:06:493] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[15:04:06:494] : mOnScanDeviceChangeCallBack是否为空: 1 
+[15:04:06:810] : 蓝牙连接状态回调给h5: {"device_status":"connected","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:04:09:504] : 蓝牙连接状态回调给h5 onDeviceReady: {"device_status":"actionable","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:04:10:186] : 蓝牙连接状态回调给h5 onDeviceReady: {"device_status":"actionable","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:04:11:899] : 蓝牙连接状态回调给h5: {"device_status":"measure_weight","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:04:11:900] : 不稳定体重回调给h5: {"weight":1.25,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:11:900] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:12:181] : 不稳定体重回调给h5: {"weight":1.25,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:12:182] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:12:476] : 不稳定体重回调给h5: {"weight":1.25,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:12:477] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:12:666] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:12:667] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:12:916] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:12:917] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:13:104] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:13:104] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:13:400] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:13:401] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:13:604] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:13:605] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:13:931] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:13:932] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:14:130] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:14:131] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:14:325] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:14:325] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:14:624] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:14:625] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:14:810] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:14:811] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:15:058] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:15:059] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:15:347] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:15:348] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:15:554] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:15:554] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:15:836] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:15:836] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:16:078] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:16:078] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:16:382] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:16:384] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:16:568] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:16:569] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:16:859] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:16:860] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:17:103] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:17:103] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:17:308] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:17:309] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:17:606] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:17:607] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:17:790] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:17:790] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:18:134] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:18:135] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:18:375] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:18:376] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:18:527] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:18:528] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:18:813] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:18:814] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:19:061] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:19:062] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:19:260] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:19:262] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:19:495] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:19:496] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:19:738] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:19:738] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:19:986] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:19:988] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:20:276] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:20:277] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:20:473] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:20:474] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:20:764] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:20:765] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:20:960] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:20:960] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:21:205] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:21:206] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:21:501] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:21:503] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:21:786] : 不稳定体重回调给h5: {"weight":0.0,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:21:787] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:21:956] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:04:23:585] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[15:04:25:442] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:04:26:332] : 蓝牙连接状态回调给h5: {"device_status":"connected","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:04:29:203] : 蓝牙连接状态回调给h5 onDeviceReady: {"device_status":"actionable","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:04:29:779] : 蓝牙连接状态回调给h5 onDeviceReady: {"device_status":"actionable","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:04:55:912] : 蓝牙连接状态回调给h5: {"device_status":"measure_weight","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:04:55:913] : 不稳定体重回调给h5: {"weight":10.15,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:55:913] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:56:205] : 不稳定体重回调给h5: {"weight":10.15,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:56:205] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:56:489] : 不稳定体重回调给h5: {"weight":10.15,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:56:490] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:56:735] : 不稳定体重回调给h5: {"weight":10.15,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:56:737] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:56:931] : 不稳定体重回调给h5: {"weight":10.15,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:56:932] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:04:57:858] : 不稳定体重回调给h5: {"weight":10.15,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:04:57:859] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:05:02:076] : 测量数据回调给h5: {"accuracy_flag":0,"actual_resistance":0,"actual_sec_resistance":0,"baby_weight":0.0,"birthday":"2000-01-01","bmi":10.100000000000001,"bmr":0.0,"bodyage":0,"bodyfat":0.0,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":0,"bone":0.0,"cardiac_index":0.0,"category":11,"device_type":"scale","device_user_info":"","fat_free_weight":0.0,"gender":1,"heart_rate":0,"height":100,"internal_model":"030F","left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measure_mode":0,"measure_mode_flags":0,"method":5,"muscle":0.0,"origin_resistances":"","parameter":"68719509502","pregnant_flag":0,"protein":0.0,"resistance":0,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":0.0,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":0,"sinew":0.0,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":0.0,"time_stamp":1762610701,"visfat":0.0,"water":0.0,"weight":10.15,"sinew_ratio":0.0,"subfat_mass":0.0,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0} 
+[15:05:02:078] : mOnResultScaleDataCallBack是否为空: false 
+[15:05:03:183] : {"path":"index.html","params":{"themeColor":"","measureTempData":"1","moduleName":"Data","pageName":"IndicatorDetail","__ocPersistentKey":"e30","isCloseGestureBack":"0","ROUTER_INFO_TAG":"W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9XQ"},"config":{"immersion":1,"isHidden":1}} 
+[15:05:03:219] : 执行initData url:index.html?moduleName=Data&pageName=IndicatorDetail&measureTempData=1&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9XQ&__ocPersistentKey=e30&isCloseGestureBack=0 
+[15:05:03:220] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Data&pageName=IndicatorDetail&measureTempData=1&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9XQ&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4135382597746344909 
+[15:05:03:220] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Data&pageName=IndicatorDetail&measureTempData=1&ROUTER_INFO_TAG=W3sibW9kdWxlTmFtZSI6IkhlYWx0aCIsInBhZ2VOYW1lIjoiSG9tZSJ9XQ&__ocPersistentKey=e30&isCloseGestureBack=0&user_id=4135382597746344909 
+[15:05:03:221] : 硬件加速 
+[15:05:03:224] : initdata执行完毕 
+[15:05:03:269] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:05:03:270] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:05:23:885] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[15:05:26:988] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:05:29:184] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:05:30:505] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[15:05:32:670] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:05:47:632] : 蓝牙连接超时回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:05:47:634] : mOnDeviceStatusChangeCallback是否为空: 1 
+[15:05:56:959] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:05:56:961] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:06:18:807] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[15:06:18:808] : mOnScanDeviceChangeCallBack是否为空: 1 
+[15:06:19:347] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:06:19:862] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[15:06:19:863] : mOnScanDeviceChangeCallBack是否为空: 1 
+[15:06:20:913] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[15:06:20:913] : mOnScanDeviceChangeCallBack是否为空: 1 
+[15:06:21:242] : 蓝牙连接状态回调给h5: {"device_status":"connected","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:06:23:666] : 蓝牙连接状态回调给h5 onDeviceReady: {"device_status":"actionable","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:06:24:405] : 蓝牙连接状态回调给h5 onDeviceReady: {"device_status":"actionable","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:06:28:695] : 测量数据回调给h5: {"accuracy_flag":0,"actual_resistance":347,"actual_sec_resistance":384,"baby_weight":0.0,"birthday":"1995-01-21","bmi":23.6,"bmr":1890.0,"bodyage":27,"bodyfat":15.600000000000001,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bone":3.5,"cardiac_index":0.0,"category":11,"device_type":"scale","device_user_info":"","fat_free_weight":70.4,"gender":1,"heart_rate":0,"height":188,"internal_model":"030F","left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measure_mode":0,"measure_mode_flags":0,"method":5,"muscle":54.5,"origin_resistances":"","parameter":"68719509502","pregnant_flag":0,"protein":19.200000000000003,"resistance":347,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":91.60000000000001,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":384,"sinew":66.9,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":13.8,"time_stamp":1762610788,"visfat":6.0,"water":60.900000000000006,"weight":83.45,"sinew_ratio":80.16776512881965,"subfat_mass":1151.6100000000001,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0} 
+[15:06:28:705] : mOnResultScaleDataCallBack是否为空: false 
+[15:06:56:291] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:06:56:295] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:06:57:823] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[15:06:57:824] : mOnScanDeviceChangeCallBack是否为空: 1 
+[15:06:58:126] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[15:06:58:126] : mOnScanDeviceChangeCallBack是否为空: 1 
+[15:06:58:817] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:07:00:977] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:07:00:979] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:07:31:703] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[15:07:31:706] : mOnScanDeviceChangeCallBack是否为空: 1 
+[15:07:31:916] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[15:07:31:916] : mOnScanDeviceChangeCallBack是否为空: 1 
+[15:07:32:017] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[15:07:32:017] : mOnScanDeviceChangeCallBack是否为空: 1 
+[15:07:32:254] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:07:32:317] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[15:07:32:318] : mOnScanDeviceChangeCallBack是否为空: 1 
+[15:07:32:560] : 蓝牙连接状态回调给h5: {"device_status":"connected","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:07:35:049] : 蓝牙连接状态回调给h5 onDeviceReady: {"device_status":"actionable","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:07:35:534] : 蓝牙连接状态回调给h5 onDeviceReady: {"device_status":"actionable","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:07:38:888] : 不稳定体重回调给h5: {"weight":83.35000000000001,"category":11,"device_type":"scale","accuracy_flag":0,"measure_cnt":1,"work_mode":0} 
+[15:07:38:889] : mOnRealTimeScaleDataChangeCallBack是否为空: 1 
+[15:07:38:889] : 蓝牙连接状态回调给h5: {"device_status":"measure_bodyfat","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:07:41:981] : 测量数据回调给h5: {"accuracy_flag":0,"actual_resistance":577,"actual_sec_resistance":515,"baby_weight":0.0,"birthday":"1995-01-21","bmi":23.6,"bmr":1879.0,"bodyage":27,"bodyfat":16.2,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":4,"bone":3.5,"cardiac_index":0.0,"category":11,"device_type":"scale","device_user_info":"","fat_free_weight":69.9,"gender":1,"heart_rate":0,"height":188,"internal_model":"030F","left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measure_mode":0,"measure_mode_flags":0,"method":5,"muscle":54.2,"origin_resistances":"","parameter":"68719509502","pregnant_flag":0,"protein":19.1,"resistance":577,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":92.2,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":515,"sinew":66.4,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":14.3,"time_stamp":1762610861,"visfat":6.0,"water":60.5,"weight":83.35,"sinew_ratio":79.6640671865627,"subfat_mass":1191.905,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0} 
+[15:07:41:981] : mOnResultScaleDataCallBack是否为空: false 
+[15:08:09:765] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:08:09:768] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:08:19:970] : TouristRegisterHelper 执行游客注册本地数据迁移操作 回调给h5: fail 
+[15:08:23:320] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:08:38:312] : 蓝牙连接超时回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:08:38:313] : mOnDeviceStatusChangeCallback是否为空: 1 
+[15:08:53:330] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:08:53:331] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:09:04:743] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[15:09:04:744] : mOnScanDeviceChangeCallBack是否为空: 1 
+[15:09:05:190] : 蓝牙连接状态回调给h5: {"device_status":"connecting","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:09:07:643] : 蓝牙连接状态回调给h5: {"device_status":"connected","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:09:10:049] : 蓝牙连接状态回调给h5 onDeviceReady: {"device_status":"actionable","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:09:10:595] : 蓝牙连接状态回调给h5 onDeviceReady: {"device_status":"actionable","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:09:14:916] : 测量数据回调给h5: {"accuracy_flag":0,"actual_resistance":574,"actual_sec_resistance":510,"baby_weight":0.0,"birthday":"2000-01-01","bmi":36.6,"bmr":1474.0,"bodyage":32,"bodyfat":45.400000000000006,"bodyfat_left_arm":0.0,"bodyfat_left_leg":0.0,"bodyfat_right_arm":0.0,"bodyfat_right_leg":0.0,"bodyfat_trunk":0.0,"body_shape":6,"bone":3.1,"cardiac_index":0.0,"category":11,"device_type":"scale","device_user_info":"","fat_free_weight":51.1,"gender":0,"heart_rate":0,"height":160,"internal_model":"030F","left_weight":0.0,"mac":"98:F4:AB:98:E8:C6","mea_category":0,"measure_mode":0,"measure_mode_flags":0,"method":5,"muscle":31.8,"origin_resistances":"","parameter":"68719509502","pregnant_flag":0,"protein":11.600000000000001,"resistance":574,"resistance100_left_arm":0.0,"resistance100_left_leg":0.0,"resistance100_right_arm":0.0,"resistance100_right_leg":0.0,"resistance100_trunk":0.0,"resistance20_left_arm":0.0,"resistance20_left_leg":0.0,"resistance20_right_arm":0.0,"resistance20_right_leg":0.0,"resistance20_trunk":0.0,"scale_name":"QN-Scale","score":50.0,"sea_abdomen":0.0,"sea_chest":0.0,"sea_hip":0.0,"sea_left_arm":0.0,"sea_left_thigh":0.0,"sea_neck":0.0,"sea_right_arm":0.0,"sea_right_thigh":0.0,"sea_waist":0.0,"sea_whr_value":0.0,"sec_resistance":510,"sinew":48.1,"sinew_left_arm":0.0,"sinew_left_leg":0.0,"sinew_right_arm":0.0,"sinew_right_leg":0.0,"sinew_trunk":0.0,"stature":0.0,"subfat":39.1,"time_stamp":1762610954,"visfat":18.0,"water":37.5,"weight":93.6,"sinew_ratio":51.38888888888889,"subfat_mass":3659.7599999999998,"sinew_left_arm_ratio":0.0,"sinew_right_arm_ratio":0.0,"sinew_trunk_ratio":0.0,"sinew_left_leg_ratio":0.0,"sinew_right_leg_ratio":0.0,"bodyfat_left_arm_mass":0.0,"bodyfat_right_arm_mass":0.0,"bodyfat_trunk_mass":0.0,"bodyfat_left_leg_mass":0.0,"bodyfat_right_leg_mass":0.0} 
+[15:09:14:918] : mOnResultScaleDataCallBack是否为空: false 
+[15:09:42:555] : 发现设备回调给h5: {"blood_standard":0,"brand_name":"LIORQUE","category":11,"device_logo":"","device_type":"scale","internal_model":"030F","is_double_flag":1,"is_scan_wifi":0,"is_support_buzzer":0,"is_va_support_switch_strip_light":0,"isValid":true,"mac":"98:F4:AB:98:E8:C6","measure_mode":0,"model":"CS20A","product_config":"","scale_name":"QN-Scale","stature":0.0} 
+[15:09:42:556] : mOnScanDeviceChangeCallBack是否为空: 1 
+[15:09:42:617] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:09:42:618] : 蓝牙连接状态回调给h5: {"device_status":"disconnect","device_type":"scale","mac":"98:F4:AB:98:E8:C6"} 
+[15:10:32:871] : 进入后台计时：859120 
+[15:11:25:854] : 找到热更新包数量: 0 
+[15:20:31:643] : 找到热更新包数量: 0 
+[15:37:47:958] : 找到热更新包数量: 0 

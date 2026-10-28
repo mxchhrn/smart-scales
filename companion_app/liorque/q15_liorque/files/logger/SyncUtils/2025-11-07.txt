@@ -1,0 +1,140 @@
+[14:00:35:313] : 不是360APP，不需要同步筋膜枪数据 
+[14:00:35:318] : 无本地血压数据 
+[14:00:35:326] : syncHeartRate  耗时:7 
+[14:00:35:340] : pullOriginGrowthRecordData  耗时:24 
+[14:00:40:862] : pullOriginFoodRecord  耗时:5542 
+[14:00:41:026] : pullOriginGirthData  接口请求耗时:5730 
+[14:00:41:053] : pullOriginGirthData  数据处理耗时:27 
+[14:00:41:698] : syncSubUserList  耗时:6391 
+[14:00:42:143] : pullOriginGirthGoal耗时:6858 
+[14:00:43:161] : pullOriginCardConfig  耗时:7839 
+[14:00:46:819] : syncBlood  耗时:11508 
+[14:01:11:235] : pullOriginMeasureData  接口请求耗时:35949 
+[14:01:11:258] : pullOriginMeasureData  数据处理耗时:23 
+[14:01:11:496] : pullOriginBindDevice耗时:36189 
+[14:01:28:900] : 不是360APP，不需要同步筋膜枪数据 
+[14:01:28:916] : 无本地血压数据 
+[14:01:28:923] : pullOriginGrowthRecordData  耗时:23 
+[14:01:28:928] : syncHeartRate  耗时:12 
+[14:01:29:124] : pullOriginGirthGoal耗时:320 
+[14:01:30:169] : pullOriginMeasureData  接口请求耗时:1363 
+[14:01:30:223] : pullOriginMeasureData  数据处理耗时:54 
+[14:01:31:652] : pullOriginFoodRecord  耗时:2750 
+[14:01:31:684] : pullOriginBindDevice耗时:2810 
+[14:01:31:984] : pullOriginGirthData  接口请求耗时:3149 
+[14:01:32:071] : pullOriginGirthData  数据处理耗时:64 
+[14:01:32:116] : syncBlood  耗时:3219 
+[14:01:32:170] : pullOriginCardConfig  耗时:3248 
+[14:01:32:352] : syncSubUserList  耗时:3470 
+[14:01:34:187] : 不是360APP，不需要同步筋膜枪数据 
+[14:01:34:210] : 无本地血压数据 
+[14:01:34:227] : pullOriginGrowthRecordData  耗时:41 
+[14:01:34:232] : syncHeartRate  耗时:23 
+[14:01:35:347] : pullOriginGirthGoal耗时:1236 
+[14:01:35:525] : pullOriginMeasureData  接口请求耗时:1412 
+[14:01:35:526] : pullOriginGirthData  接口请求耗时:1394 
+[14:01:35:565] : pullOriginFoodRecord  耗时:1377 
+[14:01:35:599] : pullOriginGirthData  数据处理耗时:73 
+[14:01:35:643] : pullOriginMeasureData  数据处理耗时:118 
+[14:01:35:644] : syncBlood  耗时:1462 
+[14:01:35:682] : pullOriginCardConfig  耗时:1458 
+[14:01:35:751] : pullOriginBindDevice耗时:1552 
+[14:01:35:915] : syncSubUserList  耗时:1773 
+[14:02:36:380] : 不是360APP，不需要同步筋膜枪数据 
+[14:02:36:390] : 无本地血压数据 
+[14:02:36:407] : syncHeartRate  耗时:16 
+[14:02:36:417] : pullOriginGrowthRecordData  耗时:27 
+[14:02:38:580] : pullOriginGirthData  接口请求耗时:2219 
+[14:02:38:611] : pullOriginGirthData  数据处理耗时:31 
+[14:02:38:617] : pullOriginGirthGoal耗时:2281 
+[14:02:38:862] : syncSubUserList  耗时:2502 
+[14:02:38:889] : pullOriginFoodRecord  耗时:2507 
+[14:02:39:033] : syncBlood  耗时:2655 
+[14:02:39:189] : pullOriginBindDevice耗时:2794 
+[14:02:39:964] : pullOriginCardConfig  耗时:3568 
+[14:02:41:151] : pullOriginMeasureData  接口请求耗时:2752 
+[14:02:41:200] : pullOriginMeasureData  数据处理耗时:49 
+[14:02:46:072] : 不是360APP，不需要同步筋膜枪数据 
+[14:02:46:083] : 无本地血压数据 
+[14:02:46:116] : syncHeartRate  耗时:33 
+[14:02:46:122] : pullOriginGrowthRecordData  耗时:48 
+[14:02:48:367] : pullOriginMeasureData  接口请求耗时:2398 
+[14:02:48:417] : pullOriginGirthData  接口请求耗时:2383 
+[14:02:48:418] : pullOriginGirthData  数据处理耗时:41 
+[14:02:48:443] : pullOriginMeasureData  数据处理耗时:76 
+[14:02:50:577] : pullOriginFoodRecord  耗时:4502 
+[14:02:50:611] : pullOriginBindDevice耗时:4564 
+[14:02:50:771] : pullOriginCardConfig  耗时:4677 
+[14:02:50:788] : syncBlood  耗时:4718 
+[14:02:51:624] : syncSubUserList  耗时:5568 
+[14:02:52:900] : pullOriginGirthGoal耗时:6934 
+[14:05:24:877] : 不是360APP，不需要同步筋膜枪数据 
+[14:05:24:890] : 无本地血压数据 
+[14:05:24:905] : pullOriginGrowthRecordData  耗时:31 
+[14:05:24:906] : syncHeartRate  耗时:16 
+[14:05:25:354] : pullOriginGirthData  接口请求耗时:497 
+[14:05:25:396] : pullOriginGirthGoal耗时:565 
+[14:05:25:427] : pullOriginGirthData  数据处理耗时:72 
+[14:05:25:434] : pullOriginFoodRecord  耗时:559 
+[14:05:25:590] : pullOriginCardConfig  耗时:675 
+[14:05:25:622] : syncBlood  耗时:751 
+[14:05:25:984] : syncSubUserList  耗时:1127 
+[14:05:26:383] : pullOriginBindDevice耗时:1496 
+[14:05:26:579] : pullOriginMeasureData  接口请求耗时:470 
+[14:05:26:629] : pullOriginMeasureData  数据处理耗时:49 
+[14:07:36:125] : 不是360APP，不需要同步筋膜枪数据 
+[14:07:36:143] : 无本地血压数据 
+[14:07:36:156] : pullOriginGrowthRecordData  耗时:29 
+[14:07:36:160] : syncHeartRate  耗时:17 
+[14:07:36:342] : pullOriginGirthGoal耗时:266 
+[14:07:36:570] : pullOriginGirthData  接口请求耗时:441 
+[14:07:36:573] : pullOriginGirthData  数据处理耗时:26 
+[14:07:36:751] : syncSubUserList  耗时:646 
+[14:07:36:871] : pullOriginFoodRecord  耗时:742 
+[14:07:36:955] : syncBlood  耗时:797 
+[14:07:37:058] : pullOriginCardConfig  耗时:888 
+[14:07:38:100] : pullOriginBindDevice耗时:1955 
+[14:07:39:696] : pullOriginMeasureData  接口请求耗时:2846 
+[14:07:39:736] : pullOriginMeasureData  数据处理耗时:39 
+[14:07:43:354] : 不是360APP，不需要同步筋膜枪数据 
+[14:07:43:391] : 无本地血压数据 
+[14:07:43:407] : pullOriginGrowthRecordData  耗时:48 
+[14:07:43:416] : syncHeartRate  耗时:24 
+[14:07:43:634] : pullOriginGirthGoal耗时:357 
+[14:07:44:010] : pullOriginMeasureData  接口请求耗时:726 
+[14:07:44:127] : pullOriginMeasureData  数据处理耗时:117 
+[14:07:44:190] : pullOriginFoodRecord  耗时:827 
+[14:07:44:265] : pullOriginGirthData  接口请求耗时:946 
+[14:07:44:290] : pullOriginGirthData  数据处理耗时:35 
+[14:07:44:644] : pullOriginCardConfig  耗时:1237 
+[14:07:44:713] : pullOriginBindDevice耗时:1305 
+[14:07:44:714] : syncBlood  耗时:1334 
+[14:07:45:098] : syncSubUserList  耗时:1786 
+[14:07:52:788] : 不是360APP，不需要同步筋膜枪数据 
+[14:07:52:811] : 无本地血压数据 
+[14:07:52:834] : syncHeartRate  耗时:23 
+[14:07:52:837] : pullOriginGrowthRecordData  耗时:46 
+[14:07:53:975] : pullOriginGirthGoal耗时:1314 
+[14:07:54:809] : pullOriginGirthData  接口请求耗时:2114 
+[14:07:54:841] : pullOriginGirthData  数据处理耗时:32 
+[14:07:55:221] : pullOriginMeasureData  接口请求耗时:2554 
+[14:07:55:369] : pullOriginMeasureData  数据处理耗时:148 
+[14:07:55:409] : pullOriginCardConfig  耗时:2584 
+[14:07:55:417] : pullOriginBindDevice耗时:2666 
+[14:07:55:618] : pullOriginFoodRecord  耗时:2825 
+[14:07:55:638] : syncBlood  耗时:2855 
+[14:07:56:155] : syncSubUserList  耗时:3403 
+[14:08:11:366] : 不是360APP，不需要同步筋膜枪数据 
+[14:08:11:387] : 无本地血压数据 
+[14:08:11:400] : pullOriginGrowthRecordData  耗时:33 
+[14:08:11:407] : syncHeartRate  耗时:20 
+[14:08:11:919] : pullOriginGirthGoal耗时:651 
+[14:08:12:273] : pullOriginMeasureData  接口请求耗时:996 
+[14:08:12:343] : pullOriginMeasureData  数据处理耗时:70 
+[14:08:12:472] : pullOriginGirthData  接口请求耗时:1170 
+[14:08:12:500] : pullOriginGirthData  数据处理耗时:28 
+[14:08:12:652] : syncSubUserList  耗时:1301 
+[14:08:12:836] : pullOriginFoodRecord  耗时:1468 
+[14:08:12:892] : syncBlood  耗时:1528 
+[14:08:13:600] : pullOriginCardConfig  耗时:2203 
+[14:08:13:850] : pullOriginBindDevice耗时:2510 

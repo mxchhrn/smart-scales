@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="flutter.keyIoTUserInfo">{&quot;token&quot;:&quot;24359ad7582ef574a3013395a32b8e9042c29c8ffefd2229&quot;,&quot;uid&quot;:&quot;ff2b0a9185c093b35683d76a44e279368449a47c&quot;,&quot;openUdid&quot;:&quot;8cea217e-6c6e-4166-9e20-408789c81e58&quot;}</string>
+    <string name="flutter.hostUrlmp">https://aiot-light-api-pr.eufylife.com</string>
+    <string name="flutter.beta_ff2b0a9185c093b35683d76a44e279368449a47c">close</string>
+    <string name="flutter.language">{&quot;name&quot;:&quot;german&quot;,&quot;defName&quot;:&quot;Deutsch&quot;,&quot;language&quot;:&quot;de&quot;,&quot;country&quot;:&quot;DE&quot;,&quot;isSelect&quot;:false}</string>
+    <boolean name="flutter.bleBindResult" value="false" />
+</map>

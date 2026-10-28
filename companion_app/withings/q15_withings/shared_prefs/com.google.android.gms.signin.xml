@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="googleSignInAccount:EE25C48F2980BA7DD8FF80174A4124D3">{&quot;id&quot;:&quot;[redacted]&quot;,&quot;tokenId&quot;:&quot;[redacted]&quot;,&quot;email&quot;:&quot;[redacted]&quot;,&quot;displayName&quot;:&quot;[redacted]&quot;,&quot;givenName&quot;:&quot;[redacted]&quot;,&quot;photoUrl&quot;:&quot;[redacted]&quot;,&quot;expirationTime&quot;:1763052455,&quot;obfuscatedIdentifier&quot;:&quot;EE25C48F2980BA7DD8FF80174A4124D3&quot;,&quot;grantedScopes&quot;:[&quot;email&quot;,&quot;https:\/\/www.googleapis.com\/auth\/userinfo.email&quot;,&quot;https:\/\/www.googleapis.com\/auth\/userinfo.profile&quot;,&quot;openid&quot;,&quot;profile&quot;]}</string>
+    <string name="googleSignInOptions:EE25C48F2980BA7DD8FF80174A4124D3">{&quot;scopes&quot;:[&quot;email&quot;,&quot;openid&quot;,&quot;profile&quot;],&quot;idTokenRequested&quot;:true,&quot;forceCodeForRefreshToken&quot;:false,&quot;serverAuthRequested&quot;:false,&quot;serverClientId&quot;:&quot;655894465677-2lq45fkgtl2g0n95nm4g34qunf362ec5.apps.googleusercontent.com&quot;}</string>
+    <string name="defaultGoogleSignInAccount">EE25C48F2980BA7DD8FF80174A4124D3</string>
+</map>

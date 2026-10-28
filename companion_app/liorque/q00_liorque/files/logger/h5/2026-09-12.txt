@@ -1,0 +1,16 @@
+[22:55:20:353] : LocalServerManager mServer.isRunning: false 
+[22:55:20:356] : LocalServerManager 执行线程:local-server 
+[22:55:20:360] : LocalServerManager 本地服务器准备启动中 
+[22:55:20:360] : LocalServerManager 执行完任务:com.yanzhenjie.andserver.server.WebServer@ea19815 
+[22:55:20:374] : 找到热更新包数量: 0 
+[22:55:20:409] : LocalServerManager 本地服务器启动成功 
+[22:55:20:410] : LocalServerManager 127.0.0.1 
+[22:55:20:411] : LocalServerManager 端口： 7200 
+[22:55:20:436] : LocalServerManager 发出重新加载h5页面广播! 
+[22:55:20:600] : 执行initData url:index.html?moduleName=Login&pageName=Home 
+[22:55:20:609] : 执行initData 修正后的url:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Login&pageName=Home&user_id= 
+[22:55:20:610] : 执行initData checkAndReplaceToNewH5:http://127.0.0.1:7200/h5/oversea-common/index.html?moduleName=Login&pageName=Home&user_id= 
+[22:55:20:610] : 硬件加速 
+[22:55:20:632] : initdata执行完毕 
+[22:55:20:652] : 刚升级H5包，触发Clear WebView Cache 
+[22:55:20:662] : LocalServerManager mServer.isRunning: true 

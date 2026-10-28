@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="zendesk-identity">{}</string>
+    <string name="zendesk-identity-type">anonymous</string>
+    <string name="uuid">7ddc32ee-80b0-41d9-b1f8-60f8a2a92de4</string>
+</map>
